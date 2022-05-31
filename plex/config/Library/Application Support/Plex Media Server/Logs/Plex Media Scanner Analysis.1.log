@@ -1,0 +1,470 @@
+May 30, 2022 16:14:42.622 [0x7f02e4363b38] INFO - Plex Media Scanner v1.26.2.5797-5bd057d2b - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
+May 30, 2022 16:14:42.623 [0x7f02e4363b38] INFO - Linux version: 5.15.41-1-MANJARO, language: en-US
+May 30, 2022 16:14:42.623 [0x7f02e4363b38] INFO - Processor: 12-core AMD Ryzen 5 3600 6-Core Processor              
+May 30, 2022 16:14:42.623 [0x7f02e4363b38] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 793,794,795,796,797
+May 30, 2022 16:14:42.623 [0x7f02e7378808] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+May 30, 2022 16:14:42.680 [0x7f02e7378808] DEBUG - Analyzing media parts for item 793 (Leopard Stalks in Snow): 2113,2146
+May 30, 2022 16:14:42.687 [0x7f02e7378808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:42.687 [0x7f02e7378808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:42.688 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:42.688 [0x7f02e7378808] DEBUG - Updating metadata item (save) (Leopard Stalks in Snow) with ID 793
+May 30, 2022 16:14:42.689 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791
+May 30, 2022 16:14:42.689 [0x7f02e7378808] DEBUG - [ID 2115] Media part analysis: /tv/IntoTheBadlands/Into the Badlands S02E06 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv
+May 30, 2022 16:14:42.689 [0x7f02e7378808] DEBUG - [MI] Opening input file: "/tv/IntoTheBadlands/Into the Badlands S02E06 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:42.689 [0x7f02e7378808] DEBUG - [FFMPEG] - Opening '/tv/IntoTheBadlands/Into the Badlands S02E06 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv' for reading
+May 30, 2022 16:14:42.689 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791 (reused)
+May 30, 2022 16:14:42.689 [0x7f02e7378808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 30, 2022 16:14:42.709 [0x7f02e7378808] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+May 30, 2022 16:14:42.709 [0x7f02e7378808] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+May 30, 2022 16:14:42.709 [0x7f02e7378808] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+May 30, 2022 16:14:42.709 [0x7f02e7378808] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+May 30, 2022 16:14:42.709 [0x7f02e7378808] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+May 30, 2022 16:14:42.709 [0x7f02e7378808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5865 bytes read:34376 seeks:2 nb_streams:4
+May 30, 2022 16:14:42.710 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.710 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.710 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.710 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.710 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+May 30, 2022 16:14:42.710 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 30, 2022 16:14:42.710 [0x7f02e7378808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 30, 2022 16:14:42.711 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:42.712 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:42.712 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:42.712 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:42.713 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.715 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.716 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.717 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.718 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.719 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.720 [0x7f02e7378808] DEBUG - [FFMPEG] - first_dts 292 not matching first dts NOPTS (pts 0, duration 41) in the queue
+May 30, 2022 16:14:42.750 [0x7f02e7378808] DEBUG - [FFMPEG] - All info found
+May 30, 2022 16:14:42.751 [0x7f02e7378808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 660957 bytes read:689736 seeks:2 frames:265
+May 30, 2022 16:14:42.757 [0x7f02e7378808] DEBUG - [MI]  * 57dc828b4c4dcf7b86a71c3f43525679b9c77e3a [mkv h264/ac3] Duration: 2585170ms, 1280x720 (1.777778) 23.976fps, bitrate=1441kbps, audio channels=6, optimizedForStreaming=0 ("/tv/IntoTheBadlands/Into the Badlands S02E06 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv")
+May 30, 2022 16:14:42.757 [0x7f02e7378808] DEBUG - [MI] Chapters had generic titles, clearing.
+May 30, 2022 16:14:42.758 [0x7f02e7378808] DEBUG - [MI] Closing input file: "/tv/IntoTheBadlands/Into the Badlands S02E06 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:42.769 [0x7f02e7378808] DEBUG - Committing media stream changes for part 2115
+May 30, 2022 16:14:42.770 [0x7f02e7378808] DEBUG - Updating media item 2113, size=465745496, metadata_item_id=793
+May 30, 2022 16:14:42.770 [0x7f02e7378808] DEBUG - Updating part with ID=2115 [/tv/IntoTheBadlands/Into the Badlands S02E06 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv]
+May 30, 2022 16:14:42.770 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=793&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 30, 2022 16:14:42.770 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=793&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+May 30, 2022 16:14:42.770 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=793&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+May 30, 2022 16:14:42.771 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=793&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+May 30, 2022 16:14:42.783 [0x7f02e7378808] DEBUG - [ID 2148] Media part analysis: /tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E06 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv
+May 30, 2022 16:14:42.783 [0x7f02e7378808] DEBUG - [MI] Opening input file: "/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E06 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:42.783 [0x7f02e7378808] DEBUG - [FFMPEG] - Opening '/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E06 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv' for reading
+May 30, 2022 16:14:42.783 [0x7f02e7378808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 30, 2022 16:14:42.784 [0x7f02e7378808] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+May 30, 2022 16:14:42.784 [0x7f02e7378808] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+May 30, 2022 16:14:42.784 [0x7f02e7378808] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+May 30, 2022 16:14:42.784 [0x7f02e7378808] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+May 30, 2022 16:14:42.784 [0x7f02e7378808] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+May 30, 2022 16:14:42.784 [0x7f02e7378808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5865 bytes read:34376 seeks:2 nb_streams:4
+May 30, 2022 16:14:42.784 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.784 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.784 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.784 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.784 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+May 30, 2022 16:14:42.784 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 30, 2022 16:14:42.784 [0x7f02e7378808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 30, 2022 16:14:42.786 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:42.787 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:42.788 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:42.788 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:42.791 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.793 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.795 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.797 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.799 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.801 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.803 [0x7f02e7378808] DEBUG - [FFMPEG] - first_dts 292 not matching first dts NOPTS (pts 0, duration 41) in the queue
+May 30, 2022 16:14:42.826 [0x7f02e7378808] DEBUG - [FFMPEG] - All info found
+May 30, 2022 16:14:42.828 [0x7f02e7378808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 660957 bytes read:689736 seeks:2 frames:265
+May 30, 2022 16:14:42.829 [0x7f02e7378808] DEBUG - [MI]  * 57dc828b4c4dcf7b86a71c3f43525679b9c77e3a [mkv h264/ac3] Duration: 2585170ms, 1280x720 (1.777778) 23.976fps, bitrate=1441kbps, audio channels=6, optimizedForStreaming=0 ("/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E06 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv")
+May 30, 2022 16:14:42.829 [0x7f02e7378808] DEBUG - [MI] Chapters had generic titles, clearing.
+May 30, 2022 16:14:42.829 [0x7f02e7378808] DEBUG - [MI] Closing input file: "/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E06 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:42.830 [0x7f02e7378808] DEBUG - Committing media stream changes for part 2148
+May 30, 2022 16:14:42.843 [0x7f02e7378808] DEBUG - Updating media item 2146, size=465745496, metadata_item_id=793
+May 30, 2022 16:14:42.843 [0x7f02e7378808] DEBUG - Updating part with ID=2148 [/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E06 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv]
+May 30, 2022 16:14:42.844 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=793&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 30, 2022 16:14:42.845 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=793&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+May 30, 2022 16:14:42.845 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=793&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+May 30, 2022 16:14:42.846 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=793&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+May 30, 2022 16:14:42.846 [0x7f02e7378808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:42.846 [0x7f02e7378808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:42.847 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 30, 2022 16:14:42.847 [0x7f02e7378808] DEBUG - Updating metadata item (save) (Leopard Stalks in Snow) with ID 793
+May 30, 2022 16:14:42.848 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791
+May 30, 2022 16:14:42.848 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791 (reused)
+May 30, 2022 16:14:42.850 [0x7f02e7378808] DEBUG - Analyzing media parts for item 794 (Black Heart, White Mountain): 2114,2147
+May 30, 2022 16:14:42.850 [0x7f02e7378808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:42.850 [0x7f02e7378808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:42.851 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 30, 2022 16:14:42.851 [0x7f02e7378808] DEBUG - Updating metadata item (save) (Black Heart, White Mountain) with ID 794
+May 30, 2022 16:14:42.852 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791
+May 30, 2022 16:14:42.852 [0x7f02e7378808] DEBUG - [ID 2116] Media part analysis: /tv/IntoTheBadlands/Into the Badlands S02E07 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv
+May 30, 2022 16:14:42.852 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791 (reused)
+May 30, 2022 16:14:42.852 [0x7f02e7378808] DEBUG - [MI] Opening input file: "/tv/IntoTheBadlands/Into the Badlands S02E07 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:42.852 [0x7f02e7378808] DEBUG - [FFMPEG] - Opening '/tv/IntoTheBadlands/Into the Badlands S02E07 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv' for reading
+May 30, 2022 16:14:42.852 [0x7f02e7378808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 30, 2022 16:14:42.853 [0x7f02e7378808] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+May 30, 2022 16:14:42.853 [0x7f02e7378808] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+May 30, 2022 16:14:42.853 [0x7f02e7378808] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+May 30, 2022 16:14:42.853 [0x7f02e7378808] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+May 30, 2022 16:14:42.853 [0x7f02e7378808] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+May 30, 2022 16:14:42.853 [0x7f02e7378808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5865 bytes read:34376 seeks:2 nb_streams:4
+May 30, 2022 16:14:42.853 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.853 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.853 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.853 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.853 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+May 30, 2022 16:14:42.853 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 30, 2022 16:14:42.853 [0x7f02e7378808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 30, 2022 16:14:42.854 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:42.856 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:42.856 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:42.857 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:42.859 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.862 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.864 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.866 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.868 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.870 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.872 [0x7f02e7378808] DEBUG - [FFMPEG] - first_dts 292 not matching first dts NOPTS (pts 0, duration 41) in the queue
+May 30, 2022 16:14:42.894 [0x7f02e7378808] DEBUG - [FFMPEG] - All info found
+May 30, 2022 16:14:42.896 [0x7f02e7378808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 663807 bytes read:722504 seeks:2 frames:326
+May 30, 2022 16:14:42.896 [0x7f02e7378808] DEBUG - [MI]  * 2dd7f16b4f016b89a6ce37c5a19e783e0464f072 [mkv h264/ac3] Duration: 2466746ms, 1280x720 (1.777778) 23.976fps, bitrate=1451kbps, audio channels=6, optimizedForStreaming=0 ("/tv/IntoTheBadlands/Into the Badlands S02E07 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv")
+May 30, 2022 16:14:42.896 [0x7f02e7378808] DEBUG - [MI] Chapters had generic titles, clearing.
+May 30, 2022 16:14:42.896 [0x7f02e7378808] DEBUG - [MI] Closing input file: "/tv/IntoTheBadlands/Into the Badlands S02E07 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:42.957 [0x7f02e7378808] DEBUG - Committing media stream changes for part 2116
+May 30, 2022 16:14:42.958 [0x7f02e7378808] DEBUG - Updating media item 2114, size=447666689, metadata_item_id=794
+May 30, 2022 16:14:42.958 [0x7f02e7378808] DEBUG - Updating part with ID=2116 [/tv/IntoTheBadlands/Into the Badlands S02E07 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv]
+May 30, 2022 16:14:42.958 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=794&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 30, 2022 16:14:42.959 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=794&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+May 30, 2022 16:14:42.959 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=794&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+May 30, 2022 16:14:42.959 [0x7f02e7378808] DEBUG - [ID 2149] Media part analysis: /tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E07 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv
+May 30, 2022 16:14:42.959 [0x7f02e7378808] DEBUG - [MI] Opening input file: "/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E07 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:42.959 [0x7f02e7378808] DEBUG - [FFMPEG] - Opening '/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E07 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv' for reading
+May 30, 2022 16:14:42.959 [0x7f02e7378808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 30, 2022 16:14:42.959 [0x7f02e7378808] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+May 30, 2022 16:14:42.960 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=794&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+May 30, 2022 16:14:42.960 [0x7f02e7378808] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+May 30, 2022 16:14:42.960 [0x7f02e7378808] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+May 30, 2022 16:14:42.960 [0x7f02e7378808] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+May 30, 2022 16:14:42.960 [0x7f02e7378808] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+May 30, 2022 16:14:42.960 [0x7f02e7378808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5865 bytes read:34376 seeks:2 nb_streams:4
+May 30, 2022 16:14:42.960 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.960 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.960 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.960 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.960 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+May 30, 2022 16:14:42.960 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 30, 2022 16:14:42.960 [0x7f02e7378808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 30, 2022 16:14:42.961 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:42.963 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:42.963 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:42.964 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:42.966 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.969 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.971 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.973 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.975 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.977 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:42.979 [0x7f02e7378808] DEBUG - [FFMPEG] - first_dts 292 not matching first dts NOPTS (pts 0, duration 41) in the queue
+May 30, 2022 16:14:42.991 [0x7f02e7378808] DEBUG - [FFMPEG] - All info found
+May 30, 2022 16:14:42.993 [0x7f02e7378808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 663807 bytes read:722504 seeks:2 frames:326
+May 30, 2022 16:14:42.993 [0x7f02e7378808] DEBUG - [MI]  * 2dd7f16b4f016b89a6ce37c5a19e783e0464f072 [mkv h264/ac3] Duration: 2466746ms, 1280x720 (1.777778) 23.976fps, bitrate=1451kbps, audio channels=6, optimizedForStreaming=0 ("/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E07 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv")
+May 30, 2022 16:14:42.993 [0x7f02e7378808] DEBUG - [MI] Chapters had generic titles, clearing.
+May 30, 2022 16:14:42.994 [0x7f02e7378808] DEBUG - [MI] Closing input file: "/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E07 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:42.994 [0x7f02e7378808] DEBUG - Committing media stream changes for part 2149
+May 30, 2022 16:14:42.995 [0x7f02e7378808] DEBUG - Updating media item 2147, size=447666689, metadata_item_id=794
+May 30, 2022 16:14:42.995 [0x7f02e7378808] DEBUG - Updating part with ID=2149 [/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E07 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv]
+May 30, 2022 16:14:42.995 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=794&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 30, 2022 16:14:42.996 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=794&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+May 30, 2022 16:14:42.996 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=794&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+May 30, 2022 16:14:42.996 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=794&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+May 30, 2022 16:14:42.997 [0x7f02e7378808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:42.997 [0x7f02e7378808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:42.998 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 30, 2022 16:14:42.998 [0x7f02e7378808] DEBUG - Updating metadata item (save) (Black Heart, White Mountain) with ID 794
+May 30, 2022 16:14:42.999 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791
+May 30, 2022 16:14:43.000 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791 (reused)
+May 30, 2022 16:14:43.001 [0x7f02e7378808] DEBUG - Analyzing media parts for item 795 (Sting of the Scorpion's Tail): 2115,2148
+May 30, 2022 16:14:43.001 [0x7f02e7378808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:43.001 [0x7f02e7378808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:43.002 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 30, 2022 16:14:43.002 [0x7f02e7378808] DEBUG - Updating metadata item (save) (Sting of the Scorpion's Tail) with ID 795
+May 30, 2022 16:14:43.003 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791
+May 30, 2022 16:14:43.003 [0x7f02e7378808] DEBUG - [ID 2117] Media part analysis: /tv/IntoTheBadlands/Into the Badlands S02E08 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv
+May 30, 2022 16:14:43.003 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791 (reused)
+May 30, 2022 16:14:43.003 [0x7f02e7378808] DEBUG - [MI] Opening input file: "/tv/IntoTheBadlands/Into the Badlands S02E08 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:43.003 [0x7f02e7378808] DEBUG - [FFMPEG] - Opening '/tv/IntoTheBadlands/Into the Badlands S02E08 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv' for reading
+May 30, 2022 16:14:43.003 [0x7f02e7378808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 30, 2022 16:14:43.003 [0x7f02e7378808] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+May 30, 2022 16:14:43.003 [0x7f02e7378808] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.003 [0x7f02e7378808] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.004 [0x7f02e7378808] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.004 [0x7f02e7378808] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.004 [0x7f02e7378808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5865 bytes read:34376 seeks:2 nb_streams:4
+May 30, 2022 16:14:43.004 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.004 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.004 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.004 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.004 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+May 30, 2022 16:14:43.004 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 30, 2022 16:14:43.004 [0x7f02e7378808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 30, 2022 16:14:43.005 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:43.006 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:43.007 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:43.008 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:43.010 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.013 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.015 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.016 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.018 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.019 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.021 [0x7f02e7378808] DEBUG - [FFMPEG] - first_dts 292 not matching first dts NOPTS (pts 0, duration 41) in the queue
+May 30, 2022 16:14:43.043 [0x7f02e7378808] DEBUG - [FFMPEG] - All info found
+May 30, 2022 16:14:43.045 [0x7f02e7378808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 748186 bytes read:791060 seeks:2 frames:265
+May 30, 2022 16:14:43.045 [0x7f02e7378808] DEBUG - [MI]  * 2c8851855718087cdd22c04209fff553e462c22e [mkv h264/ac3] Duration: 2530866ms, 1280x720 (1.777778) 23.976fps, bitrate=1451kbps, audio channels=6, optimizedForStreaming=0 ("/tv/IntoTheBadlands/Into the Badlands S02E08 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv")
+May 30, 2022 16:14:43.045 [0x7f02e7378808] DEBUG - [MI] Chapters had generic titles, clearing.
+May 30, 2022 16:14:43.045 [0x7f02e7378808] DEBUG - [MI] Closing input file: "/tv/IntoTheBadlands/Into the Badlands S02E08 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:43.046 [0x7f02e7378808] DEBUG - Committing media stream changes for part 2117
+May 30, 2022 16:14:43.047 [0x7f02e7378808] DEBUG - Updating media item 2115, size=459152331, metadata_item_id=795
+May 30, 2022 16:14:43.047 [0x7f02e7378808] DEBUG - Updating part with ID=2117 [/tv/IntoTheBadlands/Into the Badlands S02E08 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv]
+May 30, 2022 16:14:43.047 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=795&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 30, 2022 16:14:43.048 [0x7f02e7378808] DEBUG - [ID 2150] Media part analysis: /tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E08 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv
+May 30, 2022 16:14:43.048 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=795&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+May 30, 2022 16:14:43.048 [0x7f02e7378808] DEBUG - [MI] Opening input file: "/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E08 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:43.048 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=795&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+May 30, 2022 16:14:43.048 [0x7f02e7378808] DEBUG - [FFMPEG] - Opening '/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E08 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv' for reading
+May 30, 2022 16:14:43.048 [0x7f02e7378808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 30, 2022 16:14:43.048 [0x7f02e7378808] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+May 30, 2022 16:14:43.048 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=795&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+May 30, 2022 16:14:43.048 [0x7f02e7378808] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.048 [0x7f02e7378808] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.048 [0x7f02e7378808] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.048 [0x7f02e7378808] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.048 [0x7f02e7378808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5865 bytes read:34376 seeks:2 nb_streams:4
+May 30, 2022 16:14:43.048 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.048 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.049 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.049 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.049 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+May 30, 2022 16:14:43.049 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 30, 2022 16:14:43.049 [0x7f02e7378808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 30, 2022 16:14:43.050 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:43.051 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:43.052 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:43.052 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:43.055 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.057 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.059 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.060 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.062 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.063 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.065 [0x7f02e7378808] DEBUG - [FFMPEG] - first_dts 292 not matching first dts NOPTS (pts 0, duration 41) in the queue
+May 30, 2022 16:14:43.082 [0x7f02e7378808] DEBUG - [FFMPEG] - All info found
+May 30, 2022 16:14:43.083 [0x7f02e7378808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 748186 bytes read:791060 seeks:2 frames:265
+May 30, 2022 16:14:43.084 [0x7f02e7378808] DEBUG - [MI]  * 2c8851855718087cdd22c04209fff553e462c22e [mkv h264/ac3] Duration: 2530866ms, 1280x720 (1.777778) 23.976fps, bitrate=1451kbps, audio channels=6, optimizedForStreaming=0 ("/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E08 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv")
+May 30, 2022 16:14:43.084 [0x7f02e7378808] DEBUG - [MI] Chapters had generic titles, clearing.
+May 30, 2022 16:14:43.084 [0x7f02e7378808] DEBUG - [MI] Closing input file: "/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E08 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:43.085 [0x7f02e7378808] DEBUG - Committing media stream changes for part 2150
+May 30, 2022 16:14:43.086 [0x7f02e7378808] DEBUG - Updating media item 2148, size=459152331, metadata_item_id=795
+May 30, 2022 16:14:43.086 [0x7f02e7378808] DEBUG - Updating part with ID=2150 [/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E08 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv]
+May 30, 2022 16:14:43.086 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=795&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 30, 2022 16:14:43.086 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=795&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+May 30, 2022 16:14:43.086 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=795&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+May 30, 2022 16:14:43.087 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=795&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+May 30, 2022 16:14:43.088 [0x7f02e7378808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:43.088 [0x7f02e7378808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:43.089 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 30, 2022 16:14:43.089 [0x7f02e7378808] DEBUG - Updating metadata item (save) (Sting of the Scorpion's Tail) with ID 795
+May 30, 2022 16:14:43.089 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791
+May 30, 2022 16:14:43.090 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791 (reused)
+May 30, 2022 16:14:43.091 [0x7f02e7378808] DEBUG - Analyzing media parts for item 796 (Nightingale Sings No More): 2116,2149
+May 30, 2022 16:14:43.092 [0x7f02e7378808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:43.092 [0x7f02e7378808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:43.092 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 30, 2022 16:14:43.092 [0x7f02e7378808] DEBUG - Updating metadata item (save) (Nightingale Sings No More) with ID 796
+May 30, 2022 16:14:43.093 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791
+May 30, 2022 16:14:43.093 [0x7f02e7378808] DEBUG - [ID 2118] Media part analysis: /tv/IntoTheBadlands/Into the Badlands S02E09 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv
+May 30, 2022 16:14:43.093 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791 (reused)
+May 30, 2022 16:14:43.093 [0x7f02e7378808] DEBUG - [MI] Opening input file: "/tv/IntoTheBadlands/Into the Badlands S02E09 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:43.093 [0x7f02e7378808] DEBUG - [FFMPEG] - Opening '/tv/IntoTheBadlands/Into the Badlands S02E09 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv' for reading
+May 30, 2022 16:14:43.093 [0x7f02e7378808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 30, 2022 16:14:43.093 [0x7f02e7378808] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+May 30, 2022 16:14:43.093 [0x7f02e7378808] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.093 [0x7f02e7378808] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.093 [0x7f02e7378808] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.093 [0x7f02e7378808] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.093 [0x7f02e7378808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5865 bytes read:34376 seeks:2 nb_streams:4
+May 30, 2022 16:14:43.094 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.094 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.094 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.094 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.094 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+May 30, 2022 16:14:43.094 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 30, 2022 16:14:43.094 [0x7f02e7378808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 30, 2022 16:14:43.094 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:43.095 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:43.095 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:43.096 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:43.097 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.098 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.099 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.100 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.101 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.102 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.103 [0x7f02e7378808] DEBUG - [FFMPEG] - first_dts 292 not matching first dts NOPTS (pts 0, duration 41) in the queue
+May 30, 2022 16:14:43.125 [0x7f02e7378808] DEBUG - [FFMPEG] - All info found
+May 30, 2022 16:14:43.128 [0x7f02e7378808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 854029 bytes read:886344 seeks:2 frames:267
+May 30, 2022 16:14:43.128 [0x7f02e7378808] DEBUG - [MI]  * 71be2ca0be54561aa6167dc33c4b394563965a2d [mkv h264/ac3] Duration: 2575904ms, 1280x720 (1.777778) 23.976fps, bitrate=1435kbps, audio channels=6, optimizedForStreaming=0 ("/tv/IntoTheBadlands/Into the Badlands S02E09 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv")
+May 30, 2022 16:14:43.128 [0x7f02e7378808] DEBUG - [MI] Chapters had generic titles, clearing.
+May 30, 2022 16:14:43.129 [0x7f02e7378808] DEBUG - [MI] Closing input file: "/tv/IntoTheBadlands/Into the Badlands S02E09 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:43.149 [0x7f02e7378808] DEBUG - Committing media stream changes for part 2118
+May 30, 2022 16:14:43.150 [0x7f02e7378808] DEBUG - Updating media item 2116, size=462343226, metadata_item_id=796
+May 30, 2022 16:14:43.150 [0x7f02e7378808] DEBUG - Updating part with ID=2118 [/tv/IntoTheBadlands/Into the Badlands S02E09 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv]
+May 30, 2022 16:14:43.150 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=796&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 30, 2022 16:14:43.150 [0x7f02e7378808] DEBUG - [ID 2151] Media part analysis: /tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E09 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv
+May 30, 2022 16:14:43.150 [0x7f02e7378808] DEBUG - [MI] Opening input file: "/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E09 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:43.150 [0x7f02e7378808] DEBUG - [FFMPEG] - Opening '/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E09 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv' for reading
+May 30, 2022 16:14:43.150 [0x7f02e7378808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 30, 2022 16:14:43.150 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=796&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+May 30, 2022 16:14:43.150 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=796&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+May 30, 2022 16:14:43.150 [0x7f02e7378808] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+May 30, 2022 16:14:43.151 [0x7f02e7378808] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.151 [0x7f02e7378808] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.151 [0x7f02e7378808] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.151 [0x7f02e7378808] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.151 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=796&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+May 30, 2022 16:14:43.151 [0x7f02e7378808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5865 bytes read:34376 seeks:2 nb_streams:4
+May 30, 2022 16:14:43.151 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.151 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.151 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.151 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.151 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+May 30, 2022 16:14:43.151 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 30, 2022 16:14:43.151 [0x7f02e7378808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 30, 2022 16:14:43.152 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:43.152 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:43.153 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:43.153 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:43.154 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.156 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.157 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.158 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.158 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.159 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.160 [0x7f02e7378808] DEBUG - [FFMPEG] - first_dts 292 not matching first dts NOPTS (pts 0, duration 41) in the queue
+May 30, 2022 16:14:43.175 [0x7f02e7378808] DEBUG - [FFMPEG] - All info found
+May 30, 2022 16:14:43.176 [0x7f02e7378808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 854029 bytes read:886344 seeks:2 frames:267
+May 30, 2022 16:14:43.177 [0x7f02e7378808] DEBUG - [MI]  * 71be2ca0be54561aa6167dc33c4b394563965a2d [mkv h264/ac3] Duration: 2575904ms, 1280x720 (1.777778) 23.976fps, bitrate=1435kbps, audio channels=6, optimizedForStreaming=0 ("/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E09 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv")
+May 30, 2022 16:14:43.177 [0x7f02e7378808] DEBUG - [MI] Chapters had generic titles, clearing.
+May 30, 2022 16:14:43.177 [0x7f02e7378808] DEBUG - [MI] Closing input file: "/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E09 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:43.208 [0x7f02e7378808] DEBUG - Committing media stream changes for part 2151
+May 30, 2022 16:14:43.208 [0x7f02e7378808] DEBUG - Updating media item 2149, size=462343226, metadata_item_id=796
+May 30, 2022 16:14:43.208 [0x7f02e7378808] DEBUG - Updating part with ID=2151 [/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E09 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv]
+May 30, 2022 16:14:43.209 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=796&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 30, 2022 16:14:43.209 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=796&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+May 30, 2022 16:14:43.209 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=796&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+May 30, 2022 16:14:43.210 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=796&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+May 30, 2022 16:14:43.210 [0x7f02e7378808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:43.210 [0x7f02e7378808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:43.211 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 30, 2022 16:14:43.211 [0x7f02e7378808] DEBUG - Updating metadata item (save) (Nightingale Sings No More) with ID 796
+May 30, 2022 16:14:43.211 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791
+May 30, 2022 16:14:43.211 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791 (reused)
+May 30, 2022 16:14:43.212 [0x7f02e7378808] DEBUG - Analyzing media parts for item 797 (Wolf's Breath, Dragon Fire): 2117,2150
+May 30, 2022 16:14:43.213 [0x7f02e7378808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:43.213 [0x7f02e7378808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:43.213 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 30, 2022 16:14:43.213 [0x7f02e7378808] DEBUG - Updating metadata item (save) (Wolf's Breath, Dragon Fire) with ID 797
+May 30, 2022 16:14:43.214 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791
+May 30, 2022 16:14:43.214 [0x7f02e7378808] DEBUG - [ID 2119] Media part analysis: /tv/IntoTheBadlands/Into the Badlands S02E10 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv
+May 30, 2022 16:14:43.214 [0x7f02e7378808] DEBUG - [MI] Opening input file: "/tv/IntoTheBadlands/Into the Badlands S02E10 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:43.214 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791 (reused)
+May 30, 2022 16:14:43.214 [0x7f02e7378808] DEBUG - [FFMPEG] - Opening '/tv/IntoTheBadlands/Into the Badlands S02E10 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv' for reading
+May 30, 2022 16:14:43.214 [0x7f02e7378808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 30, 2022 16:14:43.214 [0x7f02e7378808] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+May 30, 2022 16:14:43.214 [0x7f02e7378808] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.214 [0x7f02e7378808] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.214 [0x7f02e7378808] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.214 [0x7f02e7378808] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.214 [0x7f02e7378808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5865 bytes read:34376 seeks:2 nb_streams:4
+May 30, 2022 16:14:43.214 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.214 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.214 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.214 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.215 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+May 30, 2022 16:14:43.215 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 30, 2022 16:14:43.215 [0x7f02e7378808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 30, 2022 16:14:43.215 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:43.216 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:43.216 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:43.217 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:43.218 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.219 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.220 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.221 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.222 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.223 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.224 [0x7f02e7378808] DEBUG - [FFMPEG] - first_dts 292 not matching first dts NOPTS (pts 0, duration 41) in the queue
+May 30, 2022 16:14:43.241 [0x7f02e7378808] DEBUG - [FFMPEG] - All info found
+May 30, 2022 16:14:43.243 [0x7f02e7378808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 587728 bytes read:624200 seeks:2 frames:240
+May 30, 2022 16:14:43.243 [0x7f02e7378808] DEBUG - [MI]  * 2849fe55f50b5ea4f8c284f2ea4c8f21d5549b0a [mkv h264/ac3] Duration: 2578110ms, 1280x720 (1.777778) 23.976fps, bitrate=1452kbps, audio channels=6, optimizedForStreaming=0 ("/tv/IntoTheBadlands/Into the Badlands S02E10 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv")
+May 30, 2022 16:14:43.244 [0x7f02e7378808] DEBUG - [MI] Chapters had generic titles, clearing.
+May 30, 2022 16:14:43.244 [0x7f02e7378808] DEBUG - [MI] Closing input file: "/tv/IntoTheBadlands/Into the Badlands S02E10 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:43.245 [0x7f02e7378808] DEBUG - Committing media stream changes for part 2119
+May 30, 2022 16:14:43.246 [0x7f02e7378808] DEBUG - Updating media item 2117, size=468122650, metadata_item_id=797
+May 30, 2022 16:14:43.246 [0x7f02e7378808] DEBUG - Updating part with ID=2119 [/tv/IntoTheBadlands/Into the Badlands S02E10 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv]
+May 30, 2022 16:14:43.246 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=797&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 30, 2022 16:14:43.246 [0x7f02e7378808] DEBUG - [ID 2152] Media part analysis: /tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E10 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv
+May 30, 2022 16:14:43.246 [0x7f02e7378808] DEBUG - [MI] Opening input file: "/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E10 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:43.246 [0x7f02e7378808] DEBUG - [FFMPEG] - Opening '/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E10 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv' for reading
+May 30, 2022 16:14:43.246 [0x7f02e7378808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 30, 2022 16:14:43.246 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=797&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+May 30, 2022 16:14:43.246 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=797&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+May 30, 2022 16:14:43.247 [0x7f02e7378808] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+May 30, 2022 16:14:43.247 [0x7f02e7378808] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.247 [0x7f02e7378808] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.247 [0x7f02e7378808] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.247 [0x7f02e7378808] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+May 30, 2022 16:14:43.247 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=797&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+May 30, 2022 16:14:43.247 [0x7f02e7378808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5865 bytes read:34376 seeks:2 nb_streams:4
+May 30, 2022 16:14:43.247 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.247 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.247 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.247 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:43.248 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+May 30, 2022 16:14:43.248 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 30, 2022 16:14:43.248 [0x7f02e7378808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 30, 2022 16:14:43.248 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:43.249 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:43.249 [0x7f02e7378808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:43.250 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:43.251 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.252 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.253 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.254 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.255 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.256 [0x7f02e7378808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:43.257 [0x7f02e7378808] DEBUG - [FFMPEG] - first_dts 292 not matching first dts NOPTS (pts 0, duration 41) in the queue
+May 30, 2022 16:14:43.274 [0x7f02e7378808] DEBUG - [FFMPEG] - All info found
+May 30, 2022 16:14:43.277 [0x7f02e7378808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 587728 bytes read:624200 seeks:2 frames:240
+May 30, 2022 16:14:43.278 [0x7f02e7378808] DEBUG - [MI]  * 2849fe55f50b5ea4f8c284f2ea4c8f21d5549b0a [mkv h264/ac3] Duration: 2578110ms, 1280x720 (1.777778) 23.976fps, bitrate=1452kbps, audio channels=6, optimizedForStreaming=0 ("/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E10 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv")
+May 30, 2022 16:14:43.278 [0x7f02e7378808] DEBUG - [MI] Chapters had generic titles, clearing.
+May 30, 2022 16:14:43.278 [0x7f02e7378808] DEBUG - [MI] Closing input file: "/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E10 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv"
+May 30, 2022 16:14:43.279 [0x7f02e7378808] DEBUG - Committing media stream changes for part 2152
+May 30, 2022 16:14:43.279 [0x7f02e7378808] DEBUG - Updating media item 2150, size=468122650, metadata_item_id=797
+May 30, 2022 16:14:43.280 [0x7f02e7378808] DEBUG - Updating part with ID=2152 [/tv/IntoTheBadlands/Into the Badlands S02 Complete 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE/Into the Badlands S02E10 720p WEBRip Hindi English AC3-LOKI-M2Tv ExCLuSivE.mkv]
+May 30, 2022 16:14:43.280 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=797&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 30, 2022 16:14:43.280 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=797&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+May 30, 2022 16:14:43.280 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=797&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+May 30, 2022 16:14:43.281 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=797&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+May 30, 2022 16:14:43.282 [0x7f02e7378808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:43.282 [0x7f02e7378808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:43.282 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 30, 2022 16:14:43.282 [0x7f02e7378808] DEBUG - Updating metadata item (save) (Wolf's Breath, Dragon Fire) with ID 797
+May 30, 2022 16:14:43.283 [0x7f02e33c7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791
+May 30, 2022 16:14:43.283 [0x7f02e346ab38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=791 (reused)

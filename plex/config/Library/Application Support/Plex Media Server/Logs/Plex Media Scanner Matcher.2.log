@@ -1,0 +1,41 @@
+May 30, 2022 16:14:42.883 [0x7f1cbd236b38] INFO - Plex Media Scanner v1.26.2.5797-5bd057d2b - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
+May 30, 2022 16:14:42.883 [0x7f1cbd236b38] INFO - Linux version: 5.15.41-1-MANJARO, language: en-US
+May 30, 2022 16:14:42.883 [0x7f1cbd236b38] INFO - Processor: 12-core AMD Ryzen 5 3600 6-Core Processor              
+May 30, 2022 16:14:42.883 [0x7f1cbd236b38] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 759
+May 30, 2022 16:14:42.884 [0x7f1cc024b808] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+May 30, 2022 16:14:42.951 [0x7f1cc024b808] DEBUG - [MI] Opening input file: "/movies/War Dogs (2016) [1080p] [YTS.AG]/War.Dogs.2016.1080p.BluRay.x264-[YTS.AG].mp4"
+May 30, 2022 16:14:42.951 [0x7f1cc024b808] DEBUG - [FFMPEG] - Opening '/movies/War Dogs (2016) [1080p] [YTS.AG]/War.Dogs.2016.1080p.BluRay.x264-[YTS.AG].mp4' for reading
+May 30, 2022 16:14:42.951 [0x7f1cc024b808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 30, 2022 16:14:42.952 [0x7f1cc024b808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+May 30, 2022 16:14:42.952 [0x7f1cc024b808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+May 30, 2022 16:14:42.952 [0x7f1cc024b808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+May 30, 2022 16:14:42.962 [0x7f1cc024b808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 1166, duration: 95789235
+May 30, 2022 16:14:42.967 [0x7f1cc024b808] DEBUG - [FFMPEG] - Offset DTS by 1166 to make first pts zero.
+May 30, 2022 16:14:42.968 [0x7f1cc024b808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+May 30, 2022 16:14:42.969 [0x7f1cc024b808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+May 30, 2022 16:14:42.980 [0x7f1cc024b808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 2048, duration: 328939008
+May 30, 2022 16:14:42.980 [0x7f1cc024b808] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+May 30, 2022 16:14:42.980 [0x7f1cc024b808] DEBUG - [FFMPEG] - drop a frame at curr_cts: 1024 @ 1
+May 30, 2022 16:14:42.990 [0x7f1cc024b808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5939718 bytes read:5970500 seeks:0 nb_streams:2
+May 30, 2022 16:14:42.991 [0x7f1cc024b808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.991 [0x7f1cc024b808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.991 [0x7f1cc024b808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+May 30, 2022 16:14:42.991 [0x7f1cc024b808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 30, 2022 16:14:42.991 [0x7f1cc024b808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 30, 2022 16:14:42.992 [0x7f1cc024b808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:42.993 [0x7f1cc024b808] DEBUG - [FFMPEG] - demuxer injecting skip 2048 / discard 0
+May 30, 2022 16:14:42.993 [0x7f1cc024b808] DEBUG - [FFMPEG] - All info found
+May 30, 2022 16:14:42.993 [0x7f1cc024b808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 5940835 bytes read:5970500 seeks:0 frames:2
+May 30, 2022 16:14:42.993 [0x7f1cc024b808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.993 [0x7f1cc024b808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:42.993 [0x7f1cc024b808] DEBUG - [MI] Closing input file: "/movies/War Dogs (2016) [1080p] [YTS.AG]/War.Dogs.2016.1080p.BluRay.x264-[YTS.AG].mp4"
+May 30, 2022 16:14:42.994 [0x7f1cc024b808] DEBUG - Matcher: found 3 auxiliary files in "/movies/War Dogs (2016) [1080p] [YTS.AG]" (single media: yes)
+May 30, 2022 16:14:42.994 [0x7f1cc024b808] DEBUG - Scanner: found local sidecar subtitle "/movies/War Dogs (2016) [1080p] [YTS.AG]/War.Dogs.2016.1080p.BluRay.x264-[YTS.AG].srt"
+May 30, 2022 16:14:42.994 [0x7f1cc024b808] DEBUG - Scanner: found local sidecar subtitle "/movies/War Dogs (2016) [1080p] [YTS.AG]/War.Dogs.2016.1080p.BluRay.x264-[YTS.AG]_es.srt"
+May 30, 2022 16:14:42.995 [0x7f1cc024b808] DEBUG - [FFMPEG] - Opening '/movies/War Dogs (2016) [1080p] [YTS.AG]/War.Dogs.2016.1080p.BluRay.x264-[YTS.AG].srt' for reading
+May 30, 2022 16:14:42.995 [0x7f1cc024b808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 30, 2022 16:14:42.995 [0x7f1cc024b808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+May 30, 2022 16:14:43.003 [0x7f1cc024b808] DEBUG - [FFMPEG] - Opening '/movies/War Dogs (2016) [1080p] [YTS.AG]/War.Dogs.2016.1080p.BluRay.x264-[YTS.AG]_es.srt' for reading
+May 30, 2022 16:14:43.003 [0x7f1cc024b808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 30, 2022 16:14:43.003 [0x7f1cc024b808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+May 30, 2022 16:14:43.007 [0x7f1cc024b808] DEBUG - Matcher: saving subtitle info to media bundle "/config/Library/Application Support/Plex Media Server/Media/localhost/b/c7e6d107d66b192a2c678b1caccea8f734ef6c8.bundle/Contents/Plex Movie/Subtitles.xml"

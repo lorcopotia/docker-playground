@@ -14,7 +14,6 @@ services:
       - VERSION=docker
     volumes:
       - ./config:/config
-      - ./tvseries:/tv
-      - ./movies:/movies
-      - ./media:/data 
+      - /mnt/DATOS/Videos/Series:/tv
+      - /mnt/DATOS/Videos/Peliculas:/movies
     restart: unless-stopped

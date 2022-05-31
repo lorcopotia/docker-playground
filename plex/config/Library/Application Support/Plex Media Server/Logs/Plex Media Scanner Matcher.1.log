@@ -1,0 +1,6 @@
+May 30, 2022 16:14:43.412 [0x7f4b98c38b38] INFO - Plex Media Scanner v1.26.2.5797-5bd057d2b - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
+May 30, 2022 16:14:43.413 [0x7f4b98c38b38] INFO - Linux version: 5.15.41-1-MANJARO, language: en-US
+May 30, 2022 16:14:43.413 [0x7f4b98c38b38] INFO - Processor: 12-core AMD Ryzen 5 3600 6-Core Processor              
+May 30, 2022 16:14:43.413 [0x7f4b98c38b38] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 791
+May 30, 2022 16:14:43.413 [0x7f4b9bc4d808] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+May 30, 2022 16:14:43.476 [0x7f4b9bc4d808] DEBUG - Matcher: found 0 auxiliary files for Into the Badlands

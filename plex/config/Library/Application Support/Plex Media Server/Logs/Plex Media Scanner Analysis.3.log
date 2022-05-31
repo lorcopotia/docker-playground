@@ -1,0 +1,76 @@
+May 30, 2022 16:14:41.515 [0x7fa2bd5fbb38] INFO - Plex Media Scanner v1.26.2.5797-5bd057d2b - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
+May 30, 2022 16:14:41.515 [0x7fa2bd5fbb38] INFO - Linux version: 5.15.41-1-MANJARO, language: en-US
+May 30, 2022 16:14:41.515 [0x7fa2bd5fbb38] INFO - Processor: 12-core AMD Ryzen 5 3600 6-Core Processor              
+May 30, 2022 16:14:41.515 [0x7fa2bd5fbb38] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 751
+May 30, 2022 16:14:41.515 [0x7fa2c0610808] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+May 30, 2022 16:14:41.577 [0x7fa2c0610808] DEBUG - Analyzing media parts for item 751 (The Matrix Revolutions): 1998
+May 30, 2022 16:14:41.577 [0x7fa2c0610808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:41.577 [0x7fa2c0610808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:41.578 [0x7fa2bc722b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:41.578 [0x7fa2c0610808] DEBUG - Updating metadata item (save) (The Matrix Revolutions) with ID 751
+May 30, 2022 16:14:41.599 [0x7fa2c0610808] DEBUG - [ID 2000] Media part analysis: /movies/TheMatrixTrilogyComplete(1999-2003)/The Matrix Revolutions (2003) 720p 5.1 BRRiP x264 AAC [Team Nanban].mp4
+May 30, 2022 16:14:41.600 [0x7fa2c0610808] DEBUG - [MI] Opening input file: "/movies/TheMatrixTrilogyComplete(1999-2003)/The Matrix Revolutions (2003) 720p 5.1 BRRiP x264 AAC [Team Nanban].mp4"
+May 30, 2022 16:14:41.600 [0x7fa2c0610808] DEBUG - [FFMPEG] - Opening '/movies/TheMatrixTrilogyComplete(1999-2003)/The Matrix Revolutions (2003) 720p 5.1 BRRiP x264 AAC [Team Nanban].mp4' for reading
+May 30, 2022 16:14:41.600 [0x7fa2c0610808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+May 30, 2022 16:14:41.600 [0x7fa2c0610808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+May 30, 2022 16:14:41.600 [0x7fa2c0610808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+May 30, 2022 16:14:41.600 [0x7fa2c0610808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+May 30, 2022 16:14:41.672 [0x7fa2c0610808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 7507, duration: 698035950
+May 30, 2022 16:14:41.678 [0x7fa2c0610808] DEBUG - [FFMPEG] - Offset DTS by 7507 to make first pts zero.
+May 30, 2022 16:14:41.679 [0x7fa2c0610808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+May 30, 2022 16:14:41.680 [0x7fa2c0610808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - rfps: 23.916667 0.004905
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - rfps: 23.916667 0.004905
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - rfps: 24.000000 0.000800
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - rfps: 24.000000 0.000800
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - rfps: 24.083333 0.016031
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - rfps: 24.083333 0.016031
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - rfps: 48.000000 0.003201
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - rfps: 48.000000 0.003201
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - rfps: 23.976024 0.000000
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - rfps: 23.976024 0.000000
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - rfps: 47.952048 0.000000
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - rfps: 47.952048 0.000000
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1065024597 bytes read:3954704 seeks:1 nb_streams:2
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+May 30, 2022 16:14:41.690 [0x7fa2c0610808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+May 30, 2022 16:14:41.691 [0x7fa2c0610808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:41.691 [0x7fa2c0610808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:41.692 [0x7fa2c0610808] DEBUG - [FFMPEG] - no picture 
+May 30, 2022 16:14:41.692 [0x7fa2c0610808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:41.693 [0x7fa2c0610808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:41.694 [0x7fa2c0610808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:41.695 [0x7fa2c0610808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:41.695 [0x7fa2c0610808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+May 30, 2022 16:14:41.695 [0x7fa2c0610808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:41.696 [0x7fa2c0610808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+May 30, 2022 16:14:41.698 [0x7fa2c0610808] DEBUG - [FFMPEG] - All info found
+May 30, 2022 16:14:41.699 [0x7fa2c0610808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3925397 bytes read:3987472 seeks:2 frames:13
+May 30, 2022 16:14:41.699 [0x7fa2c0610808] DEBUG - [MI] Opening "/movies/TheMatrixTrilogyComplete(1999-2003)/The Matrix Revolutions (2003) 720p 5.1 BRRiP x264 AAC [Team Nanban].mp4" for MP4 atom parsing
+May 30, 2022 16:14:41.699 [0x7fa2c0610808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 20 at offset 0
+May 30, 2022 16:14:41.699 [0x7fa2c0610808] DEBUG - Mp4AtomParser: Found moov atom of size 3923957 at offset 20
+May 30, 2022 16:14:41.700 [0x7fa2c0610808] DEBUG - Mp4AtomParser: Found trak atom of size 3028679 at offset 157
+May 30, 2022 16:14:41.700 [0x7fa2c0610808] DEBUG - Mp4AtomParser: Found trak atom of size 895141 at offset 3028836
+May 30, 2022 16:14:41.700 [0x7fa2c0610808] DEBUG - Mp4AtomParser: Found mdia atom of size 3028543 at offset 293
+May 30, 2022 16:14:41.700 [0x7fa2c0610808] DEBUG - Mp4AtomParser: Found minf atom of size 3028470 at offset 366
+May 30, 2022 16:14:41.700 [0x7fa2c0610808] DEBUG - Mp4AtomParser: Found stbl atom of size 3028406 at offset 430
+May 30, 2022 16:14:41.700 [0x7fa2c0610808] DEBUG - Mp4AtomParser: Found mdia atom of size 895041 at offset 3028936
+May 30, 2022 16:14:41.700 [0x7fa2c0610808] DEBUG - Mp4AtomParser: Found minf atom of size 894968 at offset 3029009
+May 30, 2022 16:14:41.700 [0x7fa2c0610808] DEBUG - Mp4AtomParser: Found stbl atom of size 894908 at offset 3029069
+May 30, 2022 16:14:41.701 [0x7fa2c0610808] DEBUG - [MI]  * 37017307a7c0e23f0e5576ede14f88fba2801481 [mp4 h264/aac] Duration: 7756117ms, 1280x530 (2.412060) 23.976fps, bitrate=1098kbps, audio channels=6, optimizedForStreaming=1 ("/movies/TheMatrixTrilogyComplete(1999-2003)/The Matrix Revolutions (2003) 720p 5.1 BRRiP x264 AAC [Team Nanban].mp4")
+May 30, 2022 16:14:41.701 [0x7fa2c0610808] DEBUG - [MI] Chapters had generic titles, clearing.
+May 30, 2022 16:14:41.701 [0x7fa2c0610808] DEBUG - [MI] Closing input file: "/movies/TheMatrixTrilogyComplete(1999-2003)/The Matrix Revolutions (2003) 720p 5.1 BRRiP x264 AAC [Team Nanban].mp4"
+May 30, 2022 16:14:41.702 [0x7fa2c0610808] DEBUG - Committing media stream changes for part 2000
+May 30, 2022 16:14:41.702 [0x7fa2c0610808] DEBUG - Updating media item 1998, size=1065024632, metadata_item_id=751
+May 30, 2022 16:14:41.702 [0x7fa2c0610808] DEBUG - Updating part with ID=2000 [/movies/TheMatrixTrilogyComplete(1999-2003)/The Matrix Revolutions (2003) 720p 5.1 BRRiP x264 AAC [Team Nanban].mp4]
+May 30, 2022 16:14:41.703 [0x7fa2bc67fb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=751&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+May 30, 2022 16:14:41.703 [0x7fa2bc722b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=751&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+May 30, 2022 16:14:41.703 [0x7fa2bc67fb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=751&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
+May 30, 2022 16:14:41.704 [0x7fa2bc722b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=751&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+May 30, 2022 16:14:41.704 [0x7fa2c0610808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:41.704 [0x7fa2c0610808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+May 30, 2022 16:14:41.704 [0x7fa2bc722b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+May 30, 2022 16:14:41.704 [0x7fa2c0610808] DEBUG - Updating metadata item (save) (The Matrix Revolutions) with ID 751

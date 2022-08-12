@@ -1,0 +1,426 @@
+Jul 06, 2022 13:01:29.730 [0x7f437edbab38] INFO - Plex Media Scanner v1.26.2.5797-5bd057d2b - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
+Jul 06, 2022 13:01:29.730 [0x7f437edbab38] INFO - Linux version: 5.15.49-1-MANJARO, language: en-US
+Jul 06, 2022 13:01:29.730 [0x7f437edbab38] INFO - Processor: 12-core AMD Ryzen 5 3600 6-Core Processor              
+Jul 06, 2022 13:01:29.731 [0x7f437edbab38] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 945
+Jul 06, 2022 13:01:29.731 [0x7f4381dcf808] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+Jul 06, 2022 13:01:29.793 [0x7f4381dcf808] DEBUG - Matcher: found 14 auxiliary files for Season 6
+Jul 06, 2022 13:01:29.794 [0x7f4381dcf808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/001 Introduction.mp4"
+Jul 06, 2022 13:01:29.795 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/001 Introduction.mp4' for reading
+Jul 06, 2022 13:01:29.795 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.795 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.795 [0x7f4381dcf808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.795 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.795 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 1279020
+Jul 06, 2022 13:01:29.795 [0x7f4381dcf808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.795 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.795 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.795 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 1886245
+Jul 06, 2022 13:01:29.795 [0x7f4381dcf808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 4415680 bytes read:68993 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.796 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.796 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.796 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.796 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.796 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.796 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.803 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.803 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.804 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.806 [0x7f4381dcf808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.806 [0x7f4381dcf808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 65299 bytes read:163194 seeks:2 frames:4
+Jul 06, 2022 13:01:29.807 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.807 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.807 [0x7f4381dcf808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/001 Introduction.mp4"
+Jul 06, 2022 13:01:29.807 [0x7f4381dcf808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/001 Introduction_en.srt"
+Jul 06, 2022 13:01:29.807 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/001 Introduction_en.srt' for reading
+Jul 06, 2022 13:01:29.807 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.818 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.824 [0x7f4381dcf808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/002 AWS Systems Manager Overview.mp4"
+Jul 06, 2022 13:01:29.824 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/002 AWS Systems Manager Overview.mp4' for reading
+Jul 06, 2022 13:01:29.824 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.824 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.824 [0x7f4381dcf808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.824 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.825 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 15390000
+Jul 06, 2022 13:01:29.825 [0x7f4381dcf808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.825 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.825 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.826 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 22630400
+Jul 06, 2022 13:01:29.826 [0x7f4381dcf808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 34557751 bytes read:452877 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.826 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.826 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.826 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.826 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.826 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.827 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.830 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.830 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.831 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.832 [0x7f4381dcf808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.832 [0x7f4381dcf808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 19392 bytes read:485645 seeks:2 frames:4
+Jul 06, 2022 13:01:29.832 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.832 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.833 [0x7f4381dcf808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/002 AWS Systems Manager Overview.mp4"
+Jul 06, 2022 13:01:29.833 [0x7f4381dcf808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/002 AWS Systems Manager Overview_en.srt"
+Jul 06, 2022 13:01:29.833 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/002 AWS Systems Manager Overview_en.srt' for reading
+Jul 06, 2022 13:01:29.833 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.842 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.843 [0x7f4381dcf808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/003 Create Tags and Resource Groups.mp4"
+Jul 06, 2022 13:01:29.843 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/003 Create Tags and Resource Groups.mp4' for reading
+Jul 06, 2022 13:01:29.843 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.843 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.843 [0x7f4381dcf808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.843 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.844 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 10024020
+Jul 06, 2022 13:01:29.844 [0x7f4381dcf808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.844 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.844 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.844 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 14741528
+Jul 06, 2022 13:01:29.845 [0x7f4381dcf808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 21320529 bytes read:307348 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.845 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.845 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.845 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.845 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.845 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.845 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.848 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.848 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.849 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.850 [0x7f4381dcf808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.851 [0x7f4381dcf808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 19392 bytes read:340116 seeks:2 frames:4
+Jul 06, 2022 13:01:29.851 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.851 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.851 [0x7f4381dcf808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/003 Create Tags and Resource Groups.mp4"
+Jul 06, 2022 13:01:29.851 [0x7f4381dcf808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/003 Create Tags and Resource Groups_en.srt"
+Jul 06, 2022 13:01:29.851 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/003 Create Tags and Resource Groups_en.srt' for reading
+Jul 06, 2022 13:01:29.851 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.861 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.862 [0x7f4381dcf808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/004 Systems Manager Automation.mp4"
+Jul 06, 2022 13:01:29.862 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/004 Systems Manager Automation.mp4' for reading
+Jul 06, 2022 13:01:29.862 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.862 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.862 [0x7f4381dcf808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.862 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.863 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 6346020
+Jul 06, 2022 13:01:29.863 [0x7f4381dcf808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.864 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.864 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.864 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 9334823
+Jul 06, 2022 13:01:29.864 [0x7f4381dcf808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 15532523 bytes read:206199 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.864 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.864 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.864 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.864 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.864 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.865 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.868 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.869 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.870 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.872 [0x7f4381dcf808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.872 [0x7f4381dcf808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 19392 bytes read:238967 seeks:2 frames:4
+Jul 06, 2022 13:01:29.872 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.872 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.872 [0x7f4381dcf808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/004 Systems Manager Automation.mp4"
+Jul 06, 2022 13:01:29.872 [0x7f4381dcf808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/004 Systems Manager Automation_en.srt"
+Jul 06, 2022 13:01:29.873 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/004 Systems Manager Automation_en.srt' for reading
+Jul 06, 2022 13:01:29.873 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.879 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.879 [0x7f4381dcf808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/005 Systems Manager Run Command.mp4"
+Jul 06, 2022 13:01:29.879 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/005 Systems Manager Run Command.mp4' for reading
+Jul 06, 2022 13:01:29.879 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.880 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.880 [0x7f4381dcf808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.880 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.881 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 10392000
+Jul 06, 2022 13:01:29.881 [0x7f4381dcf808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.881 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.881 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.882 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 15280165
+Jul 06, 2022 13:01:29.882 [0x7f4381dcf808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 24122098 bytes read:315868 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.882 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.882 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.882 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.882 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.882 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.883 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.886 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.887 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.888 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.889 [0x7f4381dcf808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.890 [0x7f4381dcf808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 19392 bytes read:348636 seeks:2 frames:4
+Jul 06, 2022 13:01:29.890 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.890 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.890 [0x7f4381dcf808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/005 Systems Manager Run Command.mp4"
+Jul 06, 2022 13:01:29.890 [0x7f4381dcf808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/005 Systems Manager Run Command_en.srt"
+Jul 06, 2022 13:01:29.890 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/005 Systems Manager Run Command_en.srt' for reading
+Jul 06, 2022 13:01:29.890 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.904 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.906 [0x7f4381dcf808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/006 Systems Manager Inventory and Patching EC2 Instances.mp4"
+Jul 06, 2022 13:01:29.906 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/006 Systems Manager Inventory and Patching EC2 Instances.mp4' for reading
+Jul 06, 2022 13:01:29.906 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.906 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.906 [0x7f4381dcf808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.906 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.907 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 7370010
+Jul 06, 2022 13:01:29.907 [0x7f4381dcf808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.907 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.907 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.907 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 10840089
+Jul 06, 2022 13:01:29.907 [0x7f4381dcf808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 14076004 bytes read:234505 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.907 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.908 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.908 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.908 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.908 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.908 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.911 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.911 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.912 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.913 [0x7f4381dcf808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.914 [0x7f4381dcf808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 14393 bytes read:267273 seeks:2 frames:4
+Jul 06, 2022 13:01:29.914 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.914 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.914 [0x7f4381dcf808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/006 Systems Manager Inventory and Patching EC2 Instances.mp4"
+Jul 06, 2022 13:01:29.914 [0x7f4381dcf808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/006 Systems Manager Inventory and Patching EC2 Instances_en.srt"
+Jul 06, 2022 13:01:29.914 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/006 Systems Manager Inventory and Patching EC2 Instances_en.srt' for reading
+Jul 06, 2022 13:01:29.914 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.919 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.920 [0x7f4381dcf808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/007 Systems Manager Configuration Compliance.mp4"
+Jul 06, 2022 13:01:29.920 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/007 Systems Manager Configuration Compliance.mp4' for reading
+Jul 06, 2022 13:01:29.920 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.920 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.920 [0x7f4381dcf808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.920 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.921 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 6656010
+Jul 06, 2022 13:01:29.921 [0x7f4381dcf808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.921 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.921 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.921 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 9791523
+Jul 06, 2022 13:01:29.921 [0x7f4381dcf808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 13846996 bytes read:215385 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.921 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.921 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.921 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.921 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.921 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.922 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.925 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.925 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.926 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.927 [0x7f4381dcf808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.928 [0x7f4381dcf808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 19392 bytes read:248153 seeks:2 frames:4
+Jul 06, 2022 13:01:29.928 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.928 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.928 [0x7f4381dcf808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/007 Systems Manager Configuration Compliance.mp4"
+Jul 06, 2022 13:01:29.928 [0x7f4381dcf808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/007 Systems Manager Configuration Compliance_en.srt"
+Jul 06, 2022 13:01:29.928 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/007 Systems Manager Configuration Compliance_en.srt' for reading
+Jul 06, 2022 13:01:29.928 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.938 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.939 [0x7f4381dcf808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/008 Systems Manager Secure Shell.mp4"
+Jul 06, 2022 13:01:29.939 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/008 Systems Manager Secure Shell.mp4' for reading
+Jul 06, 2022 13:01:29.939 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.940 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.940 [0x7f4381dcf808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.940 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.940 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 8869020
+Jul 06, 2022 13:01:29.941 [0x7f4381dcf808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.941 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.941 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.941 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 13043722
+Jul 06, 2022 13:01:29.942 [0x7f4381dcf808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 31431442 bytes read:275665 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.942 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.942 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.942 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.942 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.942 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.943 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.947 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.948 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.949 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.950 [0x7f4381dcf808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.951 [0x7f4381dcf808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 39440 bytes read:346863 seeks:2 frames:4
+Jul 06, 2022 13:01:29.951 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.951 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.951 [0x7f4381dcf808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/008 Systems Manager Secure Shell.mp4"
+Jul 06, 2022 13:01:29.951 [0x7f4381dcf808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/008 Systems Manager Secure Shell_en.srt"
+Jul 06, 2022 13:01:29.952 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/008 Systems Manager Secure Shell_en.srt' for reading
+Jul 06, 2022 13:01:29.952 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.958 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.959 [0x7f4381dcf808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/009 Systems Manager Parameter Store Overview.mp4"
+Jul 06, 2022 13:01:29.959 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/009 Systems Manager Parameter Store Overview.mp4' for reading
+Jul 06, 2022 13:01:29.959 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.959 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.959 [0x7f4381dcf808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.959 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.960 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 9166020
+Jul 06, 2022 13:01:29.960 [0x7f4381dcf808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.960 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.960 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.960 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 13479959
+Jul 06, 2022 13:01:29.961 [0x7f4381dcf808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 11622644 bytes read:283657 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.961 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.961 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.961 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.961 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.961 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.962 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.965 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.966 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.967 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.968 [0x7f4381dcf808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.969 [0x7f4381dcf808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10140 bytes read:316425 seeks:2 frames:4
+Jul 06, 2022 13:01:29.969 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.969 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.969 [0x7f4381dcf808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/009 Systems Manager Parameter Store Overview.mp4"
+Jul 06, 2022 13:01:29.969 [0x7f4381dcf808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/009 Systems Manager Parameter Store Overview_en.srt"
+Jul 06, 2022 13:01:29.969 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/009 Systems Manager Parameter Store Overview_en.srt' for reading
+Jul 06, 2022 13:01:29.969 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.982 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.983 [0x7f4381dcf808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/010 Systems Manager Parameter Store with Lambda.mp4"
+Jul 06, 2022 13:01:29.983 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/010 Systems Manager Parameter Store with Lambda.mp4' for reading
+Jul 06, 2022 13:01:29.983 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.983 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.983 [0x7f4381dcf808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.983 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.985 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 11709000
+Jul 06, 2022 13:01:29.985 [0x7f4381dcf808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.986 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.986 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.986 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 17217566
+Jul 06, 2022 13:01:29.986 [0x7f4381dcf808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 43619742 bytes read:351820 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.986 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.986 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.987 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.987 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.987 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.988 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.994 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.994 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.995 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.996 [0x7f4381dcf808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.996 [0x7f4381dcf808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 39440 bytes read:423018 seeks:2 frames:4
+Jul 06, 2022 13:01:29.997 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.997 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.997 [0x7f4381dcf808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/010 Systems Manager Parameter Store with Lambda.mp4"
+Jul 06, 2022 13:01:29.997 [0x7f4381dcf808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/010 Systems Manager Parameter Store with Lambda_en.srt"
+Jul 06, 2022 13:01:29.997 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/010 Systems Manager Parameter Store with Lambda_en.srt' for reading
+Jul 06, 2022 13:01:29.997 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.003 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.005 [0x7f4381dcf808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/011 [NEW] AWS Secrets Manager.mp4"
+Jul 06, 2022 13:01:30.005 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/011 [NEW] AWS Secrets Manager.mp4' for reading
+Jul 06, 2022 13:01:30.005 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.005 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.005 [0x7f4381dcf808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.005 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.005 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 5333010
+Jul 06, 2022 13:01:30.006 [0x7f4381dcf808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.006 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.006 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.006 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 7845919
+Jul 06, 2022 13:01:30.006 [0x7f4381dcf808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6215657 bytes read:179542 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.006 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.006 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.006 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.006 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.006 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.007 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.010 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.011 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.012 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.014 [0x7f4381dcf808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.014 [0x7f4381dcf808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10803 bytes read:212310 seeks:2 frames:4
+Jul 06, 2022 13:01:30.014 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.015 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.015 [0x7f4381dcf808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/011 [NEW] AWS Secrets Manager.mp4"
+Jul 06, 2022 13:01:30.015 [0x7f4381dcf808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/011 [NEW] AWS Secrets Manager_en.srt"
+Jul 06, 2022 13:01:30.015 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/011 [NEW] AWS Secrets Manager_en.srt' for reading
+Jul 06, 2022 13:01:30.015 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.019 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.020 [0x7f4381dcf808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/012 AWS OpsWorks.mp4"
+Jul 06, 2022 13:01:30.020 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/012 AWS OpsWorks.mp4' for reading
+Jul 06, 2022 13:01:30.020 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.020 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.020 [0x7f4381dcf808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.020 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.021 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 2602020
+Jul 06, 2022 13:01:30.021 [0x7f4381dcf808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.021 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.021 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.021 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 3831849
+Jul 06, 2022 13:01:30.021 [0x7f4381dcf808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 3500372 bytes read:105037 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.021 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.021 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.021 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.021 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.021 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.022 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.025 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.026 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.027 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.029 [0x7f4381dcf808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.029 [0x7f4381dcf808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10140 bytes read:137805 seeks:2 frames:4
+Jul 06, 2022 13:01:30.029 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.029 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.029 [0x7f4381dcf808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/012 AWS OpsWorks.mp4"
+Jul 06, 2022 13:01:30.030 [0x7f4381dcf808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/012 AWS OpsWorks_en.srt"
+Jul 06, 2022 13:01:30.030 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/012 AWS OpsWorks_en.srt' for reading
+Jul 06, 2022 13:01:30.030 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.044 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.045 [0x7f4381dcf808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/013 Cleaning Up.mp4"
+Jul 06, 2022 13:01:30.045 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/013 Cleaning Up.mp4' for reading
+Jul 06, 2022 13:01:30.045 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.045 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.045 [0x7f4381dcf808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.045 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.046 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 1421010
+Jul 06, 2022 13:01:30.046 [0x7f4381dcf808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.046 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.046 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.046 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 2095147
+Jul 06, 2022 13:01:30.046 [0x7f4381dcf808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 2196099 bytes read:72872 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.046 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.046 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.046 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.046 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.046 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.046 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.049 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.050 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.051 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.053 [0x7f4381dcf808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.053 [0x7f4381dcf808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10140 bytes read:105640 seeks:2 frames:4
+Jul 06, 2022 13:01:30.053 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.053 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.054 [0x7f4381dcf808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/013 Cleaning Up.mp4"
+Jul 06, 2022 13:01:30.054 [0x7f4381dcf808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/013 Cleaning Up_en.srt"
+Jul 06, 2022 13:01:30.054 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/013 Cleaning Up_en.srt' for reading
+Jul 06, 2022 13:01:30.054 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.067 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.068 [0x7f4381dcf808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/014 Exam Scenarios for Systems Manager and OpsWorks.mp4"
+Jul 06, 2022 13:01:30.068 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/014 Exam Scenarios for Systems Manager and OpsWorks.mp4' for reading
+Jul 06, 2022 13:01:30.068 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.068 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.068 [0x7f4381dcf808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.068 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.069 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 5542020
+Jul 06, 2022 13:01:30.070 [0x7f4381dcf808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.070 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.070 [0x7f4381dcf808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.070 [0x7f4381dcf808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 8153120
+Jul 06, 2022 13:01:30.070 [0x7f4381dcf808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 9693724 bytes read:185228 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.070 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.070 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.071 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.071 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.071 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.072 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.076 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.077 [0x7f4381dcf808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.079 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.081 [0x7f4381dcf808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.082 [0x7f4381dcf808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 14393 bytes read:217996 seeks:2 frames:4
+Jul 06, 2022 13:01:30.082 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.082 [0x7f4381dcf808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.082 [0x7f4381dcf808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/014 Exam Scenarios for Systems Manager and OpsWorks.mp4"
+Jul 06, 2022 13:01:30.082 [0x7f4381dcf808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/014 Exam Scenarios for Systems Manager and OpsWorks_en.srt"
+Jul 06, 2022 13:01:30.082 [0x7f4381dcf808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/014 Exam Scenarios for Systems Manager and OpsWorks_en.srt' for reading
+Jul 06, 2022 13:01:30.082 [0x7f4381dcf808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.091 [0x7f4381dcf808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100

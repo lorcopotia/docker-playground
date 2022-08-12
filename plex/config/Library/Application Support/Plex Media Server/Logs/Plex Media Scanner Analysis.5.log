@@ -1,0 +1,761 @@
+Jul 06, 2022 13:01:29.334 [0x7fb90d2e0b38] INFO - Plex Media Scanner v1.26.2.5797-5bd057d2b - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
+Jul 06, 2022 13:01:29.334 [0x7fb90d2e0b38] INFO - Linux version: 5.15.49-1-MANJARO, language: en-US
+Jul 06, 2022 13:01:29.334 [0x7fb90d2e0b38] INFO - Processor: 12-core AMD Ryzen 5 3600 6-Core Processor              
+Jul 06, 2022 13:01:29.334 [0x7fb90d2e0b38] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 946,947,948,949,950,951,952,953,954,955,956,957,958,959
+Jul 06, 2022 13:01:29.335 [0x7fb9102f5808] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+Jul 06, 2022 13:01:29.392 [0x7fb9102f5808] DEBUG - Analyzing media parts for item 946 (Episode 1): 2323
+Jul 06, 2022 13:01:29.393 [0x7fb9102f5808] DEBUG - [ID 2325] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/001 Introduction.mp4
+Jul 06, 2022 13:01:29.393 [0x7fb9102f5808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/001 Introduction.mp4"
+Jul 06, 2022 13:01:29.393 [0x7fb9102f5808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/001 Introduction.mp4' for reading
+Jul 06, 2022 13:01:29.393 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.393 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.393 [0x7fb9102f5808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.393 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.393 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 1279020
+Jul 06, 2022 13:01:29.394 [0x7fb9102f5808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.394 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.394 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.394 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 1886245
+Jul 06, 2022 13:01:29.394 [0x7fb9102f5808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 4415680 bytes read:68993 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.394 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.394 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.394 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.394 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.394 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.395 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.401 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.401 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.402 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.404 [0x7fb9102f5808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.404 [0x7fb9102f5808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 65299 bytes read:163194 seeks:2 frames:4
+Jul 06, 2022 13:01:29.404 [0x7fb9102f5808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/001 Introduction.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:29.404 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:29.404 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:29.404 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 4379415 at offset 40
+Jul 06, 2022 13:01:29.404 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found moov atom of size 36225 at offset 4379455
+Jul 06, 2022 13:01:29.404 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 28071 at offset 4379571
+Jul 06, 2022 13:01:29.404 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 7937 at offset 4407642
+Jul 06, 2022 13:01:29.404 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 27935 at offset 4379707
+Jul 06, 2022 13:01:29.404 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 27850 at offset 4379792
+Jul 06, 2022 13:01:29.404 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 27786 at offset 4379856
+Jul 06, 2022 13:01:29.404 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 7801 at offset 4407778
+Jul 06, 2022 13:01:29.404 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 7716 at offset 4407863
+Jul 06, 2022 13:01:29.404 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 7656 at offset 4407923
+Jul 06, 2022 13:01:29.404 [0x7fb9102f5808] DEBUG - [MI]  * 8a9c6fd3f6bab23f9df05abc9ea63700728c0a06 [mp4 h264/aac] Duration: 42772ms, 1280x720 (1.777778) 30.000fps, bitrate=825kbps, audio channels=2, optimizedForStreaming=1 ("/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/001 Introduction.mp4")
+Jul 06, 2022 13:01:29.405 [0x7fb9102f5808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:29.405 [0x7fb9102f5808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/001 Introduction.mp4"
+Jul 06, 2022 13:01:29.405 [0x7fb9102f5808] DEBUG - Committing media stream changes for part 2325
+Jul 06, 2022 13:01:29.405 [0x7fb9102f5808] DEBUG - Updating media item 2323, size=4415680, metadata_item_id=946
+Jul 06, 2022 13:01:29.405 [0x7fb9102f5808] DEBUG - Updating part with ID=2325 [/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/001 Introduction.mp4]
+Jul 06, 2022 13:01:29.406 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=946&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:29.406 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=946&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:29.407 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=946&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:29.407 [0x7fb9102f5808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.407 [0x7fb9102f5808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.407 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=946&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:29.407 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.407 [0x7fb9102f5808] DEBUG - Updating metadata item (save) () with ID 946
+Jul 06, 2022 13:01:29.408 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:29.408 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:29.409 [0x7fb9102f5808] DEBUG - Analyzing media parts for item 947 (Episode 2): 2324
+Jul 06, 2022 13:01:29.409 [0x7fb9102f5808] DEBUG - [ID 2326] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/002 AWS Systems Manager Overview.mp4
+Jul 06, 2022 13:01:29.409 [0x7fb9102f5808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/002 AWS Systems Manager Overview.mp4"
+Jul 06, 2022 13:01:29.409 [0x7fb9102f5808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/002 AWS Systems Manager Overview.mp4' for reading
+Jul 06, 2022 13:01:29.409 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.410 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.410 [0x7fb9102f5808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.410 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.411 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 15390000
+Jul 06, 2022 13:01:29.411 [0x7fb9102f5808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.411 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.412 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.412 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 22630400
+Jul 06, 2022 13:01:29.412 [0x7fb9102f5808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 34557751 bytes read:452877 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.412 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.412 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.412 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.412 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.412 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.413 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.415 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.416 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.416 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.418 [0x7fb9102f5808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.418 [0x7fb9102f5808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 19392 bytes read:485645 seeks:2 frames:4
+Jul 06, 2022 13:01:29.418 [0x7fb9102f5808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/002 AWS Systems Manager Overview.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:29.419 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:29.419 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:29.419 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 34137602 at offset 40
+Jul 06, 2022 13:01:29.419 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found moov atom of size 420109 at offset 34137642
+Jul 06, 2022 13:01:29.419 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 330907 at offset 34137758
+Jul 06, 2022 13:01:29.419 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 88969 at offset 34468665
+Jul 06, 2022 13:01:29.419 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 330771 at offset 34137894
+Jul 06, 2022 13:01:29.419 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 330686 at offset 34137979
+Jul 06, 2022 13:01:29.419 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 330622 at offset 34138043
+Jul 06, 2022 13:01:29.419 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 88833 at offset 34468801
+Jul 06, 2022 13:01:29.419 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 88748 at offset 34468886
+Jul 06, 2022 13:01:29.419 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 88688 at offset 34468946
+Jul 06, 2022 13:01:29.419 [0x7fb9102f5808] DEBUG - [MI]  * a89c1f33aba05193394e51e5fc5702831b3c6770 [mp4 h264/aac] Duration: 513161ms, 1280x720 (1.777778) 30.000fps, bitrate=538kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/002 AWS Systems Manager Overview.mp4")
+Jul 06, 2022 13:01:29.419 [0x7fb9102f5808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:29.419 [0x7fb9102f5808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/002 AWS Systems Manager Overview.mp4"
+Jul 06, 2022 13:01:29.419 [0x7fb9102f5808] DEBUG - Committing media stream changes for part 2326
+Jul 06, 2022 13:01:29.420 [0x7fb9102f5808] DEBUG - Updating media item 2324, size=34557751, metadata_item_id=947
+Jul 06, 2022 13:01:29.420 [0x7fb9102f5808] DEBUG - Updating part with ID=2326 [/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/002 AWS Systems Manager Overview.mp4]
+Jul 06, 2022 13:01:29.420 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=947&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:29.420 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=947&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:29.421 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=947&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:29.421 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=947&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:29.421 [0x7fb9102f5808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.421 [0x7fb9102f5808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.422 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:29.422 [0x7fb9102f5808] DEBUG - Updating metadata item (save) () with ID 947
+Jul 06, 2022 13:01:29.422 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:29.423 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:29.423 [0x7fb9102f5808] DEBUG - Analyzing media parts for item 948 (Episode 3): 2325
+Jul 06, 2022 13:01:29.423 [0x7fb9102f5808] DEBUG - [ID 2327] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/003 Create Tags and Resource Groups.mp4
+Jul 06, 2022 13:01:29.424 [0x7fb9102f5808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/003 Create Tags and Resource Groups.mp4"
+Jul 06, 2022 13:01:29.424 [0x7fb9102f5808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/003 Create Tags and Resource Groups.mp4' for reading
+Jul 06, 2022 13:01:29.424 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.424 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.424 [0x7fb9102f5808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.424 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.425 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 10024020
+Jul 06, 2022 13:01:29.425 [0x7fb9102f5808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.425 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.425 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.425 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 14741528
+Jul 06, 2022 13:01:29.426 [0x7fb9102f5808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 21320529 bytes read:307348 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.426 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.426 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.426 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.426 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.426 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.426 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.429 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.429 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.430 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.431 [0x7fb9102f5808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 19392 bytes read:340116 seeks:2 frames:4
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/003 Create Tags and Resource Groups.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 21045909 at offset 40
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found moov atom of size 274580 at offset 21045949
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 216191 at offset 21046065
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 58153 at offset 21262256
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 216055 at offset 21046201
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 215970 at offset 21046286
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 215906 at offset 21046350
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 58017 at offset 21262392
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 57932 at offset 21262477
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 57872 at offset 21262537
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - [MI]  * aa8684f20dd5565b1953d4289347a659b4d9b875 [mp4 h264/aac] Duration: 334275ms, 1280x720 (1.777778) 30.000fps, bitrate=510kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/003 Create Tags and Resource Groups.mp4")
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/003 Create Tags and Resource Groups.mp4"
+Jul 06, 2022 13:01:29.432 [0x7fb9102f5808] DEBUG - Committing media stream changes for part 2327
+Jul 06, 2022 13:01:29.433 [0x7fb9102f5808] DEBUG - Updating media item 2325, size=21320529, metadata_item_id=948
+Jul 06, 2022 13:01:29.433 [0x7fb9102f5808] DEBUG - Updating part with ID=2327 [/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/003 Create Tags and Resource Groups.mp4]
+Jul 06, 2022 13:01:29.433 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=948&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:29.433 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=948&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:29.434 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=948&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:29.434 [0x7fb9102f5808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.434 [0x7fb9102f5808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.434 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=948&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:29.434 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:29.434 [0x7fb9102f5808] DEBUG - Updating metadata item (save) () with ID 948
+Jul 06, 2022 13:01:29.435 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:29.436 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:29.436 [0x7fb9102f5808] DEBUG - Analyzing media parts for item 949 (Episode 4): 2326
+Jul 06, 2022 13:01:29.436 [0x7fb9102f5808] DEBUG - [ID 2328] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/004 Systems Manager Automation.mp4
+Jul 06, 2022 13:01:29.437 [0x7fb9102f5808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/004 Systems Manager Automation.mp4"
+Jul 06, 2022 13:01:29.437 [0x7fb9102f5808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/004 Systems Manager Automation.mp4' for reading
+Jul 06, 2022 13:01:29.437 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.437 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.437 [0x7fb9102f5808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.470 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.471 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 6346020
+Jul 06, 2022 13:01:29.472 [0x7fb9102f5808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.472 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.472 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.472 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 9334823
+Jul 06, 2022 13:01:29.472 [0x7fb9102f5808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 15532523 bytes read:206199 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.472 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.472 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.472 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.472 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.472 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.473 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.476 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.477 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.477 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.479 [0x7fb9102f5808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.479 [0x7fb9102f5808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 19392 bytes read:238967 seeks:2 frames:4
+Jul 06, 2022 13:01:29.479 [0x7fb9102f5808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/004 Systems Manager Automation.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:29.479 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:29.479 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:29.479 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 15359052 at offset 40
+Jul 06, 2022 13:01:29.479 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found moov atom of size 173431 at offset 15359092
+Jul 06, 2022 13:01:29.479 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 136167 at offset 15359208
+Jul 06, 2022 13:01:29.479 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 37033 at offset 15495375
+Jul 06, 2022 13:01:29.479 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 136031 at offset 15359344
+Jul 06, 2022 13:01:29.479 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 135946 at offset 15359429
+Jul 06, 2022 13:01:29.479 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 135882 at offset 15359493
+Jul 06, 2022 13:01:29.479 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 36897 at offset 15495511
+Jul 06, 2022 13:01:29.479 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 36812 at offset 15495596
+Jul 06, 2022 13:01:29.479 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 36752 at offset 15495656
+Jul 06, 2022 13:01:29.479 [0x7fb9102f5808] DEBUG - [MI]  * 6ec9bc9133475241bd56657b5d16e744aa808ca7 [mp4 h264/aac] Duration: 211674ms, 1280x720 (1.777778) 30.000fps, bitrate=587kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/004 Systems Manager Automation.mp4")
+Jul 06, 2022 13:01:29.479 [0x7fb9102f5808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:29.480 [0x7fb9102f5808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/004 Systems Manager Automation.mp4"
+Jul 06, 2022 13:01:29.480 [0x7fb9102f5808] DEBUG - Committing media stream changes for part 2328
+Jul 06, 2022 13:01:29.480 [0x7fb9102f5808] DEBUG - Updating media item 2326, size=15532523, metadata_item_id=949
+Jul 06, 2022 13:01:29.480 [0x7fb9102f5808] DEBUG - Updating part with ID=2328 [/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/004 Systems Manager Automation.mp4]
+Jul 06, 2022 13:01:29.480 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=949&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:29.481 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=949&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:29.481 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=949&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:29.481 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=949&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:29.481 [0x7fb9102f5808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.481 [0x7fb9102f5808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.482 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:29.482 [0x7fb9102f5808] DEBUG - Updating metadata item (save) () with ID 949
+Jul 06, 2022 13:01:29.482 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:29.483 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:29.483 [0x7fb9102f5808] DEBUG - Analyzing media parts for item 950 (Episode 5): 2327
+Jul 06, 2022 13:01:29.484 [0x7fb9102f5808] DEBUG - [ID 2329] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/005 Systems Manager Run Command.mp4
+Jul 06, 2022 13:01:29.484 [0x7fb9102f5808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/005 Systems Manager Run Command.mp4"
+Jul 06, 2022 13:01:29.484 [0x7fb9102f5808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/005 Systems Manager Run Command.mp4' for reading
+Jul 06, 2022 13:01:29.484 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.484 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.484 [0x7fb9102f5808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.496 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.498 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 10392000
+Jul 06, 2022 13:01:29.498 [0x7fb9102f5808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.498 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.498 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.498 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 15280165
+Jul 06, 2022 13:01:29.499 [0x7fb9102f5808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 24122098 bytes read:315868 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.499 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.499 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.499 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.499 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.499 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.500 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.503 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.504 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.505 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.507 [0x7fb9102f5808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.508 [0x7fb9102f5808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 19392 bytes read:348636 seeks:2 frames:4
+Jul 06, 2022 13:01:29.508 [0x7fb9102f5808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/005 Systems Manager Run Command.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:29.508 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:29.508 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:29.508 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 23838958 at offset 40
+Jul 06, 2022 13:01:29.508 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found moov atom of size 283100 at offset 23838998
+Jul 06, 2022 13:01:29.508 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 222607 at offset 23839114
+Jul 06, 2022 13:01:29.508 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 60261 at offset 24061721
+Jul 06, 2022 13:01:29.508 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 222471 at offset 23839250
+Jul 06, 2022 13:01:29.508 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 222386 at offset 23839335
+Jul 06, 2022 13:01:29.508 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 222322 at offset 23839399
+Jul 06, 2022 13:01:29.508 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 60125 at offset 24061857
+Jul 06, 2022 13:01:29.508 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 60040 at offset 24061942
+Jul 06, 2022 13:01:29.508 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 59980 at offset 24062002
+Jul 06, 2022 13:01:29.508 [0x7fb9102f5808] DEBUG - [MI]  * 6222da46056819e81ae2e957ba14534a8429c5c2 [mp4 h264/aac] Duration: 346489ms, 1280x720 (1.777778) 30.000fps, bitrate=556kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/005 Systems Manager Run Command.mp4")
+Jul 06, 2022 13:01:29.508 [0x7fb9102f5808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:29.508 [0x7fb9102f5808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/005 Systems Manager Run Command.mp4"
+Jul 06, 2022 13:01:29.509 [0x7fb9102f5808] DEBUG - Committing media stream changes for part 2329
+Jul 06, 2022 13:01:29.509 [0x7fb9102f5808] DEBUG - Updating media item 2327, size=24122098, metadata_item_id=950
+Jul 06, 2022 13:01:29.509 [0x7fb9102f5808] DEBUG - Updating part with ID=2329 [/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/005 Systems Manager Run Command.mp4]
+Jul 06, 2022 13:01:29.509 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=950&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:29.510 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=950&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:29.510 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=950&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:29.511 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=950&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:29.511 [0x7fb9102f5808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.511 [0x7fb9102f5808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.511 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:29.512 [0x7fb9102f5808] DEBUG - Updating metadata item (save) () with ID 950
+Jul 06, 2022 13:01:29.512 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:29.513 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:29.514 [0x7fb9102f5808] DEBUG - Analyzing media parts for item 951 (Episode 6): 2328
+Jul 06, 2022 13:01:29.514 [0x7fb9102f5808] DEBUG - [ID 2330] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/006 Systems Manager Inventory and Patching EC2 Instances.mp4
+Jul 06, 2022 13:01:29.514 [0x7fb9102f5808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/006 Systems Manager Inventory and Patching EC2 Instances.mp4"
+Jul 06, 2022 13:01:29.514 [0x7fb9102f5808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/006 Systems Manager Inventory and Patching EC2 Instances.mp4' for reading
+Jul 06, 2022 13:01:29.514 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.514 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.514 [0x7fb9102f5808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.520 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.521 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 7370010
+Jul 06, 2022 13:01:29.522 [0x7fb9102f5808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.522 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.522 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.522 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 10840089
+Jul 06, 2022 13:01:29.522 [0x7fb9102f5808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 14076004 bytes read:234505 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.522 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.522 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.522 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.522 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.522 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.523 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.527 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.528 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.529 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.531 [0x7fb9102f5808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.531 [0x7fb9102f5808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 14393 bytes read:267273 seeks:2 frames:4
+Jul 06, 2022 13:01:29.531 [0x7fb9102f5808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/006 Systems Manager Inventory and Patching EC2 Instances.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:29.531 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:29.532 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:29.532 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 13874227 at offset 40
+Jul 06, 2022 13:01:29.532 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found moov atom of size 201737 at offset 13874267
+Jul 06, 2022 13:01:29.532 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 158567 at offset 13874383
+Jul 06, 2022 13:01:29.532 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 42913 at offset 14032950
+Jul 06, 2022 13:01:29.532 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 158431 at offset 13874519
+Jul 06, 2022 13:01:29.532 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 158346 at offset 13874604
+Jul 06, 2022 13:01:29.532 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 158282 at offset 13874668
+Jul 06, 2022 13:01:29.532 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 42777 at offset 14033086
+Jul 06, 2022 13:01:29.532 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 42692 at offset 14033171
+Jul 06, 2022 13:01:29.532 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 42632 at offset 14033231
+Jul 06, 2022 13:01:29.532 [0x7fb9102f5808] DEBUG - [MI]  * 6b7fb4d2c79813a6d2a3b92360f11d1ba03e3edd [mp4 h264/aac] Duration: 245807ms, 1280x720 (1.777778) 30.000fps, bitrate=458kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/006 Systems Manager Inventory and Patching EC2 Instances.mp4")
+Jul 06, 2022 13:01:29.532 [0x7fb9102f5808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:29.532 [0x7fb9102f5808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/006 Systems Manager Inventory and Patching EC2 Instances.mp4"
+Jul 06, 2022 13:01:29.532 [0x7fb9102f5808] DEBUG - Committing media stream changes for part 2330
+Jul 06, 2022 13:01:29.533 [0x7fb9102f5808] DEBUG - Updating media item 2328, size=14076004, metadata_item_id=951
+Jul 06, 2022 13:01:29.533 [0x7fb9102f5808] DEBUG - Updating part with ID=2330 [/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/006 Systems Manager Inventory and Patching EC2 Instances.mp4]
+Jul 06, 2022 13:01:29.533 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=951&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:29.534 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=951&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:29.534 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=951&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:29.534 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=951&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:29.535 [0x7fb9102f5808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.535 [0x7fb9102f5808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.535 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:29.535 [0x7fb9102f5808] DEBUG - Updating metadata item (save) () with ID 951
+Jul 06, 2022 13:01:29.536 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:29.536 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:29.537 [0x7fb9102f5808] DEBUG - Analyzing media parts for item 952 (Episode 7): 2329
+Jul 06, 2022 13:01:29.538 [0x7fb9102f5808] DEBUG - [ID 2331] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/007 Systems Manager Configuration Compliance.mp4
+Jul 06, 2022 13:01:29.538 [0x7fb9102f5808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/007 Systems Manager Configuration Compliance.mp4"
+Jul 06, 2022 13:01:29.538 [0x7fb9102f5808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/007 Systems Manager Configuration Compliance.mp4' for reading
+Jul 06, 2022 13:01:29.538 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.538 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.538 [0x7fb9102f5808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.538 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.539 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 6656010
+Jul 06, 2022 13:01:29.539 [0x7fb9102f5808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.539 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.539 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.540 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 9791523
+Jul 06, 2022 13:01:29.540 [0x7fb9102f5808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 13846996 bytes read:215385 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.540 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.540 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.540 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.540 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.540 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.541 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.545 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.545 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.546 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.547 [0x7fb9102f5808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 19392 bytes read:248153 seeks:2 frames:4
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/007 Systems Manager Configuration Compliance.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 13664339 at offset 40
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found moov atom of size 182617 at offset 13664379
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 143555 at offset 13664495
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 38817 at offset 13808050
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 143419 at offset 13664631
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 143334 at offset 13664716
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 143270 at offset 13664780
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 38681 at offset 13808186
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 38596 at offset 13808271
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 38536 at offset 13808331
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - [MI]  * d3ecf2cb297b1dee297a949fc41255a2d21e4d95 [mp4 h264/aac] Duration: 222030ms, 1280x720 (1.777778) 30.000fps, bitrate=498kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/007 Systems Manager Configuration Compliance.mp4")
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/007 Systems Manager Configuration Compliance.mp4"
+Jul 06, 2022 13:01:29.548 [0x7fb9102f5808] DEBUG - Committing media stream changes for part 2331
+Jul 06, 2022 13:01:29.549 [0x7fb9102f5808] DEBUG - Updating media item 2329, size=13846996, metadata_item_id=952
+Jul 06, 2022 13:01:29.549 [0x7fb9102f5808] DEBUG - Updating part with ID=2331 [/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/007 Systems Manager Configuration Compliance.mp4]
+Jul 06, 2022 13:01:29.549 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=952&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:29.549 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=952&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:29.550 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=952&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:29.550 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=952&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:29.550 [0x7fb9102f5808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.550 [0x7fb9102f5808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.551 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:29.551 [0x7fb9102f5808] DEBUG - Updating metadata item (save) () with ID 952
+Jul 06, 2022 13:01:29.551 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:29.552 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:29.552 [0x7fb9102f5808] DEBUG - Analyzing media parts for item 953 (Episode 8): 2330
+Jul 06, 2022 13:01:29.552 [0x7fb9102f5808] DEBUG - [ID 2332] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/008 Systems Manager Secure Shell.mp4
+Jul 06, 2022 13:01:29.553 [0x7fb9102f5808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/008 Systems Manager Secure Shell.mp4"
+Jul 06, 2022 13:01:29.553 [0x7fb9102f5808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/008 Systems Manager Secure Shell.mp4' for reading
+Jul 06, 2022 13:01:29.553 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.553 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.553 [0x7fb9102f5808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.558 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.560 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 8869020
+Jul 06, 2022 13:01:29.560 [0x7fb9102f5808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.560 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.560 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.561 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 13043722
+Jul 06, 2022 13:01:29.561 [0x7fb9102f5808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 31431442 bytes read:275665 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.561 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.561 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.561 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.561 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.561 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.562 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.565 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.566 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.566 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.568 [0x7fb9102f5808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.568 [0x7fb9102f5808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 39440 bytes read:346863 seeks:2 frames:4
+Jul 06, 2022 13:01:29.568 [0x7fb9102f5808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/008 Systems Manager Secure Shell.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:29.568 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:29.568 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:29.568 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 31188505 at offset 40
+Jul 06, 2022 13:01:29.568 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found moov atom of size 242897 at offset 31188545
+Jul 06, 2022 13:01:29.568 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 191143 at offset 31188661
+Jul 06, 2022 13:01:29.568 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 51521 at offset 31379804
+Jul 06, 2022 13:01:29.568 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 191007 at offset 31188797
+Jul 06, 2022 13:01:29.568 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 190922 at offset 31188882
+Jul 06, 2022 13:01:29.568 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 190858 at offset 31188946
+Jul 06, 2022 13:01:29.568 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 51385 at offset 31379940
+Jul 06, 2022 13:01:29.568 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 51300 at offset 31380025
+Jul 06, 2022 13:01:29.568 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 51240 at offset 31380085
+Jul 06, 2022 13:01:29.568 [0x7fb9102f5808] DEBUG - [MI]  * 5028a1aa370f44e87ff871f5ebd31ac80ea6c6d2 [mp4 h264/aac] Duration: 295776ms, 1280x720 (1.777778) 30.000fps, bitrate=850kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/008 Systems Manager Secure Shell.mp4")
+Jul 06, 2022 13:01:29.568 [0x7fb9102f5808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:29.569 [0x7fb9102f5808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/008 Systems Manager Secure Shell.mp4"
+Jul 06, 2022 13:01:29.569 [0x7fb9102f5808] DEBUG - Committing media stream changes for part 2332
+Jul 06, 2022 13:01:29.569 [0x7fb9102f5808] DEBUG - Updating media item 2330, size=31431442, metadata_item_id=953
+Jul 06, 2022 13:01:29.569 [0x7fb9102f5808] DEBUG - Updating part with ID=2332 [/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/008 Systems Manager Secure Shell.mp4]
+Jul 06, 2022 13:01:29.577 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=953&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:29.578 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=953&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:29.578 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=953&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:29.578 [0x7fb9102f5808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.578 [0x7fb9102f5808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.578 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=953&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:29.579 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:29.579 [0x7fb9102f5808] DEBUG - Updating metadata item (save) () with ID 953
+Jul 06, 2022 13:01:29.581 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:29.581 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:29.582 [0x7fb9102f5808] DEBUG - Analyzing media parts for item 954 (Episode 9): 2331
+Jul 06, 2022 13:01:29.583 [0x7fb9102f5808] DEBUG - [ID 2333] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/009 Systems Manager Parameter Store Overview.mp4
+Jul 06, 2022 13:01:29.583 [0x7fb9102f5808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/009 Systems Manager Parameter Store Overview.mp4"
+Jul 06, 2022 13:01:29.583 [0x7fb9102f5808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/009 Systems Manager Parameter Store Overview.mp4' for reading
+Jul 06, 2022 13:01:29.583 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.583 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.583 [0x7fb9102f5808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.589 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.590 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 9166020
+Jul 06, 2022 13:01:29.591 [0x7fb9102f5808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.591 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.591 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.591 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 13479959
+Jul 06, 2022 13:01:29.591 [0x7fb9102f5808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 11622644 bytes read:283657 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.591 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.591 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.592 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.592 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.592 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.592 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.594 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.595 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.595 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.597 [0x7fb9102f5808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.597 [0x7fb9102f5808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10140 bytes read:316425 seeks:2 frames:4
+Jul 06, 2022 13:01:29.597 [0x7fb9102f5808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/009 Systems Manager Parameter Store Overview.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:29.597 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:29.597 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:29.597 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 11371715 at offset 40
+Jul 06, 2022 13:01:29.597 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found moov atom of size 250889 at offset 11371755
+Jul 06, 2022 13:01:29.597 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 197419 at offset 11371871
+Jul 06, 2022 13:01:29.597 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 53225 at offset 11569290
+Jul 06, 2022 13:01:29.597 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 197283 at offset 11372007
+Jul 06, 2022 13:01:29.597 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 197198 at offset 11372092
+Jul 06, 2022 13:01:29.597 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 197134 at offset 11372156
+Jul 06, 2022 13:01:29.597 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 53089 at offset 11569426
+Jul 06, 2022 13:01:29.597 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 53004 at offset 11569511
+Jul 06, 2022 13:01:29.597 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 52944 at offset 11569571
+Jul 06, 2022 13:01:29.597 [0x7fb9102f5808] DEBUG - [MI]  * 3647bb2fece55e37b8c0ae85a6236015383f684b [mp4 h264/aac] Duration: 305668ms, 1280x720 (1.777778) 30.000fps, bitrate=304kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/009 Systems Manager Parameter Store Overview.mp4")
+Jul 06, 2022 13:01:29.597 [0x7fb9102f5808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:29.598 [0x7fb9102f5808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/009 Systems Manager Parameter Store Overview.mp4"
+Jul 06, 2022 13:01:29.598 [0x7fb9102f5808] DEBUG - Committing media stream changes for part 2333
+Jul 06, 2022 13:01:29.598 [0x7fb9102f5808] DEBUG - Updating media item 2331, size=11622644, metadata_item_id=954
+Jul 06, 2022 13:01:29.598 [0x7fb9102f5808] DEBUG - Updating part with ID=2333 [/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/009 Systems Manager Parameter Store Overview.mp4]
+Jul 06, 2022 13:01:29.599 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=954&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:29.599 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=954&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:29.599 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=954&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:29.600 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=954&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:29.600 [0x7fb9102f5808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.600 [0x7fb9102f5808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.600 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:29.600 [0x7fb9102f5808] DEBUG - Updating metadata item (save) () with ID 954
+Jul 06, 2022 13:01:29.601 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:29.601 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:29.602 [0x7fb9102f5808] DEBUG - Analyzing media parts for item 955 (Episode 10): 2332
+Jul 06, 2022 13:01:29.602 [0x7fb9102f5808] DEBUG - [ID 2334] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/010 Systems Manager Parameter Store with Lambda.mp4
+Jul 06, 2022 13:01:29.602 [0x7fb9102f5808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/010 Systems Manager Parameter Store with Lambda.mp4"
+Jul 06, 2022 13:01:29.602 [0x7fb9102f5808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/010 Systems Manager Parameter Store with Lambda.mp4' for reading
+Jul 06, 2022 13:01:29.602 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.602 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.602 [0x7fb9102f5808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.613 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.615 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 11709000
+Jul 06, 2022 13:01:29.616 [0x7fb9102f5808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.616 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.616 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.616 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 17217566
+Jul 06, 2022 13:01:29.616 [0x7fb9102f5808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 43619742 bytes read:351820 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.617 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.617 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.617 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.617 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.617 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.617 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.621 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.622 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.622 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.624 [0x7fb9102f5808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.624 [0x7fb9102f5808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 39440 bytes read:423018 seeks:2 frames:4
+Jul 06, 2022 13:01:29.624 [0x7fb9102f5808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/010 Systems Manager Parameter Store with Lambda.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:29.624 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:29.624 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:29.624 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 43300650 at offset 40
+Jul 06, 2022 13:01:29.624 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found moov atom of size 319052 at offset 43300690
+Jul 06, 2022 13:01:29.625 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 250975 at offset 43300806
+Jul 06, 2022 13:01:29.625 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 67829 at offset 43551781
+Jul 06, 2022 13:01:29.625 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 250839 at offset 43300942
+Jul 06, 2022 13:01:29.625 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 250754 at offset 43301027
+Jul 06, 2022 13:01:29.625 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 250690 at offset 43301091
+Jul 06, 2022 13:01:29.625 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 67693 at offset 43551917
+Jul 06, 2022 13:01:29.625 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 67608 at offset 43552002
+Jul 06, 2022 13:01:29.625 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 67548 at offset 43552062
+Jul 06, 2022 13:01:29.625 [0x7fb9102f5808] DEBUG - [MI]  * 30147a6ec6d810d1f4338797f55757a17783e73d [mp4 h264/aac] Duration: 390421ms, 1280x720 (1.777778) 30.000fps, bitrate=893kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/010 Systems Manager Parameter Store with Lambda.mp4")
+Jul 06, 2022 13:01:29.625 [0x7fb9102f5808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:29.625 [0x7fb9102f5808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/010 Systems Manager Parameter Store with Lambda.mp4"
+Jul 06, 2022 13:01:29.625 [0x7fb9102f5808] DEBUG - Committing media stream changes for part 2334
+Jul 06, 2022 13:01:29.626 [0x7fb9102f5808] DEBUG - Updating media item 2332, size=43619742, metadata_item_id=955
+Jul 06, 2022 13:01:29.626 [0x7fb9102f5808] DEBUG - Updating part with ID=2334 [/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/010 Systems Manager Parameter Store with Lambda.mp4]
+Jul 06, 2022 13:01:29.626 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=955&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:29.626 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=955&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:29.627 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=955&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:29.627 [0x7fb9102f5808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.627 [0x7fb9102f5808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.627 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=955&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:29.628 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:29.628 [0x7fb9102f5808] DEBUG - Updating metadata item (save) () with ID 955
+Jul 06, 2022 13:01:29.629 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:29.629 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:29.630 [0x7fb9102f5808] DEBUG - Analyzing media parts for item 956 (Episode 11): 2333
+Jul 06, 2022 13:01:29.630 [0x7fb9102f5808] DEBUG - [ID 2335] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/011 [NEW] AWS Secrets Manager.mp4
+Jul 06, 2022 13:01:29.630 [0x7fb9102f5808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/011 [NEW] AWS Secrets Manager.mp4"
+Jul 06, 2022 13:01:29.630 [0x7fb9102f5808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/011 [NEW] AWS Secrets Manager.mp4' for reading
+Jul 06, 2022 13:01:29.630 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.630 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.630 [0x7fb9102f5808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.636 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.637 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 5333010
+Jul 06, 2022 13:01:29.637 [0x7fb9102f5808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.637 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.637 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.637 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 7845919
+Jul 06, 2022 13:01:29.637 [0x7fb9102f5808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6215657 bytes read:179542 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.637 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.637 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.637 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.637 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.637 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.638 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.640 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.641 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.641 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.642 [0x7fb9102f5808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.643 [0x7fb9102f5808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10803 bytes read:212310 seeks:2 frames:4
+Jul 06, 2022 13:01:29.643 [0x7fb9102f5808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/011 [NEW] AWS Secrets Manager.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:29.643 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:29.643 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:29.643 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 6068843 at offset 40
+Jul 06, 2022 13:01:29.643 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found moov atom of size 146774 at offset 6068883
+Jul 06, 2022 13:01:29.643 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 115327 at offset 6068999
+Jul 06, 2022 13:01:29.643 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 31217 at offset 6184326
+Jul 06, 2022 13:01:29.643 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 115191 at offset 6069135
+Jul 06, 2022 13:01:29.643 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 115106 at offset 6069220
+Jul 06, 2022 13:01:29.643 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 115042 at offset 6069284
+Jul 06, 2022 13:01:29.643 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 31081 at offset 6184462
+Jul 06, 2022 13:01:29.643 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 30996 at offset 6184547
+Jul 06, 2022 13:01:29.643 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 30936 at offset 6184607
+Jul 06, 2022 13:01:29.643 [0x7fb9102f5808] DEBUG - [MI]  * 6844abbb5c8c5b6de698c1e55648e2ab4ade3a7f [mp4 h264/aac] Duration: 177912ms, 1280x720 (1.777778) 30.000fps, bitrate=279kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/011 [NEW] AWS Secrets Manager.mp4")
+Jul 06, 2022 13:01:29.643 [0x7fb9102f5808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:29.643 [0x7fb9102f5808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/011 [NEW] AWS Secrets Manager.mp4"
+Jul 06, 2022 13:01:29.644 [0x7fb9102f5808] DEBUG - Committing media stream changes for part 2335
+Jul 06, 2022 13:01:29.644 [0x7fb9102f5808] DEBUG - Updating media item 2333, size=6215657, metadata_item_id=956
+Jul 06, 2022 13:01:29.644 [0x7fb9102f5808] DEBUG - Updating part with ID=2335 [/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/011 [NEW] AWS Secrets Manager.mp4]
+Jul 06, 2022 13:01:29.644 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=956&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:29.645 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=956&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:29.645 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=956&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:29.645 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=956&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:29.645 [0x7fb9102f5808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.645 [0x7fb9102f5808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.646 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:29.646 [0x7fb9102f5808] DEBUG - Updating metadata item (save) () with ID 956
+Jul 06, 2022 13:01:29.647 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:29.647 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:29.648 [0x7fb9102f5808] DEBUG - Analyzing media parts for item 957 (Episode 12): 2334
+Jul 06, 2022 13:01:29.648 [0x7fb9102f5808] DEBUG - [ID 2336] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/012 AWS OpsWorks.mp4
+Jul 06, 2022 13:01:29.648 [0x7fb9102f5808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/012 AWS OpsWorks.mp4"
+Jul 06, 2022 13:01:29.648 [0x7fb9102f5808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/012 AWS OpsWorks.mp4' for reading
+Jul 06, 2022 13:01:29.648 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.648 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.648 [0x7fb9102f5808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.662 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.662 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 2602020
+Jul 06, 2022 13:01:29.662 [0x7fb9102f5808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.662 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.662 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.662 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 3831849
+Jul 06, 2022 13:01:29.662 [0x7fb9102f5808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 3500372 bytes read:105037 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.662 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.662 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.663 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.663 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.663 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.663 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.665 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.666 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.666 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.668 [0x7fb9102f5808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.668 [0x7fb9102f5808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10140 bytes read:137805 seeks:2 frames:4
+Jul 06, 2022 13:01:29.668 [0x7fb9102f5808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/012 AWS OpsWorks.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:29.668 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:29.668 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:29.668 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 3428063 at offset 40
+Jul 06, 2022 13:01:29.668 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found moov atom of size 72269 at offset 3428103
+Jul 06, 2022 13:01:29.668 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 56515 at offset 3428219
+Jul 06, 2022 13:01:29.668 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 15537 at offset 3484734
+Jul 06, 2022 13:01:29.668 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 56379 at offset 3428355
+Jul 06, 2022 13:01:29.668 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 56294 at offset 3428440
+Jul 06, 2022 13:01:29.668 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 56230 at offset 3428504
+Jul 06, 2022 13:01:29.668 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 15401 at offset 3484870
+Jul 06, 2022 13:01:29.668 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 15316 at offset 3484955
+Jul 06, 2022 13:01:29.668 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 15256 at offset 3485015
+Jul 06, 2022 13:01:29.668 [0x7fb9102f5808] DEBUG - [MI]  * 5d04399c0857b732939078c05e972ab1aa6006c3 [mp4 h264/aac] Duration: 86890ms, 1280x720 (1.777778) 30.000fps, bitrate=322kbps, audio channels=2, optimizedForStreaming=1 ("/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/012 AWS OpsWorks.mp4")
+Jul 06, 2022 13:01:29.668 [0x7fb9102f5808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:29.669 [0x7fb9102f5808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/012 AWS OpsWorks.mp4"
+Jul 06, 2022 13:01:29.669 [0x7fb9102f5808] DEBUG - Committing media stream changes for part 2336
+Jul 06, 2022 13:01:29.669 [0x7fb9102f5808] DEBUG - Updating media item 2334, size=3500372, metadata_item_id=957
+Jul 06, 2022 13:01:29.669 [0x7fb9102f5808] DEBUG - Updating part with ID=2336 [/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/012 AWS OpsWorks.mp4]
+Jul 06, 2022 13:01:29.669 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=957&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:29.670 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=957&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:29.670 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=957&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:29.670 [0x7fb9102f5808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.670 [0x7fb9102f5808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.671 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=957&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:29.671 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:29.671 [0x7fb9102f5808] DEBUG - Updating metadata item (save) () with ID 957
+Jul 06, 2022 13:01:29.672 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:29.672 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:29.673 [0x7fb9102f5808] DEBUG - Analyzing media parts for item 958 (Episode 13): 2335
+Jul 06, 2022 13:01:29.673 [0x7fb9102f5808] DEBUG - [ID 2337] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/013 Cleaning Up.mp4
+Jul 06, 2022 13:01:29.673 [0x7fb9102f5808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/013 Cleaning Up.mp4"
+Jul 06, 2022 13:01:29.673 [0x7fb9102f5808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/013 Cleaning Up.mp4' for reading
+Jul 06, 2022 13:01:29.673 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.673 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.673 [0x7fb9102f5808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.673 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.674 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 1421010
+Jul 06, 2022 13:01:29.674 [0x7fb9102f5808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.674 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.674 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.674 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 2095147
+Jul 06, 2022 13:01:29.674 [0x7fb9102f5808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 2196099 bytes read:72872 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.674 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.674 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.674 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.674 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.674 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.675 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.677 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.677 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.678 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.679 [0x7fb9102f5808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.679 [0x7fb9102f5808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10140 bytes read:105640 seeks:2 frames:4
+Jul 06, 2022 13:01:29.679 [0x7fb9102f5808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/013 Cleaning Up.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:29.679 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:29.679 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:29.680 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 2155955 at offset 40
+Jul 06, 2022 13:01:29.680 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found moov atom of size 40104 at offset 2155995
+Jul 06, 2022 13:01:29.680 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 31135 at offset 2156111
+Jul 06, 2022 13:01:29.680 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 8753 at offset 2187246
+Jul 06, 2022 13:01:29.680 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 30999 at offset 2156247
+Jul 06, 2022 13:01:29.680 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 30914 at offset 2156332
+Jul 06, 2022 13:01:29.680 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 30850 at offset 2156396
+Jul 06, 2022 13:01:29.680 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 8617 at offset 2187382
+Jul 06, 2022 13:01:29.680 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 8532 at offset 2187467
+Jul 06, 2022 13:01:29.680 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 8472 at offset 2187527
+Jul 06, 2022 13:01:29.680 [0x7fb9102f5808] DEBUG - [MI]  * df78254196a6e98f5092f85729eefd6fd765b655 [mp4 h264/aac] Duration: 47509ms, 1280x720 (1.777778) 30.000fps, bitrate=369kbps, audio channels=2, optimizedForStreaming=1 ("/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/013 Cleaning Up.mp4")
+Jul 06, 2022 13:01:29.680 [0x7fb9102f5808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:29.680 [0x7fb9102f5808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/013 Cleaning Up.mp4"
+Jul 06, 2022 13:01:29.680 [0x7fb9102f5808] DEBUG - Committing media stream changes for part 2337
+Jul 06, 2022 13:01:29.680 [0x7fb9102f5808] DEBUG - Updating media item 2335, size=2196099, metadata_item_id=958
+Jul 06, 2022 13:01:29.680 [0x7fb9102f5808] DEBUG - Updating part with ID=2337 [/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/013 Cleaning Up.mp4]
+Jul 06, 2022 13:01:29.681 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=958&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:29.681 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=958&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:29.681 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=958&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:29.682 [0x7fb9102f5808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.682 [0x7fb9102f5808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.682 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=958&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:29.682 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:29.682 [0x7fb9102f5808] DEBUG - Updating metadata item (save) () with ID 958
+Jul 06, 2022 13:01:29.683 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:29.683 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:29.684 [0x7fb9102f5808] DEBUG - Analyzing media parts for item 959 (Episode 14): 2336
+Jul 06, 2022 13:01:29.684 [0x7fb9102f5808] DEBUG - [ID 2338] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/014 Exam Scenarios for Systems Manager and OpsWorks.mp4
+Jul 06, 2022 13:01:29.684 [0x7fb9102f5808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/014 Exam Scenarios for Systems Manager and OpsWorks.mp4"
+Jul 06, 2022 13:01:29.684 [0x7fb9102f5808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/014 Exam Scenarios for Systems Manager and OpsWorks.mp4' for reading
+Jul 06, 2022 13:01:29.684 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:29.684 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:29.684 [0x7fb9102f5808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:29.694 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.695 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 5542020
+Jul 06, 2022 13:01:29.695 [0x7fb9102f5808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:29.695 [0x7fb9102f5808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:29.695 [0x7fb9102f5808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:29.696 [0x7fb9102f5808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 8153120
+Jul 06, 2022 13:01:29.696 [0x7fb9102f5808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 9693724 bytes read:185228 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:29.696 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.696 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.696 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:29.696 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:29.696 [0x7fb9102f5808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:29.697 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.699 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.700 [0x7fb9102f5808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:29.701 [0x7fb9102f5808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:29.702 [0x7fb9102f5808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:29.702 [0x7fb9102f5808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 14393 bytes read:217996 seeks:2 frames:4
+Jul 06, 2022 13:01:29.702 [0x7fb9102f5808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/014 Exam Scenarios for Systems Manager and OpsWorks.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:29.702 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:29.702 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:29.702 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 9541224 at offset 40
+Jul 06, 2022 13:01:29.702 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found moov atom of size 152460 at offset 9541264
+Jul 06, 2022 13:01:29.702 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 119791 at offset 9541380
+Jul 06, 2022 13:01:29.702 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found trak atom of size 32417 at offset 9661171
+Jul 06, 2022 13:01:29.702 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 119655 at offset 9541516
+Jul 06, 2022 13:01:29.702 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 119570 at offset 9541601
+Jul 06, 2022 13:01:29.702 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 119506 at offset 9541665
+Jul 06, 2022 13:01:29.702 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found mdia atom of size 32281 at offset 9661307
+Jul 06, 2022 13:01:29.702 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found minf atom of size 32196 at offset 9661392
+Jul 06, 2022 13:01:29.702 [0x7fb9102f5808] DEBUG - Mp4AtomParser: Found stbl atom of size 32136 at offset 9661452
+Jul 06, 2022 13:01:29.702 [0x7fb9102f5808] DEBUG - [MI]  * 29b92ce1ce17fbdcb65d86b41838d3953f85b813 [mp4 h264/aac] Duration: 184878ms, 1280x720 (1.777778) 30.000fps, bitrate=419kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/014 Exam Scenarios for Systems Manager and OpsWorks.mp4")
+Jul 06, 2022 13:01:29.703 [0x7fb9102f5808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:29.703 [0x7fb9102f5808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/014 Exam Scenarios for Systems Manager and OpsWorks.mp4"
+Jul 06, 2022 13:01:29.703 [0x7fb9102f5808] DEBUG - Committing media stream changes for part 2338
+Jul 06, 2022 13:01:29.703 [0x7fb9102f5808] DEBUG - Updating media item 2336, size=9693724, metadata_item_id=959
+Jul 06, 2022 13:01:29.703 [0x7fb9102f5808] DEBUG - Updating part with ID=2338 [/tv/aws-certified-sysops-administrator-associate-training-2022/06 - Operations AWS Systems Manager and OpsWorks/014 Exam Scenarios for Systems Manager and OpsWorks.mp4]
+Jul 06, 2022 13:01:29.704 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=959&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:29.704 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=959&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:29.704 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=959&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:29.705 [0x7fb9102f5808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.705 [0x7fb9102f5808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:29.705 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=959&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:29.705 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:29.705 [0x7fb9102f5808] DEBUG - Updating metadata item (save) () with ID 959
+Jul 06, 2022 13:01:29.706 [0x7fb90c3e7b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:29.706 [0x7fb90c367b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)

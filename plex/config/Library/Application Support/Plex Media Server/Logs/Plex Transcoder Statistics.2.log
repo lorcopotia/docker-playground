@@ -1,0 +1,285 @@
+<SessionReport version="2" startTime="0" startTimestamp="Jul 06, 2022 13:44:05.842" key="/library/metadata/936" session="d6888c9b772cce83-com-plexapp-android" transcode="d6888c9b772cce83-com-plexapp-android">
+<User id="1" thumb="https://plex.tv/users/6b286c33d909cfe9/avatar?c=1589448257" title="lorcopotia" />
+<Player address="127.0.0.1" device="MiTV-MSSP3" machineIdentifier="d6888c9b772cce83-com-plexapp-android" platform="Android" platformVersion="9" product="Plex for Android (TV)" remotePublicAddress="127.0.0.1" version="9.4.1.33413" local="0" relayed="1" secure="1" userID="1" />
+<Variants>
+<Variant id="7d612385-e409-4a8d-879f-7d84ae47cd50" targetBitrate="995" context="streaming" sourceVideoCodec="h264" sourceAudioCodec="aac" videoDecision="transcode" audioDecision="transcode" protocol="hls" container="mkv" videoCodec="h264" audioCodec="opus" audioChannels="2" transcodeHwRequested="0" transcodeHwFullPipeline="0">
+<Media audioProfile="he-aac" id="2315" videoProfile="main" audioChannels="2" audioCodec="opus" bitrate="947" container="mkv" duration="200482" height="270" protocol="hls" videoCodec="h264" videoFrameRate="NTSC" videoResolution="SD" width="480" selected="1">
+<Part audioProfile="he-aac" id="2317" videoProfile="main" bitrate="947" container="mkv" duration="200482" height="270" protocol="hls" width="480" decision="transcode" selected="1">
+<Stream bitrate="782" codec="h264" default="1" displayTitle="720p (H.264)" extendedDisplayTitle="720p (H.264)" frameRate="30" height="270" id="4804" streamType="1" width="480" decision="transcode" location="segments-av" />
+<Stream bitrate="165" bitrateMode="cbr" channels="2" codec="opus" default="1" displayTitle="Unknown (HE-AAC Stereo)" extendedDisplayTitle="Unknown (HE-AAC Stereo)" id="4805" selected="1" streamType="2" decision="transcode" location="segments-av" />
+</Part>
+</Media>
+</Variant>
+</Variants>
+<SegmentList>
+<Segment duration="8000" startOffset="0" endOffset="8000">
+<File name="media-00000.ts" type="av">
+<FileVariant size="276706" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="97" endTime="2550" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="2671" endTime="2671" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="8000" endOffset="16000">
+<File name="media-00001.ts" type="av">
+<FileVariant size="183130" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="2550" endTime="2800" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="3436" endTime="3437" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="16000" endOffset="24000">
+<File name="media-00002.ts" type="av">
+<FileVariant size="183098" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="2800" endTime="3048" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="3751" endTime="3752" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="24000" endOffset="32000">
+<File name="media-00003.ts" type="av">
+<FileVariant size="187421" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="3048" endTime="3283" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="3924" endTime="3925" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="32000" endOffset="40000">
+<File name="media-00004.ts" type="av">
+<FileVariant size="171054" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="3283" endTime="3526" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="4099" endTime="4099" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="40000" endOffset="48000">
+<File name="media-00005.ts" type="av">
+<FileVariant size="180831" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="3526" endTime="3771" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="4277" endTime="4278" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="48000" endOffset="56000">
+<File name="media-00006.ts" type="av">
+<FileVariant size="180625" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="3771" endTime="4017" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="4682" endTime="4683" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="56000" endOffset="64000">
+<File name="media-00007.ts" type="av">
+<FileVariant size="180682" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="4017" endTime="4271" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="4851" endTime="4852" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="64000" endOffset="72000">
+<File name="media-00008.ts" type="av">
+<FileVariant size="176363" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="4271" endTime="4524" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="5050" endTime="5051" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="72000" endOffset="80000">
+<File name="media-00009.ts" type="av">
+<FileVariant size="187174" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="4524" endTime="4784" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="5253" endTime="5254" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="80000" endOffset="88000">
+<File name="media-00010.ts" type="av">
+<FileVariant size="180405" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="4784" endTime="5049" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="5460" endTime="5461" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="88000" endOffset="96000">
+<File name="media-00011.ts" type="av">
+<FileVariant size="178872" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="5049" endTime="5295" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="5639" endTime="5640" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="96000" endOffset="104000">
+<File name="media-00012.ts" type="av">
+<FileVariant size="184376" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="5295" endTime="5545" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="5834" endTime="5834" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="104000" endOffset="112000">
+<File name="media-00013.ts" type="av">
+<FileVariant size="187960" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="5545" endTime="5808" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="6061" endTime="6062" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="112000" endOffset="120000">
+<File name="media-00014.ts" type="av">
+<FileVariant size="186416" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="5808" endTime="6062" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="6250" endTime="6250" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="120000" endOffset="128000">
+<File name="media-00015.ts" type="av">
+<FileVariant size="186532" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="6062" endTime="6315" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="6433" endTime="6433" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="128000" endOffset="136000">
+<File name="media-00016.ts" type="av">
+<FileVariant size="212583" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="6315" endTime="6579" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="6607" endTime="6608" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="136000" endOffset="144000">
+<File name="media-00017.ts" type="av">
+<FileVariant size="196710" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Download startTime="6779" endTime="6980" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50">
+<Pause type="segmentWait" startTime="6779" endTime="6979" />
+</Download>
+<Transcode startTime="6579" endTime="6883" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="144000" endOffset="152000">
+<File name="media-00018.ts" type="av">
+<FileVariant size="268640" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Download startTime="7177" endTime="7278" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50">
+<Pause type="segmentWait" startTime="7177" endTime="7277" />
+</Download>
+<Transcode startTime="6883" endTime="7179" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="152000" endOffset="160000">
+<File name="media-00019.ts" type="av">
+<FileVariant size="804545" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="7179" endTime="7449" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="7483" endTime="7485" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="160000" endOffset="168000">
+<File name="media-00020.ts" type="av">
+<FileVariant size="677212" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Download startTime="7707" endTime="7809" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50">
+<Pause type="segmentWait" startTime="7707" endTime="7807" />
+</Download>
+<Transcode startTime="7449" endTime="7713" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="168000" endOffset="176000">
+<File name="media-00021.ts" type="av">
+<FileVariant size="182469" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="7713" endTime="7982" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="8029" endTime="8029" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="176000" endOffset="184000">
+<File name="media-00022.ts" type="av">
+<FileVariant size="182099" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Download startTime="8216" endTime="8317" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50">
+<Pause type="segmentWait" startTime="8216" endTime="8316" />
+</Download>
+<Transcode startTime="7982" endTime="8237" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="184000" endOffset="192000">
+<File name="media-00023.ts" type="av">
+<FileVariant size="301441" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Download startTime="8499" endTime="8600" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50">
+<Pause type="segmentWait" startTime="8499" endTime="8599" />
+</Download>
+<Transcode startTime="8237" endTime="8499" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="8000" startOffset="192000" endOffset="200000">
+<File name="media-00024.ts" type="av">
+<FileVariant size="179233" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="8499" endTime="8743" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="8812" endTime="8813" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+<Segment duration="332" startOffset="200000" endOffset="200333">
+<File name="media-00025.ts" type="av">
+<FileVariant size="21445" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</File>
+<Timelines>
+<Transcode startTime="8743" endTime="8745" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+<Download startTime="9044" endTime="9044" complete="1" fileType="av" variant="7d612385-e409-4a8d-879f-7d84ae47cd50" />
+</Timelines>
+</Segment>
+</SegmentList>
+<PlaybackReports>
+<Playback startTime="9223" endTime="19261" state="playing" progress="5828" />
+<Playback startTime="19261" endTime="29300" state="playing" progress="16036" />
+<Playback startTime="29300" endTime="39340" state="playing" progress="26047" />
+<Playback startTime="39340" endTime="49382" state="playing" progress="36060" />
+<Playback startTime="49382" endTime="59481" state="playing" progress="46099" />
+<Playback startTime="59481" endTime="69465" state="playing" progress="56113" />
+<Playback startTime="69465" endTime="79506" state="playing" progress="66136" />
+<Playback startTime="79506" endTime="89550" state="playing" progress="76150" />
+<Playback startTime="89550" endTime="99588" state="playing" progress="86180" />
+<Playback startTime="99588" endTime="109633" state="playing" progress="96199" />
+<Playback startTime="109633" endTime="119674" state="playing" progress="106228" />
+<Playback startTime="119674" endTime="129713" state="playing" progress="116432" />
+<Playback startTime="129713" endTime="139755" state="playing" progress="126469" />
+<Playback startTime="139755" endTime="149795" state="playing" progress="136487" />
+<Playback startTime="149795" endTime="159835" state="playing" progress="146512" />
+<Playback startTime="159835" endTime="169874" state="playing" progress="156536" />
+<Playback startTime="169874" endTime="179913" state="playing" progress="166561" />
+<Playback startTime="179913" endTime="189954" state="playing" progress="176575" />
+<Playback startTime="189954" endTime="199994" state="playing" progress="186604" />
+<Playback startTime="199994" endTime="204215" state="playing" progress="196627" />
+<Playback startTime="204215" endTime="204215" state="stopped" progress="200839" />
+</PlaybackReports>
+<StateReports />
+<StateReports />
+</SessionReport>

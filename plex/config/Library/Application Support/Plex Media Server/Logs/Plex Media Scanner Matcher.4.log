@@ -1,0 +1,156 @@
+Jul 06, 2022 13:01:22.628 [0x7f94b0e52b38] INFO - Plex Media Scanner v1.26.2.5797-5bd057d2b - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
+Jul 06, 2022 13:01:22.628 [0x7f94b0e52b38] INFO - Linux version: 5.15.49-1-MANJARO, language: en-US
+Jul 06, 2022 13:01:22.628 [0x7f94b0e52b38] INFO - Processor: 12-core AMD Ryzen 5 3600 6-Core Processor              
+Jul 06, 2022 13:01:22.628 [0x7f94b0e52b38] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 931
+Jul 06, 2022 13:01:22.629 [0x7f94b3e67808] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+Jul 06, 2022 13:01:22.694 [0x7f94b3e67808] DEBUG - Matcher: found 7 auxiliary files for Season 1
+Jul 06, 2022 13:01:22.695 [0x7f94b3e67808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/001 Welcome and How to Get Started.mp4"
+Jul 06, 2022 13:01:22.695 [0x7f94b3e67808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/001 Welcome and How to Get Started.mp4' for reading
+Jul 06, 2022 13:01:22.695 [0x7f94b3e67808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:22.695 [0x7f94b3e67808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:22.695 [0x7f94b3e67808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:22.695 [0x7f94b3e67808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:22.696 [0x7f94b3e67808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 1024, duration: 2075658
+Jul 06, 2022 13:01:22.696 [0x7f94b3e67808] DEBUG - [FFMPEG] - Offset DTS by 1024 to make first pts zero.
+Jul 06, 2022 13:01:22.696 [0x7f94b3e67808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:22.696 [0x7f94b3e67808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:22.696 [0x7f94b3e67808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 2048, duration: 5959674
+Jul 06, 2022 13:01:22.696 [0x7f94b3e67808] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+Jul 06, 2022 13:01:22.696 [0x7f94b3e67808] DEBUG - [FFMPEG] - drop a frame at curr_cts: 1024 @ 1
+Jul 06, 2022 13:01:22.696 [0x7f94b3e67808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 147551 bytes read:163840 seeks:0 nb_streams:2
+Jul 06, 2022 13:01:22.696 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.696 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.697 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:22.697 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.697 [0x7f94b3e67808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:22.697 [0x7f94b3e67808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:22.715 [0x7f94b3e67808] DEBUG - [FFMPEG] - demuxer injecting skip 2048 / discard 0
+Jul 06, 2022 13:01:22.715 [0x7f94b3e67808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:22.716 [0x7f94b3e67808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 384440 bytes read:416837 seeks:0 frames:2
+Jul 06, 2022 13:01:22.716 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.716 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.716 [0x7f94b3e67808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/001 Welcome and How to Get Started.mp4"
+Jul 06, 2022 13:01:22.716 [0x7f94b3e67808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/001 Welcome and How to Get Started_en.srt"
+Jul 06, 2022 13:01:22.716 [0x7f94b3e67808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/001 Welcome and How to Get Started_en.srt' for reading
+Jul 06, 2022 13:01:22.716 [0x7f94b3e67808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:22.733 [0x7f94b3e67808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Jul 06, 2022 13:01:22.737 [0x7f94b3e67808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/002 [NEW] SOA-C02 Exam Guide.mp4"
+Jul 06, 2022 13:01:22.737 [0x7f94b3e67808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/002 [NEW] SOA-C02 Exam Guide.mp4' for reading
+Jul 06, 2022 13:01:22.737 [0x7f94b3e67808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:22.737 [0x7f94b3e67808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:22.737 [0x7f94b3e67808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:22.737 [0x7f94b3e67808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:22.738 [0x7f94b3e67808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 12189000
+Jul 06, 2022 13:01:22.739 [0x7f94b3e67808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:22.739 [0x7f94b3e67808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:22.739 [0x7f94b3e67808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:22.739 [0x7f94b3e67808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 17924136
+Jul 06, 2022 13:01:22.739 [0x7f94b3e67808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 20531220 bytes read:365649 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:22.739 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.739 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.739 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:22.739 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.739 [0x7f94b3e67808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:22.740 [0x7f94b3e67808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:22.743 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:22.743 [0x7f94b3e67808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:22.744 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:22.745 [0x7f94b3e67808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:22.746 [0x7f94b3e67808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 15799 bytes read:398417 seeks:2 frames:4
+Jul 06, 2022 13:01:22.746 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.746 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.746 [0x7f94b3e67808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/002 [NEW] SOA-C02 Exam Guide.mp4"
+Jul 06, 2022 13:01:22.746 [0x7f94b3e67808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/002 [NEW] SOA-C02 Exam Guide_en.srt"
+Jul 06, 2022 13:01:22.746 [0x7f94b3e67808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/002 [NEW] SOA-C02 Exam Guide_en.srt' for reading
+Jul 06, 2022 13:01:22.746 [0x7f94b3e67808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:22.747 [0x7f94b3e67808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Jul 06, 2022 13:01:22.747 [0x7f94b3e67808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/003 Help and Support.mp4"
+Jul 06, 2022 13:01:22.747 [0x7f94b3e67808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/003 Help and Support.mp4' for reading
+Jul 06, 2022 13:01:22.747 [0x7f94b3e67808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:22.748 [0x7f94b3e67808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:22.748 [0x7f94b3e67808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:22.748 [0x7f94b3e67808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:22.748 [0x7f94b3e67808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 4746000
+Jul 06, 2022 13:01:22.748 [0x7f94b3e67808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:22.748 [0x7f94b3e67808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:22.748 [0x7f94b3e67808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:22.749 [0x7f94b3e67808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 6983720
+Jul 06, 2022 13:01:22.749 [0x7f94b3e67808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 12012423 bytes read:163509 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:22.749 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.749 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.749 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:22.749 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.749 [0x7f94b3e67808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:22.750 [0x7f94b3e67808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:22.754 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:22.755 [0x7f94b3e67808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:22.756 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:22.757 [0x7f94b3e67808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:22.758 [0x7f94b3e67808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 34875 bytes read:229208 seeks:2 frames:4
+Jul 06, 2022 13:01:22.758 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.758 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.758 [0x7f94b3e67808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/003 Help and Support.mp4"
+Jul 06, 2022 13:01:22.758 [0x7f94b3e67808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/003 Help and Support_en.srt"
+Jul 06, 2022 13:01:22.758 [0x7f94b3e67808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/003 Help and Support_en.srt' for reading
+Jul 06, 2022 13:01:22.758 [0x7f94b3e67808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:22.762 [0x7f94b3e67808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Jul 06, 2022 13:01:22.763 [0x7f94b3e67808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/004 Meet your Instructor.mp4"
+Jul 06, 2022 13:01:22.763 [0x7f94b3e67808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/004 Meet your Instructor.mp4' for reading
+Jul 06, 2022 13:01:22.763 [0x7f94b3e67808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:22.763 [0x7f94b3e67808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:22.763 [0x7f94b3e67808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:22.763 [0x7f94b3e67808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:22.764 [0x7f94b3e67808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 3885000
+Jul 06, 2022 13:01:22.764 [0x7f94b3e67808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:22.764 [0x7f94b3e67808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:22.764 [0x7f94b3e67808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:22.764 [0x7f94b3e67808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 5718050
+Jul 06, 2022 13:01:22.764 [0x7f94b3e67808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 9695814 bytes read:140113 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:22.764 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.764 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.765 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:22.765 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.765 [0x7f94b3e67808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:22.765 [0x7f94b3e67808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:22.770 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:22.770 [0x7f94b3e67808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:22.771 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:22.773 [0x7f94b3e67808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:22.773 [0x7f94b3e67808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 37433 bytes read:207632 seeks:2 frames:4
+Jul 06, 2022 13:01:22.773 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.773 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.773 [0x7f94b3e67808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/004 Meet your Instructor.mp4"
+Jul 06, 2022 13:01:22.773 [0x7f94b3e67808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/004 Meet your Instructor_en.srt"
+Jul 06, 2022 13:01:22.773 [0x7f94b3e67808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/004 Meet your Instructor_en.srt' for reading
+Jul 06, 2022 13:01:22.773 [0x7f94b3e67808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:22.781 [0x7f94b3e67808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100
+Jul 06, 2022 13:01:22.782 [0x7f94b3e67808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/005 Hands-On Practice Free Tier vs Sandbox.mp4"
+Jul 06, 2022 13:01:22.782 [0x7f94b3e67808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/005 Hands-On Practice Free Tier vs Sandbox.mp4' for reading
+Jul 06, 2022 13:01:22.782 [0x7f94b3e67808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:22.782 [0x7f94b3e67808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:22.782 [0x7f94b3e67808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:22.782 [0x7f94b3e67808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:22.783 [0x7f94b3e67808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 6010020
+Jul 06, 2022 13:01:22.783 [0x7f94b3e67808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:22.783 [0x7f94b3e67808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:22.783 [0x7f94b3e67808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:22.783 [0x7f94b3e67808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 8841256
+Jul 06, 2022 13:01:22.783 [0x7f94b3e67808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 18780972 bytes read:196219 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:22.783 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.783 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.783 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:22.783 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.783 [0x7f94b3e67808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:22.784 [0x7f94b3e67808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:22.788 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:22.789 [0x7f94b3e67808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:22.789 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:22.791 [0x7f94b3e67808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:22.791 [0x7f94b3e67808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 42929 bytes read:270680 seeks:2 frames:4
+Jul 06, 2022 13:01:22.791 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.791 [0x7f94b3e67808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:22.791 [0x7f94b3e67808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/005 Hands-On Practice Free Tier vs Sandbox.mp4"
+Jul 06, 2022 13:01:22.791 [0x7f94b3e67808] DEBUG - Scanner: found local sidecar subtitle "/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/005 Hands-On Practice Free Tier vs Sandbox_en.srt"
+Jul 06, 2022 13:01:22.791 [0x7f94b3e67808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/01 - Welcome and Course Download/005 Hands-On Practice Free Tier vs Sandbox_en.srt' for reading
+Jul 06, 2022 13:01:22.792 [0x7f94b3e67808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:22.792 [0x7f94b3e67808] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100

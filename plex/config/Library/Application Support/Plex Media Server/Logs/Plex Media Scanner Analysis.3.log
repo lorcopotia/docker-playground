@@ -1,0 +1,923 @@
+Jul 06, 2022 13:01:30.257 [0x7fb5fbb2eb38] INFO - Plex Media Scanner v1.26.2.5797-5bd057d2b - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
+Jul 06, 2022 13:01:30.258 [0x7fb5fbb2eb38] INFO - Linux version: 5.15.49-1-MANJARO, language: en-US
+Jul 06, 2022 13:01:30.258 [0x7fb5fbb2eb38] INFO - Processor: 12-core AMD Ryzen 5 3600 6-Core Processor              
+Jul 06, 2022 13:01:30.258 [0x7fb5fbb2eb38] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 961,962,963,964,965,966,967,968,969,970,971,972,973,974,975,976,977
+Jul 06, 2022 13:01:30.258 [0x7fb5feb43808] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+Jul 06, 2022 13:01:30.316 [0x7fb5feb43808] DEBUG - Analyzing media parts for item 961 (Episode 1): 2337
+Jul 06, 2022 13:01:30.327 [0x7fb5feb43808] DEBUG - [ID 2339] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/001 Introduction.mp4
+Jul 06, 2022 13:01:30.327 [0x7fb5feb43808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/001 Introduction.mp4"
+Jul 06, 2022 13:01:30.327 [0x7fb5feb43808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/001 Introduction.mp4' for reading
+Jul 06, 2022 13:01:30.327 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.328 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.328 [0x7fb5feb43808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.328 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.328 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 1587000
+Jul 06, 2022 13:01:30.328 [0x7fb5feb43808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.328 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.328 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.328 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 2338844
+Jul 06, 2022 13:01:30.328 [0x7fb5feb43808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 4254165 bytes read:77337 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.329 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.329 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.329 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.329 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.329 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.329 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.334 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.335 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.336 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.337 [0x7fb5feb43808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.337 [0x7fb5feb43808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 46260 bytes read:154612 seeks:2 frames:4
+Jul 06, 2022 13:01:30.337 [0x7fb5feb43808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/001 Introduction.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:30.337 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:30.337 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:30.337 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 4209556 at offset 40
+Jul 06, 2022 13:01:30.337 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found moov atom of size 44569 at offset 4209596
+Jul 06, 2022 13:01:30.337 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 34647 at offset 4209712
+Jul 06, 2022 13:01:30.337 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 9705 at offset 4244359
+Jul 06, 2022 13:01:30.337 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 34511 at offset 4209848
+Jul 06, 2022 13:01:30.337 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 34426 at offset 4209933
+Jul 06, 2022 13:01:30.337 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 34362 at offset 4209997
+Jul 06, 2022 13:01:30.337 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 9569 at offset 4244495
+Jul 06, 2022 13:01:30.337 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 9484 at offset 4244580
+Jul 06, 2022 13:01:30.337 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 9424 at offset 4244640
+Jul 06, 2022 13:01:30.338 [0x7fb5feb43808] DEBUG - [MI]  * 693db5e47c7220fddd03d37ddc48232467b31b29 [mp4 h264/aac] Duration: 53035ms, 1280x720 (1.777778) 30.000fps, bitrate=641kbps, audio channels=2, optimizedForStreaming=1 ("/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/001 Introduction.mp4")
+Jul 06, 2022 13:01:30.338 [0x7fb5feb43808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:30.338 [0x7fb5feb43808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/001 Introduction.mp4"
+Jul 06, 2022 13:01:30.338 [0x7fb5feb43808] DEBUG - Committing media stream changes for part 2339
+Jul 06, 2022 13:01:30.338 [0x7fb5feb43808] DEBUG - Updating media item 2337, size=4254165, metadata_item_id=961
+Jul 06, 2022 13:01:30.338 [0x7fb5feb43808] DEBUG - Updating part with ID=2339 [/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/001 Introduction.mp4]
+Jul 06, 2022 13:01:30.339 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=961&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.339 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=961&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.340 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=961&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:30.340 [0x7fb5feb43808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.340 [0x7fb5feb43808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.340 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=961&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:30.341 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.341 [0x7fb5feb43808] DEBUG - Updating metadata item (save) () with ID 961
+Jul 06, 2022 13:01:30.342 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:30.342 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:30.343 [0x7fb5feb43808] DEBUG - Analyzing media parts for item 962 (Episode 2): 2338
+Jul 06, 2022 13:01:30.343 [0x7fb5feb43808] DEBUG - [ID 2340] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/002 Amazon VPC Refresher.mp4
+Jul 06, 2022 13:01:30.343 [0x7fb5feb43808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/002 Amazon VPC Refresher.mp4"
+Jul 06, 2022 13:01:30.343 [0x7fb5feb43808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/002 Amazon VPC Refresher.mp4' for reading
+Jul 06, 2022 13:01:30.343 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.344 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.344 [0x7fb5feb43808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.344 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.344 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 7489020
+Jul 06, 2022 13:01:30.345 [0x7fb5feb43808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.345 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.345 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.345 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 11014151
+Jul 06, 2022 13:01:30.345 [0x7fb5feb43808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 11590369 bytes read:238049 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.345 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.345 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.346 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.346 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.346 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.346 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.349 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.349 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.350 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.351 [0x7fb5feb43808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.351 [0x7fb5feb43808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10140 bytes read:270817 seeks:2 frames:4
+Jul 06, 2022 13:01:30.352 [0x7fb5feb43808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/002 Amazon VPC Refresher.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:30.352 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:30.352 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:30.352 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 11385048 at offset 40
+Jul 06, 2022 13:01:30.352 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found moov atom of size 205281 at offset 11385088
+Jul 06, 2022 13:01:30.352 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 161459 at offset 11385204
+Jul 06, 2022 13:01:30.352 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 43597 at offset 11546663
+Jul 06, 2022 13:01:30.352 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 161323 at offset 11385340
+Jul 06, 2022 13:01:30.352 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 161238 at offset 11385425
+Jul 06, 2022 13:01:30.352 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 161174 at offset 11385489
+Jul 06, 2022 13:01:30.352 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 43461 at offset 11546799
+Jul 06, 2022 13:01:30.352 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 43376 at offset 11546884
+Jul 06, 2022 13:01:30.352 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 43316 at offset 11546944
+Jul 06, 2022 13:01:30.352 [0x7fb5feb43808] DEBUG - [MI]  * eb04962a80f83809ae8c66f1ed6cc1385634d1a1 [mp4 h264/aac] Duration: 249754ms, 1280x720 (1.777778) 30.000fps, bitrate=371kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/002 Amazon VPC Refresher.mp4")
+Jul 06, 2022 13:01:30.352 [0x7fb5feb43808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:30.352 [0x7fb5feb43808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/002 Amazon VPC Refresher.mp4"
+Jul 06, 2022 13:01:30.352 [0x7fb5feb43808] DEBUG - Committing media stream changes for part 2340
+Jul 06, 2022 13:01:30.353 [0x7fb5feb43808] DEBUG - Updating media item 2338, size=11590369, metadata_item_id=962
+Jul 06, 2022 13:01:30.353 [0x7fb5feb43808] DEBUG - Updating part with ID=2340 [/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/002 Amazon VPC Refresher.mp4]
+Jul 06, 2022 13:01:30.353 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=962&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.354 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=962&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:30.354 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=962&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:30.354 [0x7fb5feb43808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.354 [0x7fb5feb43808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.354 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=962&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:30.355 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:30.355 [0x7fb5feb43808] DEBUG - Updating metadata item (save) () with ID 962
+Jul 06, 2022 13:01:30.355 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:30.356 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:30.356 [0x7fb5feb43808] DEBUG - Analyzing media parts for item 963 (Episode 3): 2339
+Jul 06, 2022 13:01:30.357 [0x7fb5feb43808] DEBUG - [ID 2341] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/003 [NEW] Availability Zone IDs.mp4
+Jul 06, 2022 13:01:30.357 [0x7fb5feb43808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/003 [NEW] Availability Zone IDs.mp4"
+Jul 06, 2022 13:01:30.357 [0x7fb5feb43808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/003 [NEW] Availability Zone IDs.mp4' for reading
+Jul 06, 2022 13:01:30.357 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.357 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.357 [0x7fb5feb43808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.357 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.358 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 4230000
+Jul 06, 2022 13:01:30.358 [0x7fb5feb43808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.358 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.358 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.358 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 6223877
+Jul 06, 2022 13:01:30.358 [0x7fb5feb43808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 7906535 bytes read:149120 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.358 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.358 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.358 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.358 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.358 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.359 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.362 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.362 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.363 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.364 [0x7fb5feb43808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 21467 bytes read:181888 seeks:2 frames:4
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/003 [NEW] Availability Zone IDs.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 7790143 at offset 40
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found moov atom of size 116352 at offset 7790183
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 91235 at offset 7790299
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 24885 at offset 7881534
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 91099 at offset 7790435
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 91014 at offset 7790520
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 90950 at offset 7790584
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 24749 at offset 7881670
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 24664 at offset 7881755
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 24604 at offset 7881815
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - [MI]  * a59b303f43585de7834fb4d1547caf25c00d924a [mp4 h264/aac] Duration: 141131ms, 1280x720 (1.777778) 30.000fps, bitrate=448kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/003 [NEW] Availability Zone IDs.mp4")
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/003 [NEW] Availability Zone IDs.mp4"
+Jul 06, 2022 13:01:30.365 [0x7fb5feb43808] DEBUG - Committing media stream changes for part 2341
+Jul 06, 2022 13:01:30.366 [0x7fb5feb43808] DEBUG - Updating media item 2339, size=7906535, metadata_item_id=963
+Jul 06, 2022 13:01:30.366 [0x7fb5feb43808] DEBUG - Updating part with ID=2341 [/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/003 [NEW] Availability Zone IDs.mp4]
+Jul 06, 2022 13:01:30.366 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=963&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.366 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=963&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:30.367 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=963&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:30.367 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=963&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:30.367 [0x7fb5feb43808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.367 [0x7fb5feb43808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.368 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:30.368 [0x7fb5feb43808] DEBUG - Updating metadata item (save) () with ID 963
+Jul 06, 2022 13:01:30.369 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:30.369 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:30.370 [0x7fb5feb43808] DEBUG - Analyzing media parts for item 964 (Episode 4): 2340
+Jul 06, 2022 13:01:30.370 [0x7fb5feb43808] DEBUG - [ID 2342] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/004 CIDR Blocks and IP Subnets.mp4
+Jul 06, 2022 13:01:30.370 [0x7fb5feb43808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/004 CIDR Blocks and IP Subnets.mp4"
+Jul 06, 2022 13:01:30.370 [0x7fb5feb43808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/004 CIDR Blocks and IP Subnets.mp4' for reading
+Jul 06, 2022 13:01:30.370 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.371 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.371 [0x7fb5feb43808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.371 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.372 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 9126000
+Jul 06, 2022 13:01:30.372 [0x7fb5feb43808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.372 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.372 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.373 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 13420556
+Jul 06, 2022 13:01:30.373 [0x7fb5feb43808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 37387635 bytes read:282187 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.373 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.373 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.373 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.373 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.373 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.374 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.380 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.381 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.382 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.383 [0x7fb5feb43808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.384 [0x7fb5feb43808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 60406 bytes read:374518 seeks:2 frames:4
+Jul 06, 2022 13:01:30.384 [0x7fb5feb43808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/004 CIDR Blocks and IP Subnets.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:30.384 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:30.384 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:30.384 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 37138176 at offset 40
+Jul 06, 2022 13:01:30.384 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found moov atom of size 249419 at offset 37138216
+Jul 06, 2022 13:01:30.384 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 196191 at offset 37138332
+Jul 06, 2022 13:01:30.384 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 52997 at offset 37334523
+Jul 06, 2022 13:01:30.384 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 196055 at offset 37138468
+Jul 06, 2022 13:01:30.384 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 195970 at offset 37138553
+Jul 06, 2022 13:01:30.384 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 195906 at offset 37138617
+Jul 06, 2022 13:01:30.384 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 52861 at offset 37334659
+Jul 06, 2022 13:01:30.384 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 52776 at offset 37334744
+Jul 06, 2022 13:01:30.384 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 52716 at offset 37334804
+Jul 06, 2022 13:01:30.384 [0x7fb5feb43808] DEBUG - [MI]  * 01282ccc0270b98f1a5c8590c14b943259ae2fd0 [mp4 h264/aac] Duration: 304321ms, 1280x720 (1.777778) 30.000fps, bitrate=982kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/004 CIDR Blocks and IP Subnets.mp4")
+Jul 06, 2022 13:01:30.384 [0x7fb5feb43808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:30.384 [0x7fb5feb43808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/004 CIDR Blocks and IP Subnets.mp4"
+Jul 06, 2022 13:01:30.385 [0x7fb5feb43808] DEBUG - Committing media stream changes for part 2342
+Jul 06, 2022 13:01:30.385 [0x7fb5feb43808] DEBUG - Updating media item 2340, size=37387635, metadata_item_id=964
+Jul 06, 2022 13:01:30.385 [0x7fb5feb43808] DEBUG - Updating part with ID=2342 [/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/004 CIDR Blocks and IP Subnets.mp4]
+Jul 06, 2022 13:01:30.385 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=964&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.386 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=964&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:30.386 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=964&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:30.386 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=964&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:30.387 [0x7fb5feb43808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.387 [0x7fb5feb43808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.387 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:30.387 [0x7fb5feb43808] DEBUG - Updating metadata item (save) () with ID 964
+Jul 06, 2022 13:01:30.388 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:30.388 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:30.389 [0x7fb5feb43808] DEBUG - Analyzing media parts for item 965 (Episode 5): 2341
+Jul 06, 2022 13:01:30.390 [0x7fb5feb43808] DEBUG - [ID 2343] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/005 Create custom VPC.mp4
+Jul 06, 2022 13:01:30.390 [0x7fb5feb43808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/005 Create custom VPC.mp4"
+Jul 06, 2022 13:01:30.390 [0x7fb5feb43808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/005 Create custom VPC.mp4' for reading
+Jul 06, 2022 13:01:30.390 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.390 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.390 [0x7fb5feb43808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.390 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.391 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 8499000
+Jul 06, 2022 13:01:30.391 [0x7fb5feb43808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.392 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.392 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.392 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 12498954
+Jul 06, 2022 13:01:30.392 [0x7fb5feb43808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 40897223 bytes read:264778 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.392 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.392 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.392 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.392 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.392 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.393 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.399 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.400 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.400 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.402 [0x7fb5feb43808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.402 [0x7fb5feb43808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 60406 bytes read:357109 seeks:2 frames:4
+Jul 06, 2022 13:01:30.402 [0x7fb5feb43808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/005 Create custom VPC.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:30.402 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:30.402 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:30.402 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 40665173 at offset 40
+Jul 06, 2022 13:01:30.402 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found moov atom of size 232010 at offset 40665213
+Jul 06, 2022 13:01:30.402 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 182391 at offset 40665329
+Jul 06, 2022 13:01:30.402 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 49397 at offset 40847720
+Jul 06, 2022 13:01:30.402 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 182255 at offset 40665465
+Jul 06, 2022 13:01:30.402 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 182170 at offset 40665550
+Jul 06, 2022 13:01:30.402 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 182106 at offset 40665614
+Jul 06, 2022 13:01:30.402 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 49261 at offset 40847856
+Jul 06, 2022 13:01:30.402 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 49176 at offset 40847941
+Jul 06, 2022 13:01:30.402 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 49116 at offset 40848001
+Jul 06, 2022 13:01:30.402 [0x7fb5feb43808] DEBUG - [MI]  * 6f7b97944add06345a2268b69e6b203c0356acbd [mp4 h264/aac] Duration: 283423ms, 1280x720 (1.777778) 30.000fps, bitrate=1154kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/005 Create custom VPC.mp4")
+Jul 06, 2022 13:01:30.402 [0x7fb5feb43808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:30.403 [0x7fb5feb43808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/005 Create custom VPC.mp4"
+Jul 06, 2022 13:01:30.403 [0x7fb5feb43808] DEBUG - Committing media stream changes for part 2343
+Jul 06, 2022 13:01:30.403 [0x7fb5feb43808] DEBUG - Updating media item 2341, size=40897223, metadata_item_id=965
+Jul 06, 2022 13:01:30.403 [0x7fb5feb43808] DEBUG - Updating part with ID=2343 [/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/005 Create custom VPC.mp4]
+Jul 06, 2022 13:01:30.404 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=965&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.404 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=965&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:30.404 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=965&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:30.404 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=965&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:30.405 [0x7fb5feb43808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.405 [0x7fb5feb43808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.405 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:30.405 [0x7fb5feb43808] DEBUG - Updating metadata item (save) () with ID 965
+Jul 06, 2022 13:01:30.406 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:30.406 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:30.407 [0x7fb5feb43808] DEBUG - Analyzing media parts for item 966 (Episode 6): 2342
+Jul 06, 2022 13:01:30.407 [0x7fb5feb43808] DEBUG - [ID 2344] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/006 Internet Gateway and Route Tables.mp4
+Jul 06, 2022 13:01:30.407 [0x7fb5feb43808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/006 Internet Gateway and Route Tables.mp4"
+Jul 06, 2022 13:01:30.407 [0x7fb5feb43808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/006 Internet Gateway and Route Tables.mp4' for reading
+Jul 06, 2022 13:01:30.407 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.408 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.408 [0x7fb5feb43808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.408 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.408 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 8383020
+Jul 06, 2022 13:01:30.409 [0x7fb5feb43808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.409 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.409 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.409 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 12328993
+Jul 06, 2022 13:01:30.409 [0x7fb5feb43808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 15831219 bytes read:262654 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.409 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.409 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.409 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.409 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.409 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.410 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.412 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.413 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.414 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.415 [0x7fb5feb43808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.416 [0x7fb5feb43808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 14393 bytes read:295422 seeks:2 frames:4
+Jul 06, 2022 13:01:30.416 [0x7fb5feb43808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/006 Internet Gateway and Route Tables.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:30.416 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:30.416 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:30.416 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 15601293 at offset 40
+Jul 06, 2022 13:01:30.416 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found moov atom of size 229886 at offset 15601333
+Jul 06, 2022 13:01:30.416 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 180919 at offset 15601449
+Jul 06, 2022 13:01:30.416 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 48729 at offset 15782368
+Jul 06, 2022 13:01:30.416 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 180783 at offset 15601585
+Jul 06, 2022 13:01:30.416 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 180698 at offset 15601670
+Jul 06, 2022 13:01:30.416 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 180634 at offset 15601734
+Jul 06, 2022 13:01:30.416 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 48593 at offset 15782504
+Jul 06, 2022 13:01:30.416 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 48508 at offset 15782589
+Jul 06, 2022 13:01:30.416 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 48448 at offset 15782649
+Jul 06, 2022 13:01:30.416 [0x7fb5feb43808] DEBUG - [MI]  * ab8666cb3b3e7e8b756c7e338d1c70f562cf0c1f [mp4 h264/aac] Duration: 279569ms, 1280x720 (1.777778) 30.000fps, bitrate=453kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/006 Internet Gateway and Route Tables.mp4")
+Jul 06, 2022 13:01:30.416 [0x7fb5feb43808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:30.416 [0x7fb5feb43808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/006 Internet Gateway and Route Tables.mp4"
+Jul 06, 2022 13:01:30.417 [0x7fb5feb43808] DEBUG - Committing media stream changes for part 2344
+Jul 06, 2022 13:01:30.417 [0x7fb5feb43808] DEBUG - Updating media item 2342, size=15831219, metadata_item_id=966
+Jul 06, 2022 13:01:30.417 [0x7fb5feb43808] DEBUG - Updating part with ID=2344 [/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/006 Internet Gateway and Route Tables.mp4]
+Jul 06, 2022 13:01:30.417 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=966&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.418 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=966&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:30.418 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=966&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:30.419 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=966&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:30.419 [0x7fb5feb43808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.419 [0x7fb5feb43808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.419 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:30.419 [0x7fb5feb43808] DEBUG - Updating metadata item (save) () with ID 966
+Jul 06, 2022 13:01:30.420 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:30.421 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:30.421 [0x7fb5feb43808] DEBUG - Analyzing media parts for item 967 (Episode 7): 2343
+Jul 06, 2022 13:01:30.422 [0x7fb5feb43808] DEBUG - [ID 2345] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/007 NAT Gateways and NAT Instances Refresher.mp4
+Jul 06, 2022 13:01:30.422 [0x7fb5feb43808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/007 NAT Gateways and NAT Instances Refresher.mp4"
+Jul 06, 2022 13:01:30.422 [0x7fb5feb43808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/007 NAT Gateways and NAT Instances Refresher.mp4' for reading
+Jul 06, 2022 13:01:30.422 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.422 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.422 [0x7fb5feb43808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.422 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.423 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 8624010
+Jul 06, 2022 13:01:30.424 [0x7fb5feb43808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.424 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.424 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.424 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 12683292
+Jul 06, 2022 13:01:30.424 [0x7fb5feb43808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 15460356 bytes read:269241 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.425 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.425 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.425 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.425 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.425 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.426 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.428 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.429 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.429 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.431 [0x7fb5feb43808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.433 [0x7fb5feb43808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 14393 bytes read:302009 seeks:2 frames:4
+Jul 06, 2022 13:01:30.434 [0x7fb5feb43808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/007 NAT Gateways and NAT Instances Refresher.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:30.435 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:30.435 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:30.435 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 15223843 at offset 40
+Jul 06, 2022 13:01:30.435 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found moov atom of size 236473 at offset 15223883
+Jul 06, 2022 13:01:30.435 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 186115 at offset 15223999
+Jul 06, 2022 13:01:30.435 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 50113 at offset 15410114
+Jul 06, 2022 13:01:30.435 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 185979 at offset 15224135
+Jul 06, 2022 13:01:30.435 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 185894 at offset 15224220
+Jul 06, 2022 13:01:30.435 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 185830 at offset 15224284
+Jul 06, 2022 13:01:30.435 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 49977 at offset 15410250
+Jul 06, 2022 13:01:30.435 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 49892 at offset 15410335
+Jul 06, 2022 13:01:30.435 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 49832 at offset 15410395
+Jul 06, 2022 13:01:30.435 [0x7fb5feb43808] DEBUG - [MI]  * 29ffc1ee19a91eb6c2cabac0fd111efedb7b4b00 [mp4 h264/aac] Duration: 287603ms, 1280x720 (1.777778) 30.000fps, bitrate=430kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/007 NAT Gateways and NAT Instances Refresher.mp4")
+Jul 06, 2022 13:01:30.435 [0x7fb5feb43808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:30.436 [0x7fb5feb43808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/007 NAT Gateways and NAT Instances Refresher.mp4"
+Jul 06, 2022 13:01:30.436 [0x7fb5feb43808] DEBUG - Committing media stream changes for part 2345
+Jul 06, 2022 13:01:30.436 [0x7fb5feb43808] DEBUG - Updating media item 2343, size=15460356, metadata_item_id=967
+Jul 06, 2022 13:01:30.436 [0x7fb5feb43808] DEBUG - Updating part with ID=2345 [/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/007 NAT Gateways and NAT Instances Refresher.mp4]
+Jul 06, 2022 13:01:30.437 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=967&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.437 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=967&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:30.437 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=967&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:30.438 [0x7fb5feb43808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.438 [0x7fb5feb43808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.438 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=967&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:30.438 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:30.439 [0x7fb5feb43808] DEBUG - Updating metadata item (save) () with ID 967
+Jul 06, 2022 13:01:30.440 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:30.440 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:30.441 [0x7fb5feb43808] DEBUG - Analyzing media parts for item 968 (Episode 8): 2344
+Jul 06, 2022 13:01:30.442 [0x7fb5feb43808] DEBUG - [ID 2346] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/008 Security Groups Deep Dive.mp4
+Jul 06, 2022 13:01:30.442 [0x7fb5feb43808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/008 Security Groups Deep Dive.mp4"
+Jul 06, 2022 13:01:30.442 [0x7fb5feb43808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/008 Security Groups Deep Dive.mp4' for reading
+Jul 06, 2022 13:01:30.442 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.442 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.442 [0x7fb5feb43808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.442 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.443 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 11619000
+Jul 06, 2022 13:01:30.443 [0x7fb5feb43808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.443 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.444 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.444 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 17086501
+Jul 06, 2022 13:01:30.444 [0x7fb5feb43808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 18497459 bytes read:350982 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.444 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.444 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.444 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.444 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.444 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.445 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.447 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.448 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.448 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.450 [0x7fb5feb43808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.450 [0x7fb5feb43808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 14393 bytes read:383750 seeks:2 frames:4
+Jul 06, 2022 13:01:30.450 [0x7fb5feb43808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/008 Security Groups Deep Dive.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:30.450 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:30.450 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:30.450 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 18179205 at offset 40
+Jul 06, 2022 13:01:30.450 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found moov atom of size 318214 at offset 18179245
+Jul 06, 2022 13:01:30.450 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 250671 at offset 18179361
+Jul 06, 2022 13:01:30.450 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 67313 at offset 18430032
+Jul 06, 2022 13:01:30.450 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 250535 at offset 18179497
+Jul 06, 2022 13:01:30.450 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 250450 at offset 18179582
+Jul 06, 2022 13:01:30.450 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 250386 at offset 18179646
+Jul 06, 2022 13:01:30.450 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 67177 at offset 18430168
+Jul 06, 2022 13:01:30.450 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 67092 at offset 18430253
+Jul 06, 2022 13:01:30.450 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 67032 at offset 18430313
+Jul 06, 2022 13:01:30.450 [0x7fb5feb43808] DEBUG - [MI]  * 496323432b454986b130a0e7b57130d0c869f523 [mp4 h264/aac] Duration: 387449ms, 1280x720 (1.777778) 30.000fps, bitrate=381kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/008 Security Groups Deep Dive.mp4")
+Jul 06, 2022 13:01:30.450 [0x7fb5feb43808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:30.451 [0x7fb5feb43808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/008 Security Groups Deep Dive.mp4"
+Jul 06, 2022 13:01:30.451 [0x7fb5feb43808] DEBUG - Committing media stream changes for part 2346
+Jul 06, 2022 13:01:30.451 [0x7fb5feb43808] DEBUG - Updating media item 2344, size=18497459, metadata_item_id=968
+Jul 06, 2022 13:01:30.451 [0x7fb5feb43808] DEBUG - Updating part with ID=2346 [/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/008 Security Groups Deep Dive.mp4]
+Jul 06, 2022 13:01:30.451 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=968&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.452 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=968&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:30.452 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=968&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:30.453 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=968&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:30.453 [0x7fb5feb43808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.453 [0x7fb5feb43808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.454 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:30.454 [0x7fb5feb43808] DEBUG - Updating metadata item (save) () with ID 968
+Jul 06, 2022 13:01:30.454 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:30.455 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:30.455 [0x7fb5feb43808] DEBUG - Analyzing media parts for item 969 (Episode 9): 2345
+Jul 06, 2022 13:01:30.455 [0x7fb5feb43808] DEBUG - [ID 2347] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/009 Network ACL Deep Dive.mp4
+Jul 06, 2022 13:01:30.456 [0x7fb5feb43808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/009 Network ACL Deep Dive.mp4"
+Jul 06, 2022 13:01:30.456 [0x7fb5feb43808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/009 Network ACL Deep Dive.mp4' for reading
+Jul 06, 2022 13:01:30.456 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.456 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.456 [0x7fb5feb43808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.456 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.457 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 11853000
+Jul 06, 2022 13:01:30.457 [0x7fb5feb43808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.457 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.457 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.457 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 17430569
+Jul 06, 2022 13:01:30.458 [0x7fb5feb43808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 19246348 bytes read:357294 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.458 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.458 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.458 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.458 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.458 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.458 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.461 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.461 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.462 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.463 [0x7fb5feb43808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 14393 bytes read:390062 seeks:2 frames:4
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/009 Network ACL Deep Dive.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 18921782 at offset 40
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found moov atom of size 324526 at offset 18921822
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 255643 at offset 18921938
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 68657 at offset 19177581
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 255507 at offset 18922074
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 255422 at offset 18922159
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 255358 at offset 18922223
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 68521 at offset 19177717
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 68436 at offset 19177802
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 68376 at offset 19177862
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - [MI]  * 332190c8dc8237b40d800ed7269afe5cf3924427 [mp4 h264/aac] Duration: 395251ms, 1280x720 (1.777778) 30.000fps, bitrate=389kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/009 Network ACL Deep Dive.mp4")
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/009 Network ACL Deep Dive.mp4"
+Jul 06, 2022 13:01:30.464 [0x7fb5feb43808] DEBUG - Committing media stream changes for part 2347
+Jul 06, 2022 13:01:30.465 [0x7fb5feb43808] DEBUG - Updating media item 2345, size=19246348, metadata_item_id=969
+Jul 06, 2022 13:01:30.465 [0x7fb5feb43808] DEBUG - Updating part with ID=2347 [/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/009 Network ACL Deep Dive.mp4]
+Jul 06, 2022 13:01:30.465 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=969&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.465 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=969&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:30.466 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=969&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:30.466 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=969&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:30.466 [0x7fb5feb43808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.466 [0x7fb5feb43808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.467 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:30.467 [0x7fb5feb43808] DEBUG - Updating metadata item (save) () with ID 969
+Jul 06, 2022 13:01:30.468 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:30.468 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:30.469 [0x7fb5feb43808] DEBUG - Analyzing media parts for item 970 (Episode 10): 2346
+Jul 06, 2022 13:01:30.469 [0x7fb5feb43808] DEBUG - [ID 2348] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/010 VPC Endpoints.mp4
+Jul 06, 2022 13:01:30.469 [0x7fb5feb43808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/010 VPC Endpoints.mp4"
+Jul 06, 2022 13:01:30.469 [0x7fb5feb43808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/010 VPC Endpoints.mp4' for reading
+Jul 06, 2022 13:01:30.469 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.469 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.469 [0x7fb5feb43808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.469 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.470 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 11058000
+Jul 06, 2022 13:01:30.470 [0x7fb5feb43808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.471 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.471 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.471 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 16261125
+Jul 06, 2022 13:01:30.471 [0x7fb5feb43808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 13566578 bytes read:335594 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.471 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.471 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.471 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.471 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.471 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.472 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.474 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.474 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.475 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.476 [0x7fb5feb43808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.477 [0x7fb5feb43808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10140 bytes read:368362 seeks:2 frames:4
+Jul 06, 2022 13:01:30.477 [0x7fb5feb43808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/010 VPC Endpoints.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:30.477 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:30.477 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:30.477 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 13263712 at offset 40
+Jul 06, 2022 13:01:30.477 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found moov atom of size 302826 at offset 13263752
+Jul 06, 2022 13:01:30.477 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 238519 at offset 13263868
+Jul 06, 2022 13:01:30.477 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 64089 at offset 13502387
+Jul 06, 2022 13:01:30.477 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 238383 at offset 13264004
+Jul 06, 2022 13:01:30.477 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 238298 at offset 13264089
+Jul 06, 2022 13:01:30.477 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 238234 at offset 13264153
+Jul 06, 2022 13:01:30.477 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 63953 at offset 13502523
+Jul 06, 2022 13:01:30.477 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 63868 at offset 13502608
+Jul 06, 2022 13:01:30.477 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 63808 at offset 13502668
+Jul 06, 2022 13:01:30.477 [0x7fb5feb43808] DEBUG - [MI]  * e70fdcefe1c9cfed301e90b713ff0951a895edc2 [mp4 h264/aac] Duration: 368733ms, 1280x720 (1.777778) 30.000fps, bitrate=294kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/010 VPC Endpoints.mp4")
+Jul 06, 2022 13:01:30.477 [0x7fb5feb43808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:30.478 [0x7fb5feb43808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/010 VPC Endpoints.mp4"
+Jul 06, 2022 13:01:30.478 [0x7fb5feb43808] DEBUG - Committing media stream changes for part 2348
+Jul 06, 2022 13:01:30.478 [0x7fb5feb43808] DEBUG - Updating media item 2346, size=13566578, metadata_item_id=970
+Jul 06, 2022 13:01:30.478 [0x7fb5feb43808] DEBUG - Updating part with ID=2348 [/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/010 VPC Endpoints.mp4]
+Jul 06, 2022 13:01:30.478 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=970&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.479 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=970&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:30.479 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=970&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:30.479 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=970&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:30.479 [0x7fb5feb43808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.480 [0x7fb5feb43808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.480 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:30.480 [0x7fb5feb43808] DEBUG - Updating metadata item (save) () with ID 970
+Jul 06, 2022 13:01:30.481 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:30.481 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:30.482 [0x7fb5feb43808] DEBUG - Analyzing media parts for item 971 (Episode 11): 2347
+Jul 06, 2022 13:01:30.482 [0x7fb5feb43808] DEBUG - [ID 2349] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/011 Creating Gateway and Interface Endpoints.mp4
+Jul 06, 2022 13:01:30.482 [0x7fb5feb43808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/011 Creating Gateway and Interface Endpoints.mp4"
+Jul 06, 2022 13:01:30.482 [0x7fb5feb43808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/011 Creating Gateway and Interface Endpoints.mp4' for reading
+Jul 06, 2022 13:01:30.482 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.482 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.482 [0x7fb5feb43808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.482 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.483 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 7717020
+Jul 06, 2022 13:01:30.483 [0x7fb5feb43808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.483 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.483 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.483 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 11350017
+Jul 06, 2022 13:01:30.484 [0x7fb5feb43808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 15062189 bytes read:243773 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.484 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.484 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.484 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.484 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.484 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.485 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.487 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.488 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.489 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.490 [0x7fb5feb43808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.491 [0x7fb5feb43808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 14393 bytes read:276541 seeks:2 frames:4
+Jul 06, 2022 13:01:30.491 [0x7fb5feb43808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/011 Creating Gateway and Interface Endpoints.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:30.491 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:30.491 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:30.491 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 14851144 at offset 40
+Jul 06, 2022 13:01:30.491 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found moov atom of size 211005 at offset 14851184
+Jul 06, 2022 13:01:30.491 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 165855 at offset 14851300
+Jul 06, 2022 13:01:30.491 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 44905 at offset 15017155
+Jul 06, 2022 13:01:30.491 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 165719 at offset 14851436
+Jul 06, 2022 13:01:30.491 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 165634 at offset 14851521
+Jul 06, 2022 13:01:30.491 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 165570 at offset 14851585
+Jul 06, 2022 13:01:30.491 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 44769 at offset 15017291
+Jul 06, 2022 13:01:30.491 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 44684 at offset 15017376
+Jul 06, 2022 13:01:30.491 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 44624 at offset 15017436
+Jul 06, 2022 13:01:30.491 [0x7fb5feb43808] DEBUG - [MI]  * ad8b2960351e9e54a12b6f620a758bebb8aaeb2a [mp4 h264/aac] Duration: 257370ms, 1280x720 (1.777778) 30.000fps, bitrate=468kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/011 Creating Gateway and Interface Endpoints.mp4")
+Jul 06, 2022 13:01:30.491 [0x7fb5feb43808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:30.492 [0x7fb5feb43808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/011 Creating Gateway and Interface Endpoints.mp4"
+Jul 06, 2022 13:01:30.492 [0x7fb5feb43808] DEBUG - Committing media stream changes for part 2349
+Jul 06, 2022 13:01:30.492 [0x7fb5feb43808] DEBUG - Updating media item 2347, size=15062189, metadata_item_id=971
+Jul 06, 2022 13:01:30.492 [0x7fb5feb43808] DEBUG - Updating part with ID=2349 [/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/011 Creating Gateway and Interface Endpoints.mp4]
+Jul 06, 2022 13:01:30.493 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=971&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.493 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=971&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:30.493 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=971&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:30.494 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=971&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:30.494 [0x7fb5feb43808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.494 [0x7fb5feb43808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.495 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:30.495 [0x7fb5feb43808] DEBUG - Updating metadata item (save) () with ID 971
+Jul 06, 2022 13:01:30.495 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:30.496 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:30.497 [0x7fb5feb43808] DEBUG - Analyzing media parts for item 972 (Episode 12): 2348
+Jul 06, 2022 13:01:30.497 [0x7fb5feb43808] DEBUG - [ID 2350] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/012 VPC Peering.mp4
+Jul 06, 2022 13:01:30.497 [0x7fb5feb43808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/012 VPC Peering.mp4"
+Jul 06, 2022 13:01:30.497 [0x7fb5feb43808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/012 VPC Peering.mp4' for reading
+Jul 06, 2022 13:01:30.497 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.497 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.498 [0x7fb5feb43808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.498 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.498 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 8085000
+Jul 06, 2022 13:01:30.499 [0x7fb5feb43808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.499 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.499 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.499 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 11890727
+Jul 06, 2022 13:01:30.500 [0x7fb5feb43808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 9717317 bytes read:254636 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.500 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.500 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.500 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.500 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.500 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.501 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.503 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.504 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.505 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.507 [0x7fb5feb43808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.507 [0x7fb5feb43808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10140 bytes read:287404 seeks:2 frames:4
+Jul 06, 2022 13:01:30.508 [0x7fb5feb43808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/012 VPC Peering.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:30.508 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:30.508 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:30.508 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 9495409 at offset 40
+Jul 06, 2022 13:01:30.508 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found moov atom of size 221868 at offset 9495449
+Jul 06, 2022 13:01:30.508 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 174631 at offset 9495565
+Jul 06, 2022 13:01:30.508 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 47021 at offset 9670196
+Jul 06, 2022 13:01:30.508 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 174495 at offset 9495701
+Jul 06, 2022 13:01:30.508 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 174410 at offset 9495786
+Jul 06, 2022 13:01:30.508 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 174346 at offset 9495850
+Jul 06, 2022 13:01:30.508 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 46885 at offset 9670332
+Jul 06, 2022 13:01:30.508 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 46800 at offset 9670417
+Jul 06, 2022 13:01:30.508 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 46740 at offset 9670477
+Jul 06, 2022 13:01:30.508 [0x7fb5feb43808] DEBUG - [MI]  * 9c49dd5fae76926d9902f102b2ef080124984cf9 [mp4 h264/aac] Duration: 269631ms, 1280x720 (1.777778) 30.000fps, bitrate=288kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/012 VPC Peering.mp4")
+Jul 06, 2022 13:01:30.508 [0x7fb5feb43808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:30.508 [0x7fb5feb43808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/012 VPC Peering.mp4"
+Jul 06, 2022 13:01:30.508 [0x7fb5feb43808] DEBUG - Committing media stream changes for part 2350
+Jul 06, 2022 13:01:30.509 [0x7fb5feb43808] DEBUG - Updating media item 2348, size=9717317, metadata_item_id=972
+Jul 06, 2022 13:01:30.509 [0x7fb5feb43808] DEBUG - Updating part with ID=2350 [/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/012 VPC Peering.mp4]
+Jul 06, 2022 13:01:30.509 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=972&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.510 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=972&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:30.510 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=972&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:30.510 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=972&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:30.511 [0x7fb5feb43808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.511 [0x7fb5feb43808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.511 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:30.511 [0x7fb5feb43808] DEBUG - Updating metadata item (save) () with ID 972
+Jul 06, 2022 13:01:30.522 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:30.522 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:30.523 [0x7fb5feb43808] DEBUG - Analyzing media parts for item 973 (Episode 13): 2349
+Jul 06, 2022 13:01:30.526 [0x7fb5feb43808] DEBUG - [ID 2351] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/013 Create VPC Peering Connection.mp4
+Jul 06, 2022 13:01:30.526 [0x7fb5feb43808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/013 Create VPC Peering Connection.mp4"
+Jul 06, 2022 13:01:30.526 [0x7fb5feb43808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/013 Create VPC Peering Connection.mp4' for reading
+Jul 06, 2022 13:01:30.526 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.526 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.526 [0x7fb5feb43808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.526 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.528 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 19334010
+Jul 06, 2022 13:01:30.529 [0x7fb5feb43808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.529 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.529 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.530 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 28426243
+Jul 06, 2022 13:01:30.530 [0x7fb5feb43808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 65984994 bytes read:560326 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.530 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.530 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.530 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.530 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.530 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.531 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.536 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.537 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.538 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.539 [0x7fb5feb43808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 39440 bytes read:631524 seeks:2 frames:4
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/013 Create VPC Peering Connection.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 65457396 at offset 40
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found moov atom of size 527558 at offset 65457436
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 415711 at offset 65457552
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 111613 at offset 65873263
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 415575 at offset 65457688
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 415490 at offset 65457773
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 415426 at offset 65457837
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 111477 at offset 65873399
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 111392 at offset 65873484
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 111332 at offset 65873544
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - [MI]  * bc1e2b459d459c2034b558ac749fd188c8b8af39 [mp4 h264/aac] Duration: 644586ms, 1280x720 (1.777778) 30.000fps, bitrate=818kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/013 Create VPC Peering Connection.mp4")
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/013 Create VPC Peering Connection.mp4"
+Jul 06, 2022 13:01:30.540 [0x7fb5feb43808] DEBUG - Committing media stream changes for part 2351
+Jul 06, 2022 13:01:30.543 [0x7fb5feb43808] DEBUG - Updating media item 2349, size=65984994, metadata_item_id=973
+Jul 06, 2022 13:01:30.543 [0x7fb5feb43808] DEBUG - Updating part with ID=2351 [/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/013 Create VPC Peering Connection.mp4]
+Jul 06, 2022 13:01:30.543 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=973&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.543 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=973&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:30.544 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=973&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:30.544 [0x7fb5feb43808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.544 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=973&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:30.544 [0x7fb5feb43808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.545 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:30.545 [0x7fb5feb43808] DEBUG - Updating metadata item (save) () with ID 973
+Jul 06, 2022 13:01:30.546 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:30.546 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:30.547 [0x7fb5feb43808] DEBUG - Analyzing media parts for item 974 (Episode 14): 2350
+Jul 06, 2022 13:01:30.547 [0x7fb5feb43808] DEBUG - [ID 2352] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/014 AWS VPN and Direct Connect.mp4
+Jul 06, 2022 13:01:30.547 [0x7fb5feb43808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/014 AWS VPN and Direct Connect.mp4"
+Jul 06, 2022 13:01:30.547 [0x7fb5feb43808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/014 AWS VPN and Direct Connect.mp4' for reading
+Jul 06, 2022 13:01:30.547 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.547 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.547 [0x7fb5feb43808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.547 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.548 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 8298000
+Jul 06, 2022 13:01:30.548 [0x7fb5feb43808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.548 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.548 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.548 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 12204058
+Jul 06, 2022 13:01:30.549 [0x7fb5feb43808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 26314967 bytes read:260375 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.549 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.549 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.549 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.549 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.549 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.549 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.553 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.554 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.554 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.556 [0x7fb5feb43808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.556 [0x7fb5feb43808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 39440 bytes read:331573 seeks:2 frames:4
+Jul 06, 2022 13:01:30.556 [0x7fb5feb43808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/014 AWS VPN and Direct Connect.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:30.556 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:30.556 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:30.556 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 26087320 at offset 40
+Jul 06, 2022 13:01:30.556 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found moov atom of size 227607 at offset 26087360
+Jul 06, 2022 13:01:30.556 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 179135 at offset 26087476
+Jul 06, 2022 13:01:30.556 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 48241 at offset 26266611
+Jul 06, 2022 13:01:30.556 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 178999 at offset 26087612
+Jul 06, 2022 13:01:30.556 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 178914 at offset 26087697
+Jul 06, 2022 13:01:30.556 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 178850 at offset 26087761
+Jul 06, 2022 13:01:30.556 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 48105 at offset 26266747
+Jul 06, 2022 13:01:30.556 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 48020 at offset 26266832
+Jul 06, 2022 13:01:30.556 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 47960 at offset 26266892
+Jul 06, 2022 13:01:30.556 [0x7fb5feb43808] DEBUG - [MI]  * f2b14a3f83af4a8700cd9076059cecd29d259458 [mp4 h264/aac] Duration: 276736ms, 1280x720 (1.777778) 30.000fps, bitrate=760kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/014 AWS VPN and Direct Connect.mp4")
+Jul 06, 2022 13:01:30.556 [0x7fb5feb43808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:30.557 [0x7fb5feb43808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/014 AWS VPN and Direct Connect.mp4"
+Jul 06, 2022 13:01:30.557 [0x7fb5feb43808] DEBUG - Committing media stream changes for part 2352
+Jul 06, 2022 13:01:30.557 [0x7fb5feb43808] DEBUG - Updating media item 2350, size=26314967, metadata_item_id=974
+Jul 06, 2022 13:01:30.557 [0x7fb5feb43808] DEBUG - Updating part with ID=2352 [/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/014 AWS VPN and Direct Connect.mp4]
+Jul 06, 2022 13:01:30.557 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=974&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.558 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=974&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:30.558 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=974&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:30.558 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=974&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:30.559 [0x7fb5feb43808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.559 [0x7fb5feb43808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.559 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:30.559 [0x7fb5feb43808] DEBUG - Updating metadata item (save) () with ID 974
+Jul 06, 2022 13:01:30.560 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:30.560 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:30.561 [0x7fb5feb43808] DEBUG - Analyzing media parts for item 975 (Episode 15): 2351
+Jul 06, 2022 13:01:30.561 [0x7fb5feb43808] DEBUG - [ID 2353] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/015 VPC Flow Logs.mp4
+Jul 06, 2022 13:01:30.561 [0x7fb5feb43808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/015 VPC Flow Logs.mp4"
+Jul 06, 2022 13:01:30.561 [0x7fb5feb43808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/015 VPC Flow Logs.mp4' for reading
+Jul 06, 2022 13:01:30.561 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.562 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.562 [0x7fb5feb43808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.562 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.563 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 15687000
+Jul 06, 2022 13:01:30.563 [0x7fb5feb43808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.563 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.563 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.564 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 23064609
+Jul 06, 2022 13:01:30.564 [0x7fb5feb43808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 109472250 bytes read:459666 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.564 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.564 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.564 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.564 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.564 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.565 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.572 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.573 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.574 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.575 [0x7fb5feb43808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.576 [0x7fb5feb43808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 80883 bytes read:572298 seeks:2 frames:4
+Jul 06, 2022 13:01:30.576 [0x7fb5feb43808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/015 VPC Flow Logs.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:30.576 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:30.576 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:30.576 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 109045312 at offset 40
+Jul 06, 2022 13:01:30.576 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found moov atom of size 426898 at offset 109045352
+Jul 06, 2022 13:01:30.576 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 336011 at offset 109045468
+Jul 06, 2022 13:01:30.576 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 90669 at offset 109381479
+Jul 06, 2022 13:01:30.576 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 335875 at offset 109045604
+Jul 06, 2022 13:01:30.576 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 335790 at offset 109045689
+Jul 06, 2022 13:01:30.576 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 335726 at offset 109045753
+Jul 06, 2022 13:01:30.576 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 90533 at offset 109381615
+Jul 06, 2022 13:01:30.576 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 90448 at offset 109381700
+Jul 06, 2022 13:01:30.576 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 90388 at offset 109381760
+Jul 06, 2022 13:01:30.576 [0x7fb5feb43808] DEBUG - [MI]  * 674bdea6d5a49febefffefea6b4bfcaf22fee0ea [mp4 h264/aac] Duration: 523007ms, 1280x720 (1.777778) 30.000fps, bitrate=1674kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/015 VPC Flow Logs.mp4")
+Jul 06, 2022 13:01:30.576 [0x7fb5feb43808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:30.576 [0x7fb5feb43808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/015 VPC Flow Logs.mp4"
+Jul 06, 2022 13:01:30.577 [0x7fb5feb43808] DEBUG - Committing media stream changes for part 2353
+Jul 06, 2022 13:01:30.577 [0x7fb5feb43808] DEBUG - Updating media item 2351, size=109472250, metadata_item_id=975
+Jul 06, 2022 13:01:30.577 [0x7fb5feb43808] DEBUG - Updating part with ID=2353 [/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/015 VPC Flow Logs.mp4]
+Jul 06, 2022 13:01:30.577 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=975&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.578 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=975&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:30.578 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=975&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:30.579 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=975&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:30.579 [0x7fb5feb43808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.579 [0x7fb5feb43808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.580 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:30.580 [0x7fb5feb43808] DEBUG - Updating metadata item (save) () with ID 975
+Jul 06, 2022 13:01:30.580 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:30.581 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:30.582 [0x7fb5feb43808] DEBUG - Analyzing media parts for item 976 (Episode 16): 2352
+Jul 06, 2022 13:01:30.582 [0x7fb5feb43808] DEBUG - [ID 2354] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/016 Use Amazon Athena to Query our Flow Logs.mp4
+Jul 06, 2022 13:01:30.582 [0x7fb5feb43808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/016 Use Amazon Athena to Query our Flow Logs.mp4"
+Jul 06, 2022 13:01:30.582 [0x7fb5feb43808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/016 Use Amazon Athena to Query our Flow Logs.mp4' for reading
+Jul 06, 2022 13:01:30.582 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.582 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.582 [0x7fb5feb43808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.582 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.584 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 11274000
+Jul 06, 2022 13:01:30.584 [0x7fb5feb43808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.584 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.584 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.585 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 16578601
+Jul 06, 2022 13:01:30.585 [0x7fb5feb43808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 76404305 bytes read:340785 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.585 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.585 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.585 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.585 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.585 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.586 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.593 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.593 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.594 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.595 [0x7fb5feb43808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.595 [0x7fb5feb43808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 80883 bytes read:453417 seeks:2 frames:4
+Jul 06, 2022 13:01:30.595 [0x7fb5feb43808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/016 Use Amazon Athena to Query our Flow Logs.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:30.596 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:30.596 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:30.596 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 76096248 at offset 40
+Jul 06, 2022 13:01:30.596 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found moov atom of size 308017 at offset 76096288
+Jul 06, 2022 13:01:30.596 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 242439 at offset 76096404
+Jul 06, 2022 13:01:30.596 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 65333 at offset 76338843
+Jul 06, 2022 13:01:30.596 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 242303 at offset 76096540
+Jul 06, 2022 13:01:30.596 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 242218 at offset 76096625
+Jul 06, 2022 13:01:30.596 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 242154 at offset 76096689
+Jul 06, 2022 13:01:30.596 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 65197 at offset 76338979
+Jul 06, 2022 13:01:30.596 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 65112 at offset 76339064
+Jul 06, 2022 13:01:30.596 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 65052 at offset 76339124
+Jul 06, 2022 13:01:30.596 [0x7fb5feb43808] DEBUG - [MI]  * 1ff59876f2b97a69686724e8bca5908639bd38d6 [mp4 h264/aac] Duration: 375932ms, 1280x720 (1.777778) 30.000fps, bitrate=1625kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/016 Use Amazon Athena to Query our Flow Logs.mp4")
+Jul 06, 2022 13:01:30.596 [0x7fb5feb43808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:30.596 [0x7fb5feb43808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/016 Use Amazon Athena to Query our Flow Logs.mp4"
+Jul 06, 2022 13:01:30.596 [0x7fb5feb43808] DEBUG - Committing media stream changes for part 2354
+Jul 06, 2022 13:01:30.597 [0x7fb5feb43808] DEBUG - Updating media item 2352, size=76404305, metadata_item_id=976
+Jul 06, 2022 13:01:30.597 [0x7fb5feb43808] DEBUG - Updating part with ID=2354 [/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/016 Use Amazon Athena to Query our Flow Logs.mp4]
+Jul 06, 2022 13:01:30.597 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=976&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.597 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=976&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:30.598 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=976&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:30.598 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=976&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:30.598 [0x7fb5feb43808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.598 [0x7fb5feb43808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.599 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:30.599 [0x7fb5feb43808] DEBUG - Updating metadata item (save) () with ID 976
+Jul 06, 2022 13:01:30.600 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:30.600 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:30.601 [0x7fb5feb43808] DEBUG - Analyzing media parts for item 977 (Episode 17): 2353
+Jul 06, 2022 13:01:30.601 [0x7fb5feb43808] DEBUG - [ID 2355] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/017 Exam Scenarios for Amazon VPC.mp4
+Jul 06, 2022 13:01:30.601 [0x7fb5feb43808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/017 Exam Scenarios for Amazon VPC.mp4"
+Jul 06, 2022 13:01:30.601 [0x7fb5feb43808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/017 Exam Scenarios for Amazon VPC.mp4' for reading
+Jul 06, 2022 13:01:30.601 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:30.601 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:30.602 [0x7fb5feb43808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:30.602 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.602 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 10903020
+Jul 06, 2022 13:01:30.603 [0x7fb5feb43808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:30.603 [0x7fb5feb43808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:30.603 [0x7fb5feb43808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:30.603 [0x7fb5feb43808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 16033834
+Jul 06, 2022 13:01:30.603 [0x7fb5feb43808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 18886007 bytes read:331030 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:30.604 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.604 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.604 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:30.604 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:30.604 [0x7fb5feb43808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:30.604 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.607 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.607 [0x7fb5feb43808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:30.608 [0x7fb5feb43808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:30.610 [0x7fb5feb43808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:30.610 [0x7fb5feb43808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 14393 bytes read:363798 seeks:2 frames:4
+Jul 06, 2022 13:01:30.610 [0x7fb5feb43808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/017 Exam Scenarios for Amazon VPC.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:30.610 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:30.610 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:30.610 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 18587705 at offset 40
+Jul 06, 2022 13:01:30.610 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found moov atom of size 298262 at offset 18587745
+Jul 06, 2022 13:01:30.610 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 234827 at offset 18587861
+Jul 06, 2022 13:01:30.610 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found trak atom of size 63201 at offset 18822688
+Jul 06, 2022 13:01:30.610 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 234691 at offset 18587997
+Jul 06, 2022 13:01:30.610 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 234606 at offset 18588082
+Jul 06, 2022 13:01:30.610 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 234542 at offset 18588146
+Jul 06, 2022 13:01:30.610 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found mdia atom of size 63065 at offset 18822824
+Jul 06, 2022 13:01:30.610 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found minf atom of size 62980 at offset 18822909
+Jul 06, 2022 13:01:30.610 [0x7fb5feb43808] DEBUG - Mp4AtomParser: Found stbl atom of size 62920 at offset 18822969
+Jul 06, 2022 13:01:30.610 [0x7fb5feb43808] DEBUG - [MI]  * 5ee59d5cd81bc6f891b6d3daac406dfae2d72c08 [mp4 h264/aac] Duration: 363579ms, 1280x720 (1.777778) 30.000fps, bitrate=415kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/017 Exam Scenarios for Amazon VPC.mp4")
+Jul 06, 2022 13:01:30.611 [0x7fb5feb43808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:30.611 [0x7fb5feb43808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/017 Exam Scenarios for Amazon VPC.mp4"
+Jul 06, 2022 13:01:30.611 [0x7fb5feb43808] DEBUG - Committing media stream changes for part 2355
+Jul 06, 2022 13:01:30.612 [0x7fb5feb43808] DEBUG - Updating media item 2353, size=18886007, metadata_item_id=977
+Jul 06, 2022 13:01:30.612 [0x7fb5feb43808] DEBUG - Updating part with ID=2355 [/tv/aws-certified-sysops-administrator-associate-training-2022/09 - Networking Amazon VPC/017 Exam Scenarios for Amazon VPC.mp4]
+Jul 06, 2022 13:01:30.612 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=977&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:30.613 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=977&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:30.613 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=977&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:30.613 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=977&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:30.613 [0x7fb5feb43808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.613 [0x7fb5feb43808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:30.614 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:30.614 [0x7fb5feb43808] DEBUG - Updating metadata item (save) () with ID 977
+Jul 06, 2022 13:01:30.615 [0x7fb5fac35b38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:30.615 [0x7fb5fabb5b38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)

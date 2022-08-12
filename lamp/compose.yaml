@@ -1,16 +1,39 @@
 version: '3'
 
 services:
-
-  mysql-development:
+  mysqldb:
     image: mysql:8.0.17
     environment:
-      MYSQL_ROOT_PASSWORD: helloworld
-      MYSQL_DATABASE: testapp
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
     ports:
       - "3308:3306"
-  
-  admin:    
-    image: adminer    
-    ports:      
-      - "8080:8080"
+    volumes:
+      - "./data/db/mysql:/var/lib/mysql"
+  web:
+    image: nginx:latest
+    ports:
+        - "8080:80"
+    volumes:
+        - ./web:/web
+        - ./data/moodledata:/moodledata
+        - ./etc/nginx/default.conf:/etc/nginx/conf.d/default.conf
+    links:
+        - php
+  php:
+    image: php:7-fpm
+    volumes:
+      - ./web:/web
+  myadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    ports:
+        - "8000:80"
+    environment:
+        - PMA_ARBITRARY=1
+        - PMA_HOST=mysqldb
+    restart: always
+    depends_on:
+        - mysqldb

@@ -1,0 +1,1139 @@
+Jul 06, 2022 13:01:43.536 [0x7f340fec6b38] INFO - Plex Media Scanner v1.26.2.5797-5bd057d2b - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
+Jul 06, 2022 13:01:43.537 [0x7f340fec6b38] INFO - Linux version: 5.15.49-1-MANJARO, language: en-US
+Jul 06, 2022 13:01:43.537 [0x7f340fec6b38] INFO - Processor: 12-core AMD Ryzen 5 3600 6-Core Processor              
+Jul 06, 2022 13:01:43.537 [0x7f340fec6b38] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 979,980,981,982,983,984,985,986,987,988,989,990,991,992,993,994,995,996,997,998,999
+Jul 06, 2022 13:01:43.537 [0x7f3412edb808] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+Jul 06, 2022 13:01:43.597 [0x7f3412edb808] DEBUG - Analyzing media parts for item 979 (Episode 1): 2354
+Jul 06, 2022 13:01:43.597 [0x7f3412edb808] DEBUG - [ID 2356] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/001 Introduction.mp4
+Jul 06, 2022 13:01:43.597 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/001 Introduction.mp4"
+Jul 06, 2022 13:01:43.597 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/001 Introduction.mp4' for reading
+Jul 06, 2022 13:01:43.597 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:43.598 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:43.598 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:43.598 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.598 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 1931010
+Jul 06, 2022 13:01:43.598 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:43.598 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:43.598 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.598 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 2844715
+Jul 06, 2022 13:01:43.598 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6627938 bytes read:86741 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:43.598 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.598 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.599 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:43.599 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.599 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:43.599 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.605 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.606 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.607 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.608 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 62929 bytes read:178891 seeks:2 frames:4
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/001 Introduction.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 6573925 at offset 40
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 53973 at offset 6573965
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 42075 at offset 6574081
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 11681 at offset 6616156
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 41939 at offset 6574217
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 41854 at offset 6574302
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 41790 at offset 6574366
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 11545 at offset 6616292
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 11460 at offset 6616377
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 11400 at offset 6616437
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - [MI]  * 83b822949eff86176c07de5596b255b7b05f485c [mp4 h264/aac] Duration: 64506ms, 1280x720 (1.777778) 30.000fps, bitrate=821kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/001 Introduction.mp4")
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/001 Introduction.mp4"
+Jul 06, 2022 13:01:43.609 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2356
+Jul 06, 2022 13:01:43.610 [0x7f3412edb808] DEBUG - Updating media item 2354, size=6627938, metadata_item_id=979
+Jul 06, 2022 13:01:43.610 [0x7f3412edb808] DEBUG - Updating part with ID=2356 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/001 Introduction.mp4]
+Jul 06, 2022 13:01:43.610 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=979&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.611 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=979&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.611 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=979&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:43.611 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.611 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.611 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=979&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:43.612 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.612 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 979
+Jul 06, 2022 13:01:43.613 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:43.613 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:43.614 [0x7f3412edb808] DEBUG - Analyzing media parts for item 980 (Episode 2): 2355
+Jul 06, 2022 13:01:43.614 [0x7f3412edb808] DEBUG - [ID 2357] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/002 Amazon EBS Overview.mp4
+Jul 06, 2022 13:01:43.614 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/002 Amazon EBS Overview.mp4"
+Jul 06, 2022 13:01:43.614 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/002 Amazon EBS Overview.mp4' for reading
+Jul 06, 2022 13:01:43.614 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:43.614 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:43.614 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:43.615 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.615 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 7187010
+Jul 06, 2022 13:01:43.615 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:43.615 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:43.615 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.616 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 10571784
+Jul 06, 2022 13:01:43.616 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 8752854 bytes read:230048 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:43.616 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.616 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.616 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:43.616 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.616 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:43.617 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.619 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.619 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.620 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.621 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10140 bytes read:262816 seeks:2 frames:4
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/002 Amazon EBS Overview.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 8555534 at offset 40
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 197280 at offset 8555574
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 155191 at offset 8555690
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 41865 at offset 8710881
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 155055 at offset 8555826
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 154970 at offset 8555911
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 154906 at offset 8555975
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 41729 at offset 8711017
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 41644 at offset 8711102
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 41584 at offset 8711162
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - [MI]  * cfc5d1185db0a1a4e8d66941705c3dfe89679f0b [mp4 h264/aac] Duration: 239723ms, 1280x720 (1.777778) 30.000fps, bitrate=292kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/002 Amazon EBS Overview.mp4")
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/002 Amazon EBS Overview.mp4"
+Jul 06, 2022 13:01:43.622 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2357
+Jul 06, 2022 13:01:43.623 [0x7f3412edb808] DEBUG - Updating media item 2355, size=8752854, metadata_item_id=980
+Jul 06, 2022 13:01:43.623 [0x7f3412edb808] DEBUG - Updating part with ID=2357 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/002 Amazon EBS Overview.mp4]
+Jul 06, 2022 13:01:43.623 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=980&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.623 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=980&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:43.623 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=980&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:43.624 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=980&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:43.624 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.624 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.625 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:43.625 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 980
+Jul 06, 2022 13:01:43.625 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:43.626 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:43.626 [0x7f3412edb808] DEBUG - Analyzing media parts for item 981 (Episode 3): 2356
+Jul 06, 2022 13:01:43.627 [0x7f3412edb808] DEBUG - [ID 2358] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/003 Amazon EBS - Deployment and Volume Types.mp4
+Jul 06, 2022 13:01:43.627 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/003 Amazon EBS - Deployment and Volume Types.mp4"
+Jul 06, 2022 13:01:43.627 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/003 Amazon EBS - Deployment and Volume Types.mp4' for reading
+Jul 06, 2022 13:01:43.627 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:43.627 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:43.627 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:43.627 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.628 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 13287000
+Jul 06, 2022 13:01:43.628 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:43.628 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:43.628 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.629 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 19535903
+Jul 06, 2022 13:01:43.629 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 22321904 bytes read:396373 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:43.629 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.629 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.629 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:43.629 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.629 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:43.630 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.632 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.633 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.633 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.635 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:43.635 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 14393 bytes read:429141 seeks:2 frames:4
+Jul 06, 2022 13:01:43.635 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/003 Amazon EBS - Deployment and Volume Types.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:43.635 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:43.635 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:43.635 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 21958259 at offset 40
+Jul 06, 2022 13:01:43.635 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 363605 at offset 21958299
+Jul 06, 2022 13:01:43.635 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 286475 at offset 21958415
+Jul 06, 2022 13:01:43.635 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 76885 at offset 22244890
+Jul 06, 2022 13:01:43.635 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 286339 at offset 21958551
+Jul 06, 2022 13:01:43.635 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 286254 at offset 21958636
+Jul 06, 2022 13:01:43.635 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 286190 at offset 21958700
+Jul 06, 2022 13:01:43.635 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 76749 at offset 22245026
+Jul 06, 2022 13:01:43.635 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 76664 at offset 22245111
+Jul 06, 2022 13:01:43.635 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 76604 at offset 22245171
+Jul 06, 2022 13:01:43.635 [0x7f3412edb808] DEBUG - [MI]  * 5217ad6d698e73e74b635b3079cc6aeb38e90546 [mp4 h264/aac] Duration: 442991ms, 1280x720 (1.777778) 30.000fps, bitrate=403kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/003 Amazon EBS - Deployment and Volume Types.mp4")
+Jul 06, 2022 13:01:43.635 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:43.636 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/003 Amazon EBS - Deployment and Volume Types.mp4"
+Jul 06, 2022 13:01:43.636 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2358
+Jul 06, 2022 13:01:43.636 [0x7f3412edb808] DEBUG - Updating media item 2356, size=22321904, metadata_item_id=981
+Jul 06, 2022 13:01:43.636 [0x7f3412edb808] DEBUG - Updating part with ID=2358 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/003 Amazon EBS - Deployment and Volume Types.mp4]
+Jul 06, 2022 13:01:43.637 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=981&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.637 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=981&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:43.637 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=981&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:43.638 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.638 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.638 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=981&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:43.638 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:43.638 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 981
+Jul 06, 2022 13:01:43.639 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:43.639 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:43.640 [0x7f3412edb808] DEBUG - Analyzing media parts for item 982 (Episode 4): 2357
+Jul 06, 2022 13:01:43.640 [0x7f3412edb808] DEBUG - [ID 2359] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/004 Creating and resizing Amazon EBS volumes.mp4
+Jul 06, 2022 13:01:43.640 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/004 Creating and resizing Amazon EBS volumes.mp4"
+Jul 06, 2022 13:01:43.641 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/004 Creating and resizing Amazon EBS volumes.mp4' for reading
+Jul 06, 2022 13:01:43.641 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:43.641 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:43.641 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:43.641 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.642 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 12850020
+Jul 06, 2022 13:01:43.642 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:43.642 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:43.642 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.643 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 18894866
+Jul 06, 2022 13:01:43.643 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 30125666 bytes read:384089 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:43.643 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.643 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.643 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:43.643 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.643 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:43.644 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.646 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.647 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.647 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.649 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:43.649 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 19392 bytes read:416857 seeks:2 frames:4
+Jul 06, 2022 13:01:43.649 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/004 Creating and resizing Amazon EBS volumes.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:43.649 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:43.649 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:43.649 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 29774305 at offset 40
+Jul 06, 2022 13:01:43.649 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 351321 at offset 29774345
+Jul 06, 2022 13:01:43.649 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 276695 at offset 29774461
+Jul 06, 2022 13:01:43.649 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 74381 at offset 30051156
+Jul 06, 2022 13:01:43.649 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 276559 at offset 29774597
+Jul 06, 2022 13:01:43.649 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 276474 at offset 29774682
+Jul 06, 2022 13:01:43.649 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 276410 at offset 29774746
+Jul 06, 2022 13:01:43.649 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 74245 at offset 30051292
+Jul 06, 2022 13:01:43.649 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 74160 at offset 30051377
+Jul 06, 2022 13:01:43.649 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 74100 at offset 30051437
+Jul 06, 2022 13:01:43.649 [0x7f3412edb808] DEBUG - [MI]  * 4338369673a236c6bbcb3831c24a90205754790a [mp4 h264/aac] Duration: 428455ms, 1280x720 (1.777778) 30.000fps, bitrate=562kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/004 Creating and resizing Amazon EBS volumes.mp4")
+Jul 06, 2022 13:01:43.649 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:43.650 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/004 Creating and resizing Amazon EBS volumes.mp4"
+Jul 06, 2022 13:01:43.650 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2359
+Jul 06, 2022 13:01:43.650 [0x7f3412edb808] DEBUG - Updating media item 2357, size=30125666, metadata_item_id=982
+Jul 06, 2022 13:01:43.650 [0x7f3412edb808] DEBUG - Updating part with ID=2359 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/004 Creating and resizing Amazon EBS volumes.mp4]
+Jul 06, 2022 13:01:43.651 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=982&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.651 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=982&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:43.651 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=982&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:43.652 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.652 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.652 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=982&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:43.652 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:43.652 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 982
+Jul 06, 2022 13:01:43.653 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:43.653 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:43.654 [0x7f3412edb808] DEBUG - Analyzing media parts for item 983 (Episode 5): 2358
+Jul 06, 2022 13:01:43.654 [0x7f3412edb808] DEBUG - [ID 2360] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/005 Amazon EBS snapshots, AMIs and migrating instances.mp4
+Jul 06, 2022 13:01:43.654 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/005 Amazon EBS snapshots, AMIs and migrating instances.mp4"
+Jul 06, 2022 13:01:43.654 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/005 Amazon EBS snapshots, AMIs and migrating instances.mp4' for reading
+Jul 06, 2022 13:01:43.654 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:43.655 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:43.655 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:43.693 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.696 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 14428020
+Jul 06, 2022 13:01:43.696 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:43.696 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:43.696 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.697 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 21217304
+Jul 06, 2022 13:01:43.697 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 31911851 bytes read:427563 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:43.697 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.697 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.697 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:43.697 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.697 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:43.698 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.700 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.701 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.701 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.703 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 22211 bytes read:460331 seeks:2 frames:4
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/005 Amazon EBS snapshots, AMIs and migrating instances.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 31517016 at offset 40
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 394795 at offset 31517056
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 311095 at offset 31517172
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 83445 at offset 31828267
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 310959 at offset 31517308
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 310874 at offset 31517393
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 310810 at offset 31517457
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 83309 at offset 31828403
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 83224 at offset 31828488
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 83164 at offset 31828548
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - [MI]  * 4454a61289b75e64e9d1a4860181b28309f7a883 [mp4 h264/aac] Duration: 481118ms, 1280x720 (1.777778) 30.000fps, bitrate=530kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/005 Amazon EBS snapshots, AMIs and migrating instances.mp4")
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/005 Amazon EBS snapshots, AMIs and migrating instances.mp4"
+Jul 06, 2022 13:01:43.704 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2360
+Jul 06, 2022 13:01:43.705 [0x7f3412edb808] DEBUG - Updating media item 2358, size=31911851, metadata_item_id=983
+Jul 06, 2022 13:01:43.705 [0x7f3412edb808] DEBUG - Updating part with ID=2360 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/005 Amazon EBS snapshots, AMIs and migrating instances.mp4]
+Jul 06, 2022 13:01:43.705 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=983&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.705 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=983&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:43.706 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=983&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:43.706 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.706 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.706 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=983&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:43.707 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:43.707 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 983
+Jul 06, 2022 13:01:43.707 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:43.707 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:43.708 [0x7f3412edb808] DEBUG - Analyzing media parts for item 984 (Episode 6): 2359
+Jul 06, 2022 13:01:43.708 [0x7f3412edb808] DEBUG - [ID 2361] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/006 Amazon EBS Copying, Sharing and Encryption.mp4
+Jul 06, 2022 13:01:43.708 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/006 Amazon EBS Copying, Sharing and Encryption.mp4"
+Jul 06, 2022 13:01:43.709 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/006 Amazon EBS Copying, Sharing and Encryption.mp4' for reading
+Jul 06, 2022 13:01:43.709 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:43.709 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:43.709 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:43.719 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.720 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 6461010
+Jul 06, 2022 13:01:43.720 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:43.721 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:43.721 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.721 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 9504785
+Jul 06, 2022 13:01:43.721 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 13191053 bytes read:210379 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:43.721 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.721 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.721 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:43.721 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.721 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:43.722 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.725 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.725 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.726 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.727 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:43.728 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 14393 bytes read:243147 seeks:2 frames:4
+Jul 06, 2022 13:01:43.728 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/006 Amazon EBS Copying, Sharing and Encryption.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:43.728 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:43.728 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:43.728 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 13013402 at offset 40
+Jul 06, 2022 13:01:43.728 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 177611 at offset 13013442
+Jul 06, 2022 13:01:43.728 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 139667 at offset 13013558
+Jul 06, 2022 13:01:43.728 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 37697 at offset 13153225
+Jul 06, 2022 13:01:43.728 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 139531 at offset 13013694
+Jul 06, 2022 13:01:43.728 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 139446 at offset 13013779
+Jul 06, 2022 13:01:43.728 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 139382 at offset 13013843
+Jul 06, 2022 13:01:43.728 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 37561 at offset 13153361
+Jul 06, 2022 13:01:43.728 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 37476 at offset 13153446
+Jul 06, 2022 13:01:43.728 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 37416 at offset 13153506
+Jul 06, 2022 13:01:43.728 [0x7f3412edb808] DEBUG - [MI]  * bdcf78f1b2810687246f68f3d685acdffeeb5e3d [mp4 h264/aac] Duration: 215528ms, 1280x720 (1.777778) 30.000fps, bitrate=489kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/006 Amazon EBS Copying, Sharing and Encryption.mp4")
+Jul 06, 2022 13:01:43.728 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:43.728 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/006 Amazon EBS Copying, Sharing and Encryption.mp4"
+Jul 06, 2022 13:01:43.729 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2361
+Jul 06, 2022 13:01:43.729 [0x7f3412edb808] DEBUG - Updating media item 2359, size=13191053, metadata_item_id=984
+Jul 06, 2022 13:01:43.729 [0x7f3412edb808] DEBUG - Updating part with ID=2361 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/006 Amazon EBS Copying, Sharing and Encryption.mp4]
+Jul 06, 2022 13:01:43.729 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=984&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.730 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=984&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:43.730 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=984&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:43.731 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=984&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:43.731 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.731 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.732 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:43.732 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 984
+Jul 06, 2022 13:01:43.732 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:43.733 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:43.733 [0x7f3412edb808] DEBUG - Analyzing media parts for item 985 (Episode 7): 2360
+Jul 06, 2022 13:01:43.733 [0x7f3412edb808] DEBUG - [ID 2362] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/007 EBS vs instance store.mp4
+Jul 06, 2022 13:01:43.734 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/007 EBS vs instance store.mp4"
+Jul 06, 2022 13:01:43.734 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/007 EBS vs instance store.mp4' for reading
+Jul 06, 2022 13:01:43.734 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:43.734 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:43.734 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:43.745 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.746 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 7736010
+Jul 06, 2022 13:01:43.747 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:43.747 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:43.747 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.747 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 11378726
+Jul 06, 2022 13:01:43.747 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 26257388 bytes read:244802 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:43.747 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.747 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.748 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:43.748 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.748 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:43.748 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.752 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.753 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.753 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.755 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:43.755 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 39440 bytes read:316000 seeks:2 frames:4
+Jul 06, 2022 13:01:43.755 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/007 EBS vs instance store.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:43.755 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:43.755 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:43.755 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 26045314 at offset 40
+Jul 06, 2022 13:01:43.755 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 212034 at offset 26045354
+Jul 06, 2022 13:01:43.755 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 166791 at offset 26045470
+Jul 06, 2022 13:01:43.755 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 45017 at offset 26212261
+Jul 06, 2022 13:01:43.755 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 166655 at offset 26045606
+Jul 06, 2022 13:01:43.755 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 166570 at offset 26045691
+Jul 06, 2022 13:01:43.755 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 166506 at offset 26045755
+Jul 06, 2022 13:01:43.755 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 44881 at offset 26212397
+Jul 06, 2022 13:01:43.755 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 44796 at offset 26212482
+Jul 06, 2022 13:01:43.755 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 44736 at offset 26212542
+Jul 06, 2022 13:01:43.755 [0x7f3412edb808] DEBUG - [MI]  * 6fe6d14897aed1b668b14d523640d0fa5df26082 [mp4 h264/aac] Duration: 258021ms, 1280x720 (1.777778) 30.000fps, bitrate=814kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/007 EBS vs instance store.mp4")
+Jul 06, 2022 13:01:43.755 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:43.756 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/007 EBS vs instance store.mp4"
+Jul 06, 2022 13:01:43.756 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2362
+Jul 06, 2022 13:01:43.756 [0x7f3412edb808] DEBUG - Updating media item 2360, size=26257388, metadata_item_id=985
+Jul 06, 2022 13:01:43.756 [0x7f3412edb808] DEBUG - Updating part with ID=2362 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/007 EBS vs instance store.mp4]
+Jul 06, 2022 13:01:43.756 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=985&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.757 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=985&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:43.757 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=985&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:43.758 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.758 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=985&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:43.758 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.759 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:43.759 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 985
+Jul 06, 2022 13:01:43.760 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:43.760 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:43.761 [0x7f3412edb808] DEBUG - Analyzing media parts for item 986 (Episode 8): 2361
+Jul 06, 2022 13:01:43.761 [0x7f3412edb808] DEBUG - [ID 2363] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/008 Using RAID with EBS volumes.mp4
+Jul 06, 2022 13:01:43.761 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/008 Using RAID with EBS volumes.mp4"
+Jul 06, 2022 13:01:43.761 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/008 Using RAID with EBS volumes.mp4' for reading
+Jul 06, 2022 13:01:43.761 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:43.761 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:43.761 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:43.771 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.772 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 4446000
+Jul 06, 2022 13:01:43.772 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:43.772 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:43.772 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.772 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 6541353
+Jul 06, 2022 13:01:43.772 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5008048 bytes read:155400 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:43.773 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.773 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.773 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:43.773 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.773 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:43.773 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.775 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.776 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.777 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.778 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10140 bytes read:188168 seeks:2 frames:4
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/008 Using RAID with EBS volumes.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 4885376 at offset 40
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 122632 at offset 4885416
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 96275 at offset 4885532
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 26125 at offset 4981807
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 96139 at offset 4885668
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 96054 at offset 4885753
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 95990 at offset 4885817
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 25989 at offset 4981943
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 25904 at offset 4982028
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 25844 at offset 4982088
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - [MI]  * 9b674ab0a60bb77229b0a83a9618f5fb947de3e4 [mp4 h264/aac] Duration: 148330ms, 1280x720 (1.777778) 30.000fps, bitrate=270kbps, audio channels=2, optimizedForStreaming=1 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/008 Using RAID with EBS volumes.mp4")
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/008 Using RAID with EBS volumes.mp4"
+Jul 06, 2022 13:01:43.779 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2363
+Jul 06, 2022 13:01:43.780 [0x7f3412edb808] DEBUG - Updating media item 2361, size=5008048, metadata_item_id=986
+Jul 06, 2022 13:01:43.780 [0x7f3412edb808] DEBUG - Updating part with ID=2363 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/008 Using RAID with EBS volumes.mp4]
+Jul 06, 2022 13:01:43.780 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=986&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.780 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=986&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:43.781 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=986&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:43.781 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=986&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:43.781 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.781 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.782 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:43.782 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 986
+Jul 06, 2022 13:01:43.782 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:43.783 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:43.783 [0x7f3412edb808] DEBUG - Analyzing media parts for item 987 (Episode 9): 2362
+Jul 06, 2022 13:01:43.784 [0x7f3412edb808] DEBUG - [ID 2364] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/009 EBS encryption.mp4
+Jul 06, 2022 13:01:43.784 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/009 EBS encryption.mp4"
+Jul 06, 2022 13:01:43.784 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/009 EBS encryption.mp4' for reading
+Jul 06, 2022 13:01:43.784 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:43.784 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:43.784 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:43.791 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.793 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 10515000
+Jul 06, 2022 13:01:43.794 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:43.794 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:43.794 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.794 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 15462430
+Jul 06, 2022 13:01:43.795 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 14181147 bytes read:320479 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:43.795 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.795 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.795 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:43.795 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.795 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:43.795 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.798 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.798 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.799 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.801 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:43.801 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10140 bytes read:353247 seeks:2 frames:4
+Jul 06, 2022 13:01:43.801 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/009 EBS encryption.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:43.801 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:43.801 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:43.801 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 13893396 at offset 40
+Jul 06, 2022 13:01:43.801 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 287711 at offset 13893436
+Jul 06, 2022 13:01:43.801 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 226519 at offset 13893552
+Jul 06, 2022 13:01:43.801 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 60973 at offset 14120071
+Jul 06, 2022 13:01:43.801 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 226383 at offset 13893688
+Jul 06, 2022 13:01:43.801 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 226298 at offset 13893773
+Jul 06, 2022 13:01:43.801 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 226234 at offset 13893837
+Jul 06, 2022 13:01:43.801 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 60837 at offset 14120207
+Jul 06, 2022 13:01:43.801 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 60752 at offset 14120292
+Jul 06, 2022 13:01:43.801 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 60692 at offset 14120352
+Jul 06, 2022 13:01:43.802 [0x7f3412edb808] DEBUG - [MI]  * f4065367caa0b7015e2c176b9f784d4b97248d01 [mp4 h264/aac] Duration: 350622ms, 1280x720 (1.777778) 30.000fps, bitrate=323kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/009 EBS encryption.mp4")
+Jul 06, 2022 13:01:43.802 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:43.802 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/009 EBS encryption.mp4"
+Jul 06, 2022 13:01:43.802 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2364
+Jul 06, 2022 13:01:43.803 [0x7f3412edb808] DEBUG - Updating media item 2362, size=14181147, metadata_item_id=987
+Jul 06, 2022 13:01:43.803 [0x7f3412edb808] DEBUG - Updating part with ID=2364 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/009 EBS encryption.mp4]
+Jul 06, 2022 13:01:43.803 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=987&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.803 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=987&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:43.804 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=987&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:43.804 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=987&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:43.804 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.804 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.805 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:43.805 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 987
+Jul 06, 2022 13:01:43.806 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:43.806 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:43.807 [0x7f3412edb808] DEBUG - Analyzing media parts for item 988 (Episode 10): 2363
+Jul 06, 2022 13:01:43.808 [0x7f3412edb808] DEBUG - [ID 2365] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/010 [NEW] CloudWatch Metrics for EBS.mp4
+Jul 06, 2022 13:01:43.808 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/010 [NEW] CloudWatch Metrics for EBS.mp4"
+Jul 06, 2022 13:01:43.808 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/010 [NEW] CloudWatch Metrics for EBS.mp4' for reading
+Jul 06, 2022 13:01:43.808 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:43.808 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:43.808 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:43.820 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.821 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 4854000
+Jul 06, 2022 13:01:43.821 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:43.821 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:43.821 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.821 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 7143450
+Jul 06, 2022 13:01:43.822 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 17714553 bytes read:165513 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:43.822 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.822 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.822 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:43.822 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.822 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:43.822 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.827 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.827 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.828 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.829 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:43.829 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 42929 bytes read:239974 seeks:2 frames:4
+Jul 06, 2022 13:01:43.829 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/010 [NEW] CloudWatch Metrics for EBS.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:43.829 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:43.830 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:43.830 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 17581768 at offset 40
+Jul 06, 2022 13:01:43.830 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 132745 at offset 17581808
+Jul 06, 2022 13:01:43.830 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 104039 at offset 17581924
+Jul 06, 2022 13:01:43.830 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 28469 at offset 17685963
+Jul 06, 2022 13:01:43.830 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 103903 at offset 17582060
+Jul 06, 2022 13:01:43.830 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 103818 at offset 17582145
+Jul 06, 2022 13:01:43.830 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 103754 at offset 17582209
+Jul 06, 2022 13:01:43.830 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 28333 at offset 17686099
+Jul 06, 2022 13:01:43.830 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 28248 at offset 17686184
+Jul 06, 2022 13:01:43.830 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 28188 at offset 17686244
+Jul 06, 2022 13:01:43.830 [0x7f3412edb808] DEBUG - [MI]  * 609881dd9facf47efe62e0502a81fe82961b133f [mp4 h264/aac] Duration: 161983ms, 1280x720 (1.777778) 30.000fps, bitrate=874kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/010 [NEW] CloudWatch Metrics for EBS.mp4")
+Jul 06, 2022 13:01:43.830 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:43.830 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/010 [NEW] CloudWatch Metrics for EBS.mp4"
+Jul 06, 2022 13:01:43.830 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2365
+Jul 06, 2022 13:01:43.830 [0x7f3412edb808] DEBUG - Updating media item 2363, size=17714553, metadata_item_id=988
+Jul 06, 2022 13:01:43.830 [0x7f3412edb808] DEBUG - Updating part with ID=2365 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/010 [NEW] CloudWatch Metrics for EBS.mp4]
+Jul 06, 2022 13:01:43.831 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=988&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.831 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=988&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:43.831 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=988&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:43.831 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=988&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:43.832 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.832 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.832 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:43.832 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 988
+Jul 06, 2022 13:01:43.833 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:43.833 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:43.834 [0x7f3412edb808] DEBUG - Analyzing media parts for item 989 (Episode 11): 2364
+Jul 06, 2022 13:01:43.834 [0x7f3412edb808] DEBUG - [ID 2366] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/011 Monitoring EBS volumes with Amazon CloudWatch.mp4
+Jul 06, 2022 13:01:43.834 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/011 Monitoring EBS volumes with Amazon CloudWatch.mp4"
+Jul 06, 2022 13:01:43.834 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/011 Monitoring EBS volumes with Amazon CloudWatch.mp4' for reading
+Jul 06, 2022 13:01:43.834 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:43.834 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:43.834 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:43.846 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.846 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 3063000
+Jul 06, 2022 13:01:43.846 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:43.846 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:43.846 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.847 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 4509710
+Jul 06, 2022 13:01:43.847 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 4748388 bytes read:117570 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:43.847 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.847 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.847 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:43.847 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.847 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:43.847 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.850 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.850 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.851 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.852 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:43.853 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10140 bytes read:150338 seeks:2 frames:4
+Jul 06, 2022 13:01:43.853 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/011 Monitoring EBS volumes with Amazon CloudWatch.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:43.853 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:43.853 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:43.853 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 4663546 at offset 40
+Jul 06, 2022 13:01:43.853 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 84802 at offset 4663586
+Jul 06, 2022 13:01:43.853 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 66367 at offset 4663702
+Jul 06, 2022 13:01:43.853 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 18185 at offset 4730069
+Jul 06, 2022 13:01:43.853 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 66231 at offset 4663838
+Jul 06, 2022 13:01:43.853 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 66146 at offset 4663923
+Jul 06, 2022 13:01:43.853 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 66082 at offset 4663987
+Jul 06, 2022 13:01:43.853 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 18049 at offset 4730205
+Jul 06, 2022 13:01:43.853 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 17964 at offset 4730290
+Jul 06, 2022 13:01:43.853 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 17904 at offset 4730350
+Jul 06, 2022 13:01:43.853 [0x7f3412edb808] DEBUG - [MI]  * 16b405926529aff739106c2d27379ddb62113981 [mp4 h264/aac] Duration: 102261ms, 1280x720 (1.777778) 30.000fps, bitrate=371kbps, audio channels=2, optimizedForStreaming=1 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/011 Monitoring EBS volumes with Amazon CloudWatch.mp4")
+Jul 06, 2022 13:01:43.853 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:43.853 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/011 Monitoring EBS volumes with Amazon CloudWatch.mp4"
+Jul 06, 2022 13:01:43.854 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2366
+Jul 06, 2022 13:01:43.854 [0x7f3412edb808] DEBUG - Updating media item 2364, size=4748388, metadata_item_id=989
+Jul 06, 2022 13:01:43.854 [0x7f3412edb808] DEBUG - Updating part with ID=2366 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/011 Monitoring EBS volumes with Amazon CloudWatch.mp4]
+Jul 06, 2022 13:01:43.854 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=989&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.855 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=989&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:43.855 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=989&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:43.855 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=989&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:43.855 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.855 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.856 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:43.856 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 989
+Jul 06, 2022 13:01:43.856 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:43.857 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:43.857 [0x7f3412edb808] DEBUG - Analyzing media parts for item 990 (Episode 12): 2365
+Jul 06, 2022 13:01:43.858 [0x7f3412edb808] DEBUG - [ID 2367] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/012 [NEW] Amazon Data Lifecycle Manager (DLM).mp4
+Jul 06, 2022 13:01:43.858 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/012 [NEW] Amazon Data Lifecycle Manager (DLM).mp4"
+Jul 06, 2022 13:01:43.858 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/012 [NEW] Amazon Data Lifecycle Manager (DLM).mp4' for reading
+Jul 06, 2022 13:01:43.858 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:43.858 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:43.858 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:43.871 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.872 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 6861000
+Jul 06, 2022 13:01:43.872 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:43.873 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:43.873 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.873 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 10092550
+Jul 06, 2022 13:01:43.873 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 27184596 bytes read:220250 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:43.873 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.873 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.873 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:43.873 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.873 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:43.874 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.883 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.884 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.884 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.886 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:43.886 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 83490 bytes read:334349 seeks:2 frames:4
+Jul 06, 2022 13:01:43.886 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/012 [NEW] Amazon Data Lifecycle Manager (DLM).mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:43.886 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:43.886 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:43.886 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 26997074 at offset 40
+Jul 06, 2022 13:01:43.886 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 187482 at offset 26997114
+Jul 06, 2022 13:01:43.886 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 147243 at offset 26997230
+Jul 06, 2022 13:01:43.886 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 39993 at offset 27144473
+Jul 06, 2022 13:01:43.886 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 147107 at offset 26997366
+Jul 06, 2022 13:01:43.886 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 147022 at offset 26997451
+Jul 06, 2022 13:01:43.886 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 146958 at offset 26997515
+Jul 06, 2022 13:01:43.886 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 39857 at offset 27144609
+Jul 06, 2022 13:01:43.886 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 39772 at offset 27144694
+Jul 06, 2022 13:01:43.886 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 39712 at offset 27144754
+Jul 06, 2022 13:01:43.886 [0x7f3412edb808] DEBUG - [MI]  * 8996ca398a9cf89c84a821174a9d885b94614928 [mp4 h264/aac] Duration: 228856ms, 1280x720 (1.777778) 30.000fps, bitrate=950kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/012 [NEW] Amazon Data Lifecycle Manager (DLM).mp4")
+Jul 06, 2022 13:01:43.886 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:43.887 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/012 [NEW] Amazon Data Lifecycle Manager (DLM).mp4"
+Jul 06, 2022 13:01:43.887 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2367
+Jul 06, 2022 13:01:43.887 [0x7f3412edb808] DEBUG - Updating media item 2365, size=27184596, metadata_item_id=990
+Jul 06, 2022 13:01:43.887 [0x7f3412edb808] DEBUG - Updating part with ID=2367 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/012 [NEW] Amazon Data Lifecycle Manager (DLM).mp4]
+Jul 06, 2022 13:01:43.887 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=990&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.888 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=990&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:43.888 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=990&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:43.888 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.888 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.889 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=990&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:43.889 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:43.889 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 990
+Jul 06, 2022 13:01:43.890 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:43.890 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:43.891 [0x7f3412edb808] DEBUG - Analyzing media parts for item 991 (Episode 13): 2366
+Jul 06, 2022 13:01:43.891 [0x7f3412edb808] DEBUG - [ID 2368] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/013 Amazon EFS Overview.mp4
+Jul 06, 2022 13:01:43.891 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/013 Amazon EFS Overview.mp4"
+Jul 06, 2022 13:01:43.891 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/013 Amazon EFS Overview.mp4' for reading
+Jul 06, 2022 13:01:43.891 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:43.891 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:43.891 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:43.904 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.906 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 11640000
+Jul 06, 2022 13:01:43.907 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:43.907 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:43.907 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.907 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 17115166
+Jul 06, 2022 13:01:43.907 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 65718506 bytes read:351408 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:43.908 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.908 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.908 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:43.908 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.908 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:43.908 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.915 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.915 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.916 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.917 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 80883 bytes read:464040 seeks:2 frames:4
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/013 Amazon EFS Overview.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 65399826 at offset 40
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 318640 at offset 65399866
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 250987 at offset 65399982
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 67429 at offset 65650969
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 250851 at offset 65400118
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 250766 at offset 65400203
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 250702 at offset 65400267
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 67293 at offset 65651105
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 67208 at offset 65651190
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 67148 at offset 65651250
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - [MI]  * ff6ac0c6796eec725d8b22494adc0e2603d85073 [mp4 h264/aac] Duration: 388099ms, 1280x720 (1.777778) 30.000fps, bitrate=1354kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/013 Amazon EFS Overview.mp4")
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/013 Amazon EFS Overview.mp4"
+Jul 06, 2022 13:01:43.918 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2368
+Jul 06, 2022 13:01:43.919 [0x7f3412edb808] DEBUG - Updating media item 2366, size=65718506, metadata_item_id=991
+Jul 06, 2022 13:01:43.919 [0x7f3412edb808] DEBUG - Updating part with ID=2368 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/013 Amazon EFS Overview.mp4]
+Jul 06, 2022 13:01:43.919 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=991&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.919 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=991&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:43.920 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=991&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:43.920 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=991&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:43.920 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.920 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.921 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:43.921 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 991
+Jul 06, 2022 13:01:43.921 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:43.921 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:43.922 [0x7f3412edb808] DEBUG - Analyzing media parts for item 992 (Episode 14): 2367
+Jul 06, 2022 13:01:43.922 [0x7f3412edb808] DEBUG - [ID 2369] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/014 Creating and mounting an EFS filesystem.mp4
+Jul 06, 2022 13:01:43.922 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/014 Creating and mounting an EFS filesystem.mp4"
+Jul 06, 2022 13:01:43.922 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/014 Creating and mounting an EFS filesystem.mp4' for reading
+Jul 06, 2022 13:01:43.922 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:43.923 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:43.923 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:43.926 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.931 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 14665020
+Jul 06, 2022 13:01:43.932 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:43.932 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:43.932 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.932 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 21563401
+Jul 06, 2022 13:01:43.932 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 52323349 bytes read:433740 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:43.932 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.932 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.932 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:43.932 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.932 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:43.933 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.937 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.937 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.938 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.939 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 39440 bytes read:504938 seeks:2 frames:4
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/014 Creating and mounting an EFS filesystem.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 51922337 at offset 40
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 400972 at offset 51922377
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 315927 at offset 51922493
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 84801 at offset 52238420
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 315791 at offset 51922629
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 315706 at offset 51922714
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 315642 at offset 51922778
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 84665 at offset 52238556
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 84580 at offset 52238641
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 84520 at offset 52238701
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - [MI]  * 177d21505f94d3525d5ef36d2868d217191c9854 [mp4 h264/aac] Duration: 488966ms, 1280x720 (1.777778) 30.000fps, bitrate=856kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/014 Creating and mounting an EFS filesystem.mp4")
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/014 Creating and mounting an EFS filesystem.mp4"
+Jul 06, 2022 13:01:43.940 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2369
+Jul 06, 2022 13:01:43.941 [0x7f3412edb808] DEBUG - Updating media item 2367, size=52323349, metadata_item_id=992
+Jul 06, 2022 13:01:43.941 [0x7f3412edb808] DEBUG - Updating part with ID=2369 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/014 Creating and mounting an EFS filesystem.mp4]
+Jul 06, 2022 13:01:43.941 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=992&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.941 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=992&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:43.942 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=992&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:43.942 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=992&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:43.942 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.942 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.942 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:43.943 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 992
+Jul 06, 2022 13:01:43.943 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:43.943 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:43.944 [0x7f3412edb808] DEBUG - Analyzing media parts for item 993 (Episode 15): 2368
+Jul 06, 2022 13:01:43.944 [0x7f3412edb808] DEBUG - [ID 2370] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/015 IAM Policy Examples for Amazon EFS.mp4
+Jul 06, 2022 13:01:43.944 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/015 IAM Policy Examples for Amazon EFS.mp4"
+Jul 06, 2022 13:01:43.944 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/015 IAM Policy Examples for Amazon EFS.mp4' for reading
+Jul 06, 2022 13:01:43.944 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:43.945 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:43.945 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:43.949 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.949 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 4467000
+Jul 06, 2022 13:01:43.949 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:43.949 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:43.949 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.950 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 6572047
+Jul 06, 2022 13:01:43.950 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6175814 bytes read:155975 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:43.950 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.950 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.950 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:43.950 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.950 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:43.951 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.953 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.953 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.954 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.955 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10140 bytes read:188743 seeks:2 frames:4
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/015 IAM Policy Examples for Amazon EFS.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 6052567 at offset 40
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 123207 at offset 6052607
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 96723 at offset 6052723
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 26245 at offset 6149446
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 96587 at offset 6052859
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 96502 at offset 6052944
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 96438 at offset 6053008
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 26109 at offset 6149582
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 26024 at offset 6149667
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 25964 at offset 6149727
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - [MI]  * 44e78c9af59fe2ebd61abdf216348bf0a2ee8da4 [mp4 h264/aac] Duration: 149026ms, 1280x720 (1.777778) 30.000fps, bitrate=331kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/015 IAM Policy Examples for Amazon EFS.mp4")
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/015 IAM Policy Examples for Amazon EFS.mp4"
+Jul 06, 2022 13:01:43.956 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2370
+Jul 06, 2022 13:01:43.957 [0x7f3412edb808] DEBUG - Updating media item 2368, size=6175814, metadata_item_id=993
+Jul 06, 2022 13:01:43.957 [0x7f3412edb808] DEBUG - Updating part with ID=2370 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/015 IAM Policy Examples for Amazon EFS.mp4]
+Jul 06, 2022 13:01:43.957 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=993&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.957 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=993&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:43.957 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=993&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:43.958 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=993&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:43.958 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.958 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.959 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:43.959 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 993
+Jul 06, 2022 13:01:43.959 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:43.960 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:43.960 [0x7f3412edb808] DEBUG - Analyzing media parts for item 994 (Episode 16): 2369
+Jul 06, 2022 13:01:43.961 [0x7f3412edb808] DEBUG - [ID 2371] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/016 Monitoring EFS volumes.mp4
+Jul 06, 2022 13:01:43.961 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/016 Monitoring EFS volumes.mp4"
+Jul 06, 2022 13:01:43.961 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/016 Monitoring EFS volumes.mp4' for reading
+Jul 06, 2022 13:01:43.961 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:43.961 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:43.961 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:43.970 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.970 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 3108000
+Jul 06, 2022 13:01:43.970 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:43.970 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:43.970 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.971 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 4575243
+Jul 06, 2022 13:01:43.971 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5896417 bytes read:118551 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:43.971 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.971 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.971 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:43.971 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.971 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:43.972 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.974 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.974 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.975 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.976 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:43.977 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 14393 bytes read:151319 seeks:2 frames:4
+Jul 06, 2022 13:01:43.977 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/016 Monitoring EFS volumes.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:43.977 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:43.977 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:43.977 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 5810594 at offset 40
+Jul 06, 2022 13:01:43.977 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 85783 at offset 5810634
+Jul 06, 2022 13:01:43.977 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 67115 at offset 5810750
+Jul 06, 2022 13:01:43.977 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 18441 at offset 5877865
+Jul 06, 2022 13:01:43.977 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 66979 at offset 5810886
+Jul 06, 2022 13:01:43.977 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 66894 at offset 5810971
+Jul 06, 2022 13:01:43.977 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 66830 at offset 5811035
+Jul 06, 2022 13:01:43.977 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 18305 at offset 5878001
+Jul 06, 2022 13:01:43.977 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 18220 at offset 5878086
+Jul 06, 2022 13:01:43.977 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 18160 at offset 5878146
+Jul 06, 2022 13:01:43.977 [0x7f3412edb808] DEBUG - [MI]  * 6e31b0f198ecbfec2cd0ea324dd1992c0aec7b2b [mp4 h264/aac] Duration: 103747ms, 1280x720 (1.777778) 30.000fps, bitrate=454kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/016 Monitoring EFS volumes.mp4")
+Jul 06, 2022 13:01:43.977 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:43.977 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/016 Monitoring EFS volumes.mp4"
+Jul 06, 2022 13:01:43.978 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2371
+Jul 06, 2022 13:01:43.978 [0x7f3412edb808] DEBUG - Updating media item 2369, size=5896417, metadata_item_id=994
+Jul 06, 2022 13:01:43.978 [0x7f3412edb808] DEBUG - Updating part with ID=2371 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/016 Monitoring EFS volumes.mp4]
+Jul 06, 2022 13:01:43.978 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=994&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.979 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=994&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:43.979 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=994&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:43.979 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.979 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.979 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=994&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:43.980 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:43.980 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 994
+Jul 06, 2022 13:01:43.980 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:43.981 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:43.981 [0x7f3412edb808] DEBUG - Analyzing media parts for item 995 (Episode 17): 2370
+Jul 06, 2022 13:01:43.982 [0x7f3412edb808] DEBUG - [ID 2372] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/017 [NEW] Amazon EFS Encryption.mp4
+Jul 06, 2022 13:01:43.982 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/017 [NEW] Amazon EFS Encryption.mp4"
+Jul 06, 2022 13:01:43.982 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/017 [NEW] Amazon EFS Encryption.mp4' for reading
+Jul 06, 2022 13:01:43.982 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:43.982 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:43.982 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:43.990 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.990 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 3918000
+Jul 06, 2022 13:01:43.991 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:43.991 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:43.991 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:43.991 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 5767178
+Jul 06, 2022 13:01:43.991 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 4700437 bytes read:140980 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:43.991 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.991 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.991 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:43.991 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:43.991 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:43.992 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.994 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.994 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:43.995 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:43.996 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:43.997 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10803 bytes read:173748 seeks:2 frames:4
+Jul 06, 2022 13:01:43.997 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/017 [NEW] Amazon EFS Encryption.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:43.997 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:43.997 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:43.997 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 4592185 at offset 40
+Jul 06, 2022 13:01:43.997 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 108212 at offset 4592225
+Jul 06, 2022 13:01:43.997 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 84883 at offset 4592341
+Jul 06, 2022 13:01:43.997 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 23097 at offset 4677224
+Jul 06, 2022 13:01:43.997 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 84747 at offset 4592477
+Jul 06, 2022 13:01:43.997 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 84662 at offset 4592562
+Jul 06, 2022 13:01:43.997 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 84598 at offset 4592626
+Jul 06, 2022 13:01:43.997 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 22961 at offset 4677360
+Jul 06, 2022 13:01:43.997 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 22876 at offset 4677445
+Jul 06, 2022 13:01:43.997 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 22816 at offset 4677505
+Jul 06, 2022 13:01:43.997 [0x7f3412edb808] DEBUG - [MI]  * fec992116765884d77a8d32937a076281c84a16e [mp4 h264/aac] Duration: 130775ms, 1280x720 (1.777778) 30.000fps, bitrate=287kbps, audio channels=2, optimizedForStreaming=1 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/017 [NEW] Amazon EFS Encryption.mp4")
+Jul 06, 2022 13:01:43.997 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:43.997 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/017 [NEW] Amazon EFS Encryption.mp4"
+Jul 06, 2022 13:01:43.998 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2372
+Jul 06, 2022 13:01:43.998 [0x7f3412edb808] DEBUG - Updating media item 2370, size=4700437, metadata_item_id=995
+Jul 06, 2022 13:01:43.998 [0x7f3412edb808] DEBUG - Updating part with ID=2372 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/017 [NEW] Amazon EFS Encryption.mp4]
+Jul 06, 2022 13:01:43.998 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=995&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:43.999 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=995&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:43.999 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=995&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:43.999 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.999 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:43.999 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=995&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:44.000 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:44.000 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 995
+Jul 06, 2022 13:01:44.000 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:44.001 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:44.001 [0x7f3412edb808] DEBUG - Analyzing media parts for item 996 (Episode 18): 2371
+Jul 06, 2022 13:01:44.002 [0x7f3412edb808] DEBUG - [ID 2373] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/018 AWS Storage Gateway - File Gateway.mp4
+Jul 06, 2022 13:01:44.002 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/018 AWS Storage Gateway - File Gateway.mp4"
+Jul 06, 2022 13:01:44.002 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/018 AWS Storage Gateway - File Gateway.mp4' for reading
+Jul 06, 2022 13:01:44.002 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:44.002 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:44.002 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:44.010 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:44.010 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 5937000
+Jul 06, 2022 13:01:44.011 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:44.011 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:44.011 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:44.011 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 8732682
+Jul 06, 2022 13:01:44.011 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 8105485 bytes read:195939 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:44.011 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:44.011 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:44.011 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:44.011 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:44.011 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:44.012 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:44.014 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:44.015 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:44.015 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:44.017 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:44.017 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10140 bytes read:228707 seeks:2 frames:4
+Jul 06, 2022 13:01:44.017 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/018 AWS Storage Gateway - File Gateway.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:44.017 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:44.017 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:44.017 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 7942274 at offset 40
+Jul 06, 2022 13:01:44.017 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 163171 at offset 7942314
+Jul 06, 2022 13:01:44.017 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 128247 at offset 7942430
+Jul 06, 2022 13:01:44.017 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 34685 at offset 8070677
+Jul 06, 2022 13:01:44.017 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 128111 at offset 7942566
+Jul 06, 2022 13:01:44.017 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 128026 at offset 7942651
+Jul 06, 2022 13:01:44.017 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 127962 at offset 7942715
+Jul 06, 2022 13:01:44.017 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 34549 at offset 8070813
+Jul 06, 2022 13:01:44.017 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 34464 at offset 8070898
+Jul 06, 2022 13:01:44.017 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 34404 at offset 8070958
+Jul 06, 2022 13:01:44.017 [0x7f3412edb808] DEBUG - [MI]  * 9e9fcf6a80529285b3268b9f8101a773d1f49c9f [mp4 h264/aac] Duration: 198020ms, 1280x720 (1.777778) 30.000fps, bitrate=327kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/018 AWS Storage Gateway - File Gateway.mp4")
+Jul 06, 2022 13:01:44.017 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:44.018 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/018 AWS Storage Gateway - File Gateway.mp4"
+Jul 06, 2022 13:01:44.018 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2373
+Jul 06, 2022 13:01:44.018 [0x7f3412edb808] DEBUG - Updating media item 2371, size=8105485, metadata_item_id=996
+Jul 06, 2022 13:01:44.018 [0x7f3412edb808] DEBUG - Updating part with ID=2373 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/018 AWS Storage Gateway - File Gateway.mp4]
+Jul 06, 2022 13:01:44.018 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=996&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:44.019 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=996&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:44.019 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=996&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:44.019 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:44.019 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:44.019 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=996&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:44.020 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:44.020 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 996
+Jul 06, 2022 13:01:44.020 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:44.021 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:44.021 [0x7f3412edb808] DEBUG - Analyzing media parts for item 997 (Episode 19): 2372
+Jul 06, 2022 13:01:44.022 [0x7f3412edb808] DEBUG - [ID 2374] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/019 AWS Storage Gateway - Volume Gateway.mp4
+Jul 06, 2022 13:01:44.022 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/019 AWS Storage Gateway - Volume Gateway.mp4"
+Jul 06, 2022 13:01:44.022 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/019 AWS Storage Gateway - Volume Gateway.mp4' for reading
+Jul 06, 2022 13:01:44.022 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:44.022 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:44.022 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:44.033 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:44.034 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 4759020
+Jul 06, 2022 13:01:44.034 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:44.034 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:44.034 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:44.034 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 7002154
+Jul 06, 2022 13:01:44.034 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6240211 bytes read:163821 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:44.035 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:44.035 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:44.035 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:44.035 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:44.035 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:44.035 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:44.037 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:44.038 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:44.039 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:44.040 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10140 bytes read:196589 seeks:2 frames:4
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/019 AWS Storage Gateway - Volume Gateway.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 6109118 at offset 40
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 131053 at offset 6109158
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 102891 at offset 6109274
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 27921 at offset 6212165
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 102755 at offset 6109410
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 102670 at offset 6109495
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 102606 at offset 6109559
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 27785 at offset 6212301
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 27700 at offset 6212386
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 27640 at offset 6212446
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - [MI]  * 48dadb6784be5a2cfe97f5e7fec732ce7ad95c31 [mp4 h264/aac] Duration: 158779ms, 1280x720 (1.777778) 30.000fps, bitrate=314kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/019 AWS Storage Gateway - Volume Gateway.mp4")
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/019 AWS Storage Gateway - Volume Gateway.mp4"
+Jul 06, 2022 13:01:44.041 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2374
+Jul 06, 2022 13:01:44.042 [0x7f3412edb808] DEBUG - Updating media item 2372, size=6240211, metadata_item_id=997
+Jul 06, 2022 13:01:44.042 [0x7f3412edb808] DEBUG - Updating part with ID=2374 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/019 AWS Storage Gateway - Volume Gateway.mp4]
+Jul 06, 2022 13:01:44.042 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=997&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:44.043 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=997&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:44.043 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=997&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:44.043 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:44.043 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:44.043 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=997&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:44.044 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:44.044 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 997
+Jul 06, 2022 13:01:44.044 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:44.045 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:44.045 [0x7f3412edb808] DEBUG - Analyzing media parts for item 998 (Episode 20): 2373
+Jul 06, 2022 13:01:44.046 [0x7f3412edb808] DEBUG - [ID 2375] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/020 AWS Storage Gateway - Tape Gateway.mp4
+Jul 06, 2022 13:01:44.046 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/020 AWS Storage Gateway - Tape Gateway.mp4"
+Jul 06, 2022 13:01:44.046 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/020 AWS Storage Gateway - Tape Gateway.mp4' for reading
+Jul 06, 2022 13:01:44.046 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:44.046 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:44.046 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:44.058 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:44.058 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 3379020
+Jul 06, 2022 13:01:44.058 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:44.058 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:44.058 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:44.059 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 4972584
+Jul 06, 2022 13:01:44.059 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5495948 bytes read:126243 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:44.059 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:44.059 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:44.059 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:44.059 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:44.059 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:44.059 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:44.062 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:44.063 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:44.063 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:44.065 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:44.065 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 14393 bytes read:159011 seeks:2 frames:4
+Jul 06, 2022 13:01:44.065 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/020 AWS Storage Gateway - Tape Gateway.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:44.065 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:44.065 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:44.065 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 5402433 at offset 40
+Jul 06, 2022 13:01:44.065 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 93475 at offset 5402473
+Jul 06, 2022 13:01:44.065 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 73239 at offset 5402589
+Jul 06, 2022 13:01:44.065 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 19997 at offset 5475828
+Jul 06, 2022 13:01:44.065 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 73103 at offset 5402725
+Jul 06, 2022 13:01:44.065 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 73018 at offset 5402810
+Jul 06, 2022 13:01:44.065 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 72954 at offset 5402874
+Jul 06, 2022 13:01:44.065 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 19861 at offset 5475964
+Jul 06, 2022 13:01:44.065 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 19776 at offset 5476049
+Jul 06, 2022 13:01:44.065 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 19716 at offset 5476109
+Jul 06, 2022 13:01:44.066 [0x7f3412edb808] DEBUG - [MI]  * 45f1af109ffebbfd0d3ef606c0302f04a80e7498 [mp4 h264/aac] Duration: 112757ms, 1280x720 (1.777778) 30.000fps, bitrate=389kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/020 AWS Storage Gateway - Tape Gateway.mp4")
+Jul 06, 2022 13:01:44.066 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:44.066 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/020 AWS Storage Gateway - Tape Gateway.mp4"
+Jul 06, 2022 13:01:44.066 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2375
+Jul 06, 2022 13:01:44.066 [0x7f3412edb808] DEBUG - Updating media item 2373, size=5495948, metadata_item_id=998
+Jul 06, 2022 13:01:44.066 [0x7f3412edb808] DEBUG - Updating part with ID=2375 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/020 AWS Storage Gateway - Tape Gateway.mp4]
+Jul 06, 2022 13:01:44.075 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=998&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:44.075 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=998&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:44.076 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=998&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:44.076 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=998&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:44.076 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:44.076 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:44.077 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:44.077 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 998
+Jul 06, 2022 13:01:44.079 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:44.080 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)
+Jul 06, 2022 13:01:44.081 [0x7f3412edb808] DEBUG - Analyzing media parts for item 999 (Episode 21): 2374
+Jul 06, 2022 13:01:44.081 [0x7f3412edb808] DEBUG - [ID 2376] Media part analysis: /tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/021 Exam scenarios for EBS, EFS, and AWS Storage Gateway.mp4
+Jul 06, 2022 13:01:44.081 [0x7f3412edb808] DEBUG - [MI] Opening input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/021 Exam scenarios for EBS, EFS, and AWS Storage Gateway.mp4"
+Jul 06, 2022 13:01:44.081 [0x7f3412edb808] DEBUG - [FFMPEG] - Opening '/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/021 Exam scenarios for EBS, EFS, and AWS Storage Gateway.mp4' for reading
+Jul 06, 2022 13:01:44.081 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jul 06, 2022 13:01:44.082 [0x7f3412edb808] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jul 06, 2022 13:01:44.082 [0x7f3412edb808] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Jul 06, 2022 13:01:44.086 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:44.087 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2000, duration: 5112000
+Jul 06, 2022 13:01:44.087 [0x7f3412edb808] DEBUG - [FFMPEG] - Offset DTS by 2000 to make first pts zero.
+Jul 06, 2022 13:01:44.087 [0x7f3412edb808] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Jul 06, 2022 13:01:44.087 [0x7f3412edb808] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jul 06, 2022 13:01:44.087 [0x7f3412edb808] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 7520285
+Jul 06, 2022 13:01:44.087 [0x7f3412edb808] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6932940 bytes read:173433 seeks:1 nb_streams:2
+Jul 06, 2022 13:01:44.087 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:44.087 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jul 06, 2022 13:01:44.087 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jul 06, 2022 13:01:44.088 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jul 06, 2022 13:01:44.088 [0x7f3412edb808] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jul 06, 2022 13:01:44.088 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:44.090 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:44.091 [0x7f3412edb808] DEBUG - [FFMPEG] - no picture 
+Jul 06, 2022 13:01:44.091 [0x7f3412edb808] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jul 06, 2022 13:01:44.093 [0x7f3412edb808] DEBUG - [FFMPEG] - All info found
+Jul 06, 2022 13:01:44.093 [0x7f3412edb808] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 10140 bytes read:206201 seeks:2 frames:4
+Jul 06, 2022 13:01:44.093 [0x7f3412edb808] DEBUG - [MI] Opening "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/021 Exam scenarios for EBS, EFS, and AWS Storage Gateway.mp4" for MP4 atom parsing
+Jul 06, 2022 13:01:44.094 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Jul 06, 2022 13:01:44.094 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Jul 06, 2022 13:01:44.094 [0x7f3412edb808] DEBUG - Mp4AtomParser: Skipping mdat atom of size 6792235 at offset 40
+Jul 06, 2022 13:01:44.094 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found moov atom of size 140665 at offset 6792275
+Jul 06, 2022 13:01:44.094 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 110459 at offset 6792391
+Jul 06, 2022 13:01:44.094 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found trak atom of size 29949 at offset 6902850
+Jul 06, 2022 13:01:44.094 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 110323 at offset 6792527
+Jul 06, 2022 13:01:44.094 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 110238 at offset 6792612
+Jul 06, 2022 13:01:44.094 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 110174 at offset 6792676
+Jul 06, 2022 13:01:44.094 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found mdia atom of size 29813 at offset 6902986
+Jul 06, 2022 13:01:44.094 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found minf atom of size 29728 at offset 6903071
+Jul 06, 2022 13:01:44.094 [0x7f3412edb808] DEBUG - Mp4AtomParser: Found stbl atom of size 29668 at offset 6903131
+Jul 06, 2022 13:01:44.094 [0x7f3412edb808] DEBUG - [MI]  * 2610dbbe5d9b8f80ac6823b4fa15a912e88fd4f7 [mp4 h264/aac] Duration: 170528ms, 1280x720 (1.777778) 30.000fps, bitrate=325kbps, audio channels=2, optimizedForStreaming=0 ("/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/021 Exam scenarios for EBS, EFS, and AWS Storage Gateway.mp4")
+Jul 06, 2022 13:01:44.094 [0x7f3412edb808] DEBUG - [MI] Chapters had generic titles, clearing.
+Jul 06, 2022 13:01:44.094 [0x7f3412edb808] DEBUG - [MI] Closing input file: "/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/021 Exam scenarios for EBS, EFS, and AWS Storage Gateway.mp4"
+Jul 06, 2022 13:01:44.094 [0x7f3412edb808] DEBUG - Committing media stream changes for part 2376
+Jul 06, 2022 13:01:44.095 [0x7f3412edb808] DEBUG - Updating media item 2374, size=6932940, metadata_item_id=999
+Jul 06, 2022 13:01:44.095 [0x7f3412edb808] DEBUG - Updating part with ID=2376 [/tv/aws-certified-sysops-administrator-associate-training-2022/05 - Storage Amazon EBS, EFS, and AWS Storage Gateway/021 Exam scenarios for EBS, EFS, and AWS Storage Gateway.mp4]
+Jul 06, 2022 13:01:44.095 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=999&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jul 06, 2022 13:01:44.096 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=999&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jul 06, 2022 13:01:44.096 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=999&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jul 06, 2022 13:01:44.096 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=999&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jul 06, 2022 13:01:44.097 [0x7f3412edb808] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:44.097 [0x7f3412edb808] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jul 06, 2022 13:01:44.097 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jul 06, 2022 13:01:44.098 [0x7f3412edb808] DEBUG - Updating metadata item (save) () with ID 999
+Jul 06, 2022 13:01:44.098 [0x7f340efcdb38] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848
+Jul 06, 2022 13:01:44.099 [0x7f340ef4db38] DEBUG - [HttpClient] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=848 (reused)

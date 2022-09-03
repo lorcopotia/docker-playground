@@ -1,5 +1,4 @@
 mysql
-plex
 config
-moodle
-
+mariadb_data
+moodle_data

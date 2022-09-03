@@ -2,4 +2,4 @@ mysql
 config
 mariadb_data
 moodle_data
-data/*
+data

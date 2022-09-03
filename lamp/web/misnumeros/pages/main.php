@@ -12,6 +12,19 @@
                     <table class="table table-striped table-hover gs-5">
                         <thead>
                             <tr class="fw-bolder text-muted bg-light">
+                                <td></td>
+                                <td colspan="4"><input type='text' id='searchByName' placeholder='Enter Fecha'></td>
+                                <td><input type='text' id='searchByName' placeholder='Enter numeros'></td>
+                                <td><input type='text' id='searchByName' placeholder='Enter numeros'></td>
+                                <td><input type='text' id='searchByName' placeholder='Enter numeros'></td>
+                                <td><input type='text' id='searchByName' placeholder='Enter numeros'></td>
+                                <td><input type='text' id='searchByName' placeholder='Enter numeros'></td>
+                                <td><input type='text' id='searchByName' placeholder='Enter numeros'></td>
+                                <td><input type='text' id='searchByName' placeholder='Enter numeros'></td>
+                                <td>Bote</td>
+                                <td>Acertantes</td>
+                            </tr>
+                            <tr class="fw-bolder text-muted bg-light">
                                 <td>No</td>
                                 <td colspan="4">Fecha</td>
                                 <td colspan="5">Números</td>

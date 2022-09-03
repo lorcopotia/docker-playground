@@ -20,7 +20,7 @@ sed -i 's/,/|/g' $raw_data
 # Eliminando ultimas 2 lineas y copiando archivo a la ubicaion definitiva
 head -n -2 $raw_data > $csv_file
 # Eliminando temp file
-rm $raw_data
+#rm $raw_data
 
 # Ejecutando python para importar datos a tabla sqlite
 if python csv_to_sqlite.py; then echo "CSV to SQL convertion OK!" && rm $csv_file; else echo "CSV to SQL convertion FAILED"; fi

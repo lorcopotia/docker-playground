@@ -1,5 +1,5 @@
-mysql
-config
+**/data
+**/web
+config/
 mariadb_data
-data/
-web/
+moodle_data

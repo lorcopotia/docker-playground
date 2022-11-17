@@ -1,0 +1,50 @@
+version: '3'
+
+services:
+
+  samba:
+    image: dperson/samba
+    environment:
+      TZ: 'Europe/Madrid'
+    networks:
+      - default
+    ports:
+      - "139:139/tcp"
+      - "445:445/tcp"
+    read_only: true
+    tmpfs:
+      - /tmp
+    restart: always
+    stdin_open: true
+    tty: true
+    volumes:
+      - /mnt/samba:/mnt
+    command: '-s "Dunix Volume;/mnt;yes;no;no;dunix" -u "dunix;Facilit0_*" -p'
+
+  pihole:
+    container_name: pihole
+    image: pihole/pihole:latest
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "67:67/udp"
+      - "80:80/tcp"
+        #- "443:443/tcp"
+    environment:
+      TZ: 'Europe/Madrid'
+      WEBPASSWORD: 'Facilit0_*'  #'set a secure password here or it will be random'
+    # Volumes store your data between container upgrades
+    volumes:
+       - './etc-pihole/:/etc/pihole/'
+       - './etc-dnsmasq.d/:/etc/dnsmasq.d/'
+    dns:
+      - 127.0.0.1
+      - 1.1.1.1
+    # Recommended but not required (DHCP needs NET_ADMIN)
+    #   https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
+    #cap_add:
+    #  - NET_ADMIN
+    restart: unless-stopped
+
+networks:
+  default:

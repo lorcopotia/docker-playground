@@ -18,7 +18,7 @@ services:
     tty: true
     volumes:
       - /mnt/samba:/mnt
-    command: '-s "Dunix Volume;/mnt;yes;no;no;dunix" -u "dunix;Facilit0_*" -p'
+    command: '-s "User Volume;/mnt;yes;no;no;user" -u "user;mypasswd*" -p'
 
   pihole:
     container_name: pihole
@@ -31,7 +31,7 @@ services:
       - "443:443/tcp"
     environment:
       TZ: 'Europe/Madrid'
-      WEBPASSWORD: 'Facilit0_*'  #'set a secure password here or it will be random'
+      WEBPASSWORD: 'passwd'  #'set a secure password here or it will be random'
     # Volumes store your data between container upgrades
     volumes:
        - '/mnt/config/etc-pihole/:/etc/pihole/'
@@ -75,7 +75,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Madrid
-      - FG_WEBUI_PASSWD=Facilit0_*
+      - FG_WEBUI_PASSWD=passwd
     volumes:
       - /mnt/config/config-flexget:/config
 
@@ -100,8 +100,8 @@ services:
       - NET_ADMIN               # Required
       - NET_RAW                 # Required
     environment:                # Review https://github.com/bubuntux/nordvpn#environment-variables
-      - USER=karelmir@gmail.com     # Required
-      - "PASS=Ax3lM1rN13t0"         # Required
+      - USER=sdfgsdfg@mail.com     # Required
+      - "PASS=sdfgsdfgsdfg"         # Required
       - CONNECT=France
       - TECHNOLOGY=NordLynx
     sysctls:
@@ -118,7 +118,7 @@ services:
     labels:
       - traefik.enable=true
       - traefik.http.services.torrent.loadbalancer.server.port=8090
-      - traefik.http.routers.torrent.rule=Host(`dmedia.myhome.ex`)
+      - traefik.http.routers.torrent.rule=Host(`hostname`)
     depends_on:
       - vpn
 

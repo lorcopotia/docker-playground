@@ -4,7 +4,6 @@ services:
 
   samba:
     image: dperson/samba
-    container_name: samba
     environment:
       TZ: 'Europe/Madrid'
     ports:
@@ -27,7 +26,7 @@ services:
       - "192.168.1.5:53:53/tcp"
       - "192.168.1.5:53:53/udp"
       - "67:67/udp"
-      - "8888:80/tcp"
+      - "80:80/tcp"
       - "443:443/tcp"
     environment:
       TZ: 'Europe/Madrid'
@@ -58,7 +57,39 @@ services:
     restart: 'unless-stopped'
     # Optional - alternative address used for autodiscovery
     environment:
-      - JELLYFIN_PublishedServerUrl=http://dmedia.myhome.ex
+      - JELLYFIN_PublishedServerUrl=http://dmedia.myhome.local
+
+  vpn:
+    image: ghcr.io/bubuntux/nordvpn
+    cap_add:
+      - NET_ADMIN               # Required
+      - NET_RAW                 # Required
+    environment:                # Review https://github.com/bubuntux/nordvpn#environment-variables
+      - USER=karelmir@gmail.com     # Required
+      - "PASS=Ax3lM1rN13t0"         # Required
+      - CONNECT=France
+      - TECHNOLOGY=NordLynx
+#      - NETWORK=192.168.1.0/24  # So it can be accessed within the local network
+    ports:
+      - 8080:8080
+    networks: 
+      - mynetwork
+    sysctls:
+      - net.ipv6.conf.all.disable_ipv6=1  # Recomended if using ipv4 only
+  
+  transmission:
+    image: ghcr.io/linuxserver/qbittorrent
+    network_mode: container:vpn
+    labels:
+      - traefik.enable=true
+      - traefik.http.services.torrent.loadbalancer.server.port=8080
+      - traefik.http.routers.torrent.rule=Host(`dmedia`)
+    volumes:
+      - /mnt/config/config-transmission:/config
+      - /mnt/samba/torrents:/downloads
+    restart: unless-stopped
+    depends_on:
+      - vpn
 
   flexget:
     image: wiserain/flexget
@@ -76,52 +107,6 @@ services:
       - PGID=1000
       - TZ=Europe/Madrid
       - FG_WEBUI_PASSWD=Facilit0_*
-    volumes:
-      - /mnt/config/config-flexget:/config
-
-  proxy:
-    image: traefik:v2.4         # Review traefik documentation https://doc.traefik.io/traefik/
-    container_name: traefik
-    command:
-      - --api.insecure=true
-      - --providers.docker=true
-      - --providers.docker.exposedbydefault=false
-      - --entrypoints.web.address=:8090
-    ports:
-      - 8090:8090
-      - 8080:8080
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock:ro
-    restart: unless-stopped
-  vpn:
-    image: ghcr.io/bubuntux/nordvpn
-    container_name: vpn
-    cap_add:
-      - NET_ADMIN               # Required
-      - NET_RAW                 # Required
-    environment:                # Review https://github.com/bubuntux/nordvpn#environment-variables
-      - USER=karelmir@gmail.com     # Required
-      - "PASS=Ax3lM1rN13t0"         # Required
-      - CONNECT=France
-      - TECHNOLOGY=NordLynx
-    sysctls:
-      - net.ipv6.conf.all.disable_ipv6=1  # Recomended if using ipv4 only
-  torrent:
-    image: ghcr.io/linuxserver/qbittorrent
-    container_name: torrent
-    network_mode: container:vpn
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Europe/Madrid
-      - WEBUI_PORT=8090
-    labels:
-      - traefik.enable=true
-      - traefik.http.services.torrent.loadbalancer.server.port=8090
-      - traefik.http.routers.torrent.rule=Host(`dmedia.myhome.ex`)
-    depends_on:
-      - vpn
-
-# Make sure that custom-host resolves to the ip address of the server
-# for example /etc/hosts contains 127.0.0.1  custom-host
-# the torrent service would be available at http://custom-host
+networks:
+  mynetwork:
+    external: true

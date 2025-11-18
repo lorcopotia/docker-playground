@@ -1,0 +1,205 @@
+services:
+
+  samba:
+    image: dperson/samba
+    container_name: samba
+    environment:
+      TZ: ${TZ}
+      USERID: ${SAMBA_USERID}
+      GROUPID: ${SAMBA_GROUPID}
+    ports:
+      - "139:139/tcp"
+      - "445:445/tcp"
+    read_only: true
+    tmpfs:
+      - /tmp
+    restart: always
+    stdin_open: true
+    tty: true
+    volumes:
+      - /mnt/ssd_data/samba/:/mnt/share1   # Directory for TV Shows
+      #- /mnt/ssh_data/samba/Videos/:/mnt/share2   # Directory for Movies
+    command: '-s "share1;/mnt/share1;yes;no;no;dunix" -u "${SAMBA_ADMIN_USER};${SAMBA_ADMIN_PASSWORD}" -p'
+
+  jellyfin:
+    image: jellyfin/jellyfin
+    container_name: jellyfin
+    user: ${PUID}:${PGID}
+    network_mode: 'host'
+    volumes:
+      - ./jellyfin/config:/config
+      - ./jellyfin/cache:/cache
+      - type: bind
+        source: ${MEDIA_SOURCE_TV}
+        target: /tv
+      - type: bind
+        source: ${MEDIA_SOURCE_MOVIES}
+        target: /movies
+    restart: 'unless-stopped'
+    environment:
+      - JELLYFIN_PublishedServerUrl=${JELLYFIN_PUBLISHED_SERVER_URL}
+    devices:
+      - /dev/bus/usb:/dev/bus/usb
+      - /dev/dri:/dev/dri
+
+  plex:
+    image: lscr.io/linuxserver/plex:latest
+    container_name: plex
+    network_mode: 'host'
+    environment:
+      - PUID=${PLEX_PUID}
+      - PGID=${PLEX_PGID}
+      - TZ=${TZ}
+      - VERSION=${PLEX_VERSION}
+      - PLEX_CLAIM=${PLEX_CLAIM}
+    volumes:
+      - ./plex/config:/config
+      - ${MEDIA_SOURCE_TV}:/tv
+      - ${MEDIA_SOURCE_MOVIES}:/movies
+    restart: unless-stopped
+    devices:
+      - /dev/dri:/dev/dri
+      - /dev/bus/usb:/dev/bus/usb
+
+  jackett:
+    image: lscr.io/linuxserver/jackett:latest
+    container_name: jackett
+    environment:
+      - PUID=${JACKETT_PUID}
+      - PGID=${JACKETT_PGID}
+      - TZ=${TZ}
+      - AUTO_UPDATE=${JACKETT_AUTO_UPDATE}
+      - RUN_OPTS=${JACKETT_RUN_OPTS}
+    volumes:
+      - ./jackett/data:/config
+      - ${TORRENTS_DOWNLOAD_DIR}/downloads:/downloads
+    restart: unless-stopped
+    network_mode: "service:transmission-vpn"
+    depends_on:
+      - transmission-vpn
+    healthcheck:
+      test: curl -f http://localhost:9117 || exit 1
+      interval: 5m00s
+      timeout: 10s
+      retries: 2
+
+  sonarr:
+    image: lscr.io/linuxserver/sonarr:latest
+    container_name: sonarr
+    environment:
+      - PUID=${SONARR_PUID}
+      - PGID=${SONARR_PGID}
+      - TZ=${TZ}
+    volumes:
+      - ./sonarr/data:/config
+      - ${MEDIA_SOURCE_TV}:/tv
+      - ${TORRENTS_DOWNLOAD_DIR}/downloads/completed:/downloads
+    restart: unless-stopped
+    depends_on:
+      samba:
+        condition: service_started
+
+  radarr:
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: radarr
+    environment:
+      - PUID=${RADARR_PUID}
+      - PGID=${RADARR_PGID}
+      - TZ=${TZ}
+    volumes:
+      - ./radarr/data:/config
+      - ${MEDIA_SOURCE_MOVIES}:/movies
+      - ${TORRENTS_DOWNLOAD_DIR}/downloads/completed:/downloads
+    restart: unless-stopped
+    # Added the next line to avoid issues with DNS resolution
+    extra_hosts:
+      - "api.radarr.video:188.114.97.4"
+    depends_on:
+      samba:
+        condition: service_started
+
+  transmission-vpn:
+    container_name: transmission-vpn
+    cap_add:
+      - NET_ADMIN
+    volumes:
+      - ${TORRENTS_DOWNLOAD_DIR}/downloads:/data
+      - ./torrent/config:/config
+    environment:
+      - OPENVPN_PROVIDER=${TRANSMISSION_OPENVPN_PROVIDER}
+      - OPENVPN_CONFIG=${TRANSMISSION_OPENVPN_CONFIG}
+      - OPENVPN_USERNAME=${TRANSMISSION_OPENVPN_USERNAME}
+      - OPENVPN_PASSWORD=${TRANSMISSION_OPENVPN_PASSWORD}
+      - LOCAL_NETWORK=${TRANSMISSION_LOCAL_NETWORK}
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+    image: haugene/transmission-openvpn
+    privileged: true
+    restart: always
+
+  overseerr:
+    image: sctx/overseerr:latest
+    container_name: overseerr
+    environment:
+      - LOG_LEVEL=${OVERSEERR_LOG_LEVEL}
+      - TZ=${TZ}
+      - PORT=${OVERSEERR_PORT}
+    volumes:
+      - ./overseer/config:/app/config
+    restart: unless-stopped
+
+  twingate-connector:
+    image: twingate/connector:latest
+    container_name: twingate_connector
+    environment:
+      - TWINGATE_NETWORK=${TWINGATE_NETWORK}
+      - TWINGATE_ACCESS_TOKEN=${TWINGATE_ACCESS_TOKEN}
+      - TWINGATE_REFRESH_TOKEN=${TWINGATE_REFRESH_TOKEN}
+    restart: always
+
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    environment:
+      PUID: ${PUID}
+      PGID: ${PGID}
+      HOMEPAGE_ALLOWED_HOSTS: ${HOMEPAGE_ALLOWED_HOSTS}
+    volumes:
+      - ./homepage/config:/app/config # Make sure your local config directory exists
+      - /mnt/ssd_data/:/mnt/storage:ro
+      #- /run/containerd/containerd.sock:/var/run/docker.sock:ro # optional, for docker integrations
+    restart: unless-stopped
+
+  portainer:
+    container_name: portainer
+    image: portainer/portainer-ce:latest
+    volumes:
+      - ./portainer-data:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
+
+  npm:
+    container_name: npm
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      # These ports are in format <host-port>:<container-port>
+      #- '80:80' # Public HTTP Port
+      - '443:443' # Public HTTPS Port
+      - '81:81' # Admin Web Port
+    # Uncomment the next line if you uncomment anything in the section
+    environment:
+      # Uncomment this if you want to change the location of
+      # the SQLite DB file within the container
+      # DB_SQLITE_FILE: "/data/database.sqlite"
+
+      # Uncomment this if IPv6 is not enabled on your host
+      DISABLE_IPV6: 'true'
+
+    volumes:
+      - ./nginx/data:/data
+      - ./nginx/letsencrypt:/etc/letsencrypt
+    links:
+      - jackett

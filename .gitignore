@@ -1,0 +1,5 @@
+**/data
+**/www
+config/
+mariadb_data/
+moodle_data/
